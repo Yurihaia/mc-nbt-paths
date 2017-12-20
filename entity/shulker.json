@@ -1,0 +1,26 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"../ref/mob.json"
+	],
+	"children": {
+		"Peek": {
+			"type": "byte"
+		},
+		"AttachFace": {
+			"type": "byte"
+		},
+		"Color": {
+			"type": "byte"
+		},
+		"APX": {
+			"type": "int"
+		},
+		"APY": {
+			"type": "int"
+		},
+		"APZ": {
+			"type": "int"
+		}
+	}
+}

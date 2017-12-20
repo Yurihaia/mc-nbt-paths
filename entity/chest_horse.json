@@ -1,0 +1,17 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"../ref/horse.json",
+	],
+	"children": {
+		"ChestedHorse": {
+			"type": "byte"
+		},
+		"Items": {
+			"type": "list",
+			"item": {
+				"ref": "./inventory-item.json"
+			}
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"../ref/mob.json"
+	],
+	"children": {
+		"Size": {
+			"type": "int"
+		},
+		"wasOnGroup": {
+			"type": "byte"
+		}
+	}
+}

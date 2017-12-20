@@ -1,0 +1,23 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"../ref/entity.json"
+	],
+	"children": {
+		"direction": {
+			"type": "list",
+			"item": {
+				"type": "double"
+			}
+		},
+		"life": {
+			"type": "int"
+		},
+		"power": {
+			"type": "list",
+			"item": {
+				"type": "double"
+			}
+		}
+	}
+}

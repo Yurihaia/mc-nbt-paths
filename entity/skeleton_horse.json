@@ -1,0 +1,14 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"../ref/horse.json"
+	],
+	"children": {
+		"SkeletonTrap": {
+			"type": "byte"
+		},
+		"SkeletonTrapTime": {
+			"type": "int"
+		}
+	}
+}

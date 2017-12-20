@@ -1,0 +1,19 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"../ref/mob.json"
+	],
+	"children": {
+		"carriedBlockState": {
+			"type": "compound",
+			"children": {
+				"Name": {
+					"type": "string"
+				},
+				"Properties": {
+					"type": "compound"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"../ref/breedable.json",
+		"../ref/tameable.json"
+	],
+	"children": {
+		"CatType": {
+			"type": "int"
+		}
+	}
+}

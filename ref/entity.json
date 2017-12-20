@@ -1,0 +1,80 @@
+{
+	"type": "compound",
+	"children": {
+		"id": {
+			"type": "string"
+		},
+		"Pos": {
+			"type": "list",
+			"item": {
+				"type": "double"
+			}
+		},
+		"Motion": {
+			"type": "list",
+			"item": {
+				"type": "double"
+			}
+		},
+		"Rotation": {
+			"type": "list",
+			"item": {
+				"type": "double"
+			}
+		},
+		"FallDistance": {
+			"type": "float"
+		},
+		"Fire": {
+			"type": "short"
+		},
+		"Air": {
+			"type": "short"
+		},
+		"OnGround": {
+			"type": "byte"
+		},
+		"NoGravity": {
+			"type": "byte"
+		},
+		"Dimension": {
+			"type": "int"
+		},
+		"Invulnerable": {
+			"type": "byte"
+		},
+		"PortalCooldown": {
+			"type": "int"
+		},
+		"UUIDLeast": {
+			"type": "long"
+		},
+		"UUIDMost": {
+			"type": "long"
+		},
+		"CustomName": {
+			"type": "string"
+		},
+		"CustomNameVisible": {
+			"type": "byte"
+		},
+		"Silent": {
+			"type": "byte"
+		},
+		"Passengers": {
+			"type": "list",
+			"item": {
+				"ref": "./entity.json#"
+			}
+		},
+		"Glowing": {
+			"type": "byte"
+		},
+		"Tags": {
+			"type": "list",
+			"item": {
+				"type": "string"
+			}
+		}
+	}
+}

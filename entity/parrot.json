@@ -1,0 +1,11 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"../ref/tameable.json"
+	],
+	"children": {
+		"Variant": {
+			"type": "int"
+		}
+	}
+}

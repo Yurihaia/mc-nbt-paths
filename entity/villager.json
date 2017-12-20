@@ -1,0 +1,60 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"../ref/breedable.json"
+	],
+	"children": {
+		"Profession": {
+			"type": "int"
+		},
+		"Riches": {
+			"type": "int"
+		},
+		"Career": {
+			"type": "int"
+		},
+		"CareerLevel": {
+			"type": "int"
+		},
+		"Willing": {
+			"type": "byte"
+		},
+		"Inventory": {
+			"type": "list",
+			"item": {
+				"ref": "./inventory-item.json"
+			}
+		},
+		"Offers": {
+			"type": "compound",
+			"children": {
+				"Recipes": {
+					"type": "list",
+					"item": {
+						"type": "compound",
+						"children": {
+							"rewardExp": {
+								"type": "byte"
+							},
+							"maxUses": {
+								"type": "int"
+							},
+							"uses": {
+								"type": "int"
+							},
+							"buy": {
+								"ref": "../ref/inventory-item.json"
+							},
+							"buyB": {
+								"ref": "../ref/inventory-item.json"
+							},
+							"sell": {
+								"ref": "../ref/inventory-item.json"
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"../ref/projectile.json"
+	],
+	"children": {
+		"pickup": {
+			"type": "byte"
+		},
+		"player": {
+			"type": "byte"
+		},
+		"life": {
+			"type": "short"
+		},
+		"damage": {
+			"type": "double"
+		},
+		"inGroup": {
+			"type": "byte"
+		},
+		"crit": {
+			"type": "byte"
+		},
+		"Potion": {
+			"type": "string"
+		},
+		"CustomPotionEffects": {
+			"type": "list",
+			"item": {
+				"ref": "../ref/potion-effect.json"
+			}
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"../ref/mob.json"
+	],
+	"children": {
+		"powered": {
+			"type": "byte"
+		},
+		"ExplosionRadius": {
+			"type": "byte"
+		},
+		"Fuse": {
+			"type": "short"
+		},
+		"ignited": {
+			"type": "byte"
+		}
+	}
+}

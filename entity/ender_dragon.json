@@ -1,0 +1,11 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"../ref/mob.json"
+	],
+	"children": {
+		"DragonPhase": {
+			"type": "int"
+		}
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"../ref/entity.json"
+	],
+	"children": {
+		"Age": {
+			"type": "short"
+		},
+		"Health": {
+			"type": "short"
+		},
+		"PickupDelay": {
+			"type": "short"
+		},
+		"Owner": {
+			"type": "string"
+		},
+		"Thrower": {
+			"type": "string"
+		},
+		"Item": {
+			"ref": "../ref/inventory-item.json"
+		}
+	}
+}

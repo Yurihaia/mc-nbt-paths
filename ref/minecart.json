@@ -1,0 +1,25 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"./entity.json"
+	],
+	"children": {
+		"CustomDisplayTile": {
+			"type": "byte"
+		},
+		"DisplayState": {
+			"type": "compound",
+			"children": {
+				"Tile": {
+					"type": "string"
+				},
+				"Properties": {
+					"type": "compound"
+				}
+			}
+		},
+		"DisplayOffset": {
+			"type": "int"
+		}
+	}
+}

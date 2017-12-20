@@ -1,0 +1,31 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"./entity.json"
+	],
+	"children": {
+		"xTile": {
+			"type": "int"
+		},
+		"yTile": {
+			"type": "int"
+		},
+		"zTile": {
+			"type": "int"
+		},
+		"inBlockState": {
+			"type": "compound",
+			"children": {
+				"Name": {
+					"type": "string"
+				},
+				"Properties": {
+					"type": "compound"
+				}
+			}
+		},
+		"shake": {
+			"type": "byte"
+		}
+	}
+}

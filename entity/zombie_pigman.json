@@ -1,0 +1,14 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"../ref/zombie.json"
+	],
+	"children": {
+		"Anger": {
+			"type": "short"
+		},
+		"HurtBy": {
+			"type": "string"
+		}
+	}
+}

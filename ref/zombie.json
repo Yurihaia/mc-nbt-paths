@@ -1,0 +1,14 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"./mob.json"
+	],
+	"children": {
+		"IsBaby": {
+			"type": "byte"
+		},
+		"CanBreakDoors": {
+			"type": "byte"
+		}
+	}
+}

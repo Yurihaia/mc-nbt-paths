@@ -1,0 +1,20 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"../ref/zombie.json"
+	],
+	"children": {
+		"Profession": {
+			"type": "int"
+		},
+		"ConversionTime": {
+			"type": "int"
+		},
+		"ConversionPlayerLeast": {
+			"type": "long"
+		},
+		"ConversionPlayerMost": {
+			"type": "long"
+		}
+	}
+}

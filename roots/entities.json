@@ -1,0 +1,158 @@
+{
+	"type": "root",
+	"children": {
+		"$../entity/group/mob.json": {
+			"type": "compound",
+			"child_ref": [
+				"../ref/mob.json"
+			]
+		},
+		"$../entity/group/breedable.json": {
+			"type": "compound",
+			"child_ref": [
+				"../ref/breedable.json"
+			]
+		},
+		"$../entity/group/fireball.json": {
+			"type": "compound",
+			"child_ref": [
+				"../ref/fireball.json"
+			]
+		},
+		"$../entity/group/throwable.json": {
+			"type": "compound",
+			"child_ref": [
+				"../ref/throwable.json"
+			]
+		},
+		"minecraft:area_effect_cloud": {
+			"ref": "../entity/area_effect_cloud.json"
+		},
+		"minecraft:armor_stand": {
+			"ref": "../entity/armor_stand.json"
+		},
+		"minecraft:bat": {
+			"ref": "../entity/bat.json"
+		},
+		"minecraft:boat": {
+			"ref": "../entity/boat.json"
+		},
+		"minecraft:creeper": {
+			"ref": "../entity/creeper.json"
+		},
+		"minecraft:donkey": {
+			"ref": "../entity/chest_horse.json"
+		},
+		"minecraft:ender_dragon": {
+			"ref": "../entity/ender_dragon.json"
+		},
+		"minecraft:enderman": {
+			"ref": "../entity/enderman.json"
+		},
+		"minecraft:endermite": {
+			"ref": "../entity/endermite.json"
+		},
+		"minecraft:evocation_illager": {
+			"ref": "../entity/spell_illager.json"
+		},
+		"minecraft:horse": {
+			"ref": "../entity/horse.json"
+		},
+		"minecraft:husk": {
+			"type": "compound",
+			"child_ref": [
+				"../ref/zombie.json"
+			]
+		},
+		"minecraft:illusion_illager": {
+			"ref": "../entity/spell_illager.json"
+		},
+		"minecraft:llama": {
+			"ref": "../entity/llama.json"
+		},
+		"minecraft:magma_cube": {
+			"ref": "../entity/slime.json"
+		},
+		"minecraft:mule": {
+			"ref": "../entity/chest_horse.json"
+		},
+		"minecraft:ocelot": {
+			"ref": "../entity/ocelot.json"
+		},
+		"minecraft:parrot": {
+			"ref": "../entity/parrot.json"
+		},
+		"minecraft:pig": {
+			"ref": "../entity/pig.json"
+		},
+		"minecraft:rabbit": {
+			"ref": "../entity/rabbit.json"
+		},
+		"minecraft:sheep": {
+			"ref": "../entity/sheep.json"
+		},
+		"minecraft:shulker": {
+			"ref": "../entity/shulker.json"
+		},
+		"minecraft:skeleton_horse": {
+			"ref": "../entity/skeleton_horse.json"
+		},
+		"minecraft:slime": {
+			"ref": "../entity/slime.json"
+		},
+		"minecraft:snowman": {
+			"ref": "../entity/snowman.json"
+		},
+		"minecraft:vex": {
+			"ref": "../entity/vex.json"
+		},
+		"minecraft:villager": {
+			"ref": "../entity/villager.json"
+		},
+		"minecraft:villager_golem": {
+			"ref": "../entity/villager_golem.json"
+		},
+		"minecraft:vindication_illager": {
+			"ref": "../entity/vindication_illager.json"
+		},
+		"minecraft:wither": {
+			"ref": "../entity/wither.json"
+		},
+		"minecraft:wolf": {
+			"ref": "../entity/wolf.json"
+		},
+		"minecraft:zombie": {
+			"type": "compound",
+			"child_ref": [
+				"../ref/zombie.json"
+			]
+		},
+		"minecraft:zombie_horse": {
+			"ref": "../entity/horse.json"
+		},
+		"minecraft:zombie_pigman": {
+			"ref": "../entity/zombie_pigman.json"
+		},
+		"minecraft:zombie_villager": {
+			"ref": "../entity/zombie_villager.json"
+		},
+		"minecraft:item": {
+			"ref": "../entity/item.json"
+		},
+		"minecraft:xp_orb": {
+			"ref": "../entity/xp_orb.json"
+		},
+		"minecraft:fireball": {
+			"ref": "../entity/fireball.json"
+		},
+		"minecraft:arrow": {
+			"ref": "../entity/arrow.json"
+		},
+		"minecraft:potion": {
+			"ref": "../entity/potion.json"
+		},
+		"minecraft:spectral_arrow": {
+			"ref": "../entity/spectral_arrow.json"
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"../ref/throwable.json"
+	],
+	"children": {
+		"Potion": {
+			"type": "compound",
+			"child_ref": [
+				"../ref/inventory-item.json"
+			],
+			"children": {
+				"tag": {
+					
+				}
+			}
+		}
+	}
+}

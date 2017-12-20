@@ -1,0 +1,130 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"../ref/entity.json",
+	],
+	"children": {
+		"DisabledSlots": {
+			"type": "int"
+		},
+		"HandItems": {
+			"type": "list",
+			"item": {
+				"ref": "./inventory-item.json#"
+			}
+		},
+		"ArmorItems": {
+			"type": "list",
+			"item": {
+				"ref": "./inventory-item.json#"
+			}
+		},
+		"Marker": {
+			"type": "byte"
+		},
+		"Invisible": {
+			"type": "byte"
+		},
+		"NoBasePlate": {
+			"type": "byte"
+		},
+		"FallFlying": {
+			"type": "byte"
+		},
+		"Pose": {
+			"type": "compound",
+			"children": {
+				"Body": {
+					"type": "compound",
+					"children": {
+						"x-rotation": {
+							"type": "float"
+						},
+						"y-rotation": {
+							"type": "float"
+						},
+						"z-rotation": {
+							"type": "float"
+						}
+					}
+				},
+				"LeftArm": {
+					"type": "compound",
+					"children": {
+						"x-rotation": {
+							"type": "float"
+						},
+						"y-rotation": {
+							"type": "float"
+						},
+						"z-rotation": {
+							"type": "float"
+						}
+					}
+				},
+				"RightArm": {
+					"type": "compound",
+					"children": {
+						"x-rotation": {
+							"type": "float"
+						},
+						"y-rotation": {
+							"type": "float"
+						},
+						"z-rotation": {
+							"type": "float"
+						}
+					}
+				},
+				"LeftLeg": {
+					"type": "compound",
+					"children": {
+						"x-rotation": {
+							"type": "float"
+						},
+						"y-rotation": {
+							"type": "float"
+						},
+						"z-rotation": {
+							"type": "float"
+						}
+					}
+				},
+				"RightLeg": {
+					"type": "compound",
+					"children": {
+						"x-rotation": {
+							"type": "float"
+						},
+						"y-rotation": {
+							"type": "float"
+						},
+						"z-rotation": {
+							"type": "float"
+						}
+					}
+				},
+				"Head": {
+					"type": "compound",
+					"children": {
+						"x-rotation": {
+							"type": "float"
+						},
+						"y-rotation": {
+							"type": "float"
+						},
+						"z-rotation": {
+							"type": "float"
+						}
+					}
+				}
+			}
+		},
+		"ShowArms": {
+			"type": "byte"
+		},
+		"Small": {
+			"type": "byte"
+		}
+	}
+}

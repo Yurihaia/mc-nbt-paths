@@ -1,0 +1,23 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"./mob.json"
+	],
+	"children": {
+		"InLove": {
+			"type": "int"
+		},
+		"Age": {
+			"type": "int"
+		},
+		"ForcedAge": {
+			"type": "int"
+		},
+		"LoveCauseLeast": {
+			"type": "long"
+		},
+		"LoveCauseMost": {
+			"type": "long"
+		}
+	}
+}

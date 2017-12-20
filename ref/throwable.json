@@ -1,0 +1,11 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"./projectile.json"
+	],
+	"children": {
+		"ownerName": {
+			"type": "string"
+		}
+	}
+}

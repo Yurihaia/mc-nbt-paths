@@ -1,0 +1,29 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"./breedable.json"
+	],
+	"children": {
+		"Bred": {
+			"type": "byte"
+		},
+		"EatingHaystack": {
+			"type": "byte"
+		},
+		"Tame": {
+			"type": "byte"
+		},
+		"Temper": {
+			"type": "int"
+		},
+		"OwnerUUID": {
+			"type": "string"
+		},
+		"ArmorItem": {
+			"ref": "./inventory-item.json"
+		},
+		"SaddleItem": {
+			"ref": "./inventory-item.json"
+		}
+	}
+}

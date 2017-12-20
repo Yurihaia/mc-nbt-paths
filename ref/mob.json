@@ -1,0 +1,137 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"./entity.json"
+	],
+	"children": {
+		"Health": {
+			"type": "float"
+		},
+		"AbsorptionAmount": {
+			"type": "float"
+		},
+		"HurtTime": {
+			"type": "short"
+		},
+		"HurtByTimestamp": {
+			"type": "int"
+		},
+		"DeathTime": {
+			"type": "short"
+		},
+		"FallFlying": {
+			"type": "byte"
+		},
+		"Attributes": {
+			"type": "list",
+			"item": {
+				"type": "compound",
+				"children": {
+					"Name": {
+						"type": "string"
+					},
+					"Base": {
+						"type": "double"
+					},
+					"Modifiers": {
+						"type": "list",
+						"item": {
+							"type": "compound",
+							"children": {
+								"Name": {
+									"type": "string"
+								},
+								"Amount": {
+									"type": "double"
+								},
+								"Operation": {
+									"type": "int"
+								},
+								"UUIDLeast": {
+									"type": "long"
+								},
+								"UUIDMost": {
+									"type": "long"
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"ActiveEffects": {
+			"type": "list",
+			"item": {
+				"ref": "./potion-effect.json"
+			}
+		},
+		"HandItems": {
+			"type": "list",
+			"item": {
+				"ref": "./inventory-item.json#"
+			}
+		},
+		"ArmorItems": {
+			"type": "list",
+			"item": {
+				"ref": "./inventory-item.json#"
+			}
+		},
+		"HandDropChances": {
+			"type": "list",
+			"item": {
+				"ref": "./inventory-item.json#"
+			}
+		},
+		"ArmorDropChances": {
+			"type": "list",
+			"item": {
+				"ref": "./inventory-item.json#"
+			}
+		},
+		"DeathLootTable": {
+			"type": "string"
+		},
+		"DeathLootTableSeed": {
+			"type": "long"
+		},
+		"CanPickUpLoot": {
+			"type": "byte"
+		},
+		"NoAI": {
+			"type": "byte"
+		},
+		"PersistenceRequired": {
+			"type": "byte"
+		},
+		"LeftHanded": {
+			"type": "byte"
+		},
+		"Team": {
+			"type": "string"
+		},
+		"Leashed": {
+			"type": "byte"
+		},
+		"Leash": {
+			"type": "compound",
+			"children": {
+				"UUIDMost": {
+					"type": "long"
+				},
+				"UUIDLeast": {
+					"type": "long"
+				},
+				"X": {
+					"type": "int"
+				},
+				"Y": {
+					"type": "int"
+				},
+				"Z": {
+					"type": "int"
+				}
+			}
+		}
+	}
+}

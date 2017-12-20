@@ -1,0 +1,17 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"../ref/entity.json"
+	],
+	"children": {
+		"Age": {
+			"type": "short"
+		},
+		"Health": {
+			"type": "byte"
+		},
+		"Value": {
+			"type": "short"
+		}
+	}
+}

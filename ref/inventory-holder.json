@@ -1,0 +1,17 @@
+{
+	"type": "compound",
+	"children": {
+		"Items": {
+			"type": "list",
+			"item": {
+				"ref": "./inventory-item.json"
+			}
+		},
+		"LootTable": {
+			"type": "string"
+		},
+		"LootTableSeed": {
+			"type": "long"
+		}
+	}
+}

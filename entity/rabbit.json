@@ -1,0 +1,14 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"../ref/breedable.json"
+	],
+	"children": {
+		"RabbitType": {
+			"type": "int"
+		},
+		"MoreCarrotTicks": {
+			"type": "int"
+		}
+	}
+}

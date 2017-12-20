@@ -1,0 +1,70 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"../ref/entity.json"
+	],
+	"children": {
+		"Age": {
+			"type": "int"
+		},
+		"Color": {
+			"type": "int"
+		},
+		"Duration": {
+			"type": "int"
+		},
+		"ReapplicationDelay": {
+			"type": "int"
+		},
+		"WaitTime": {
+			"type": "int"
+		},
+		"OwnerUUIDLeast": {
+			"type": "long"
+		},
+		"OwnerUUIDMost": {
+			"type": "long"
+		},
+		"DurationOnUse": {
+			"type": "float"
+		},
+		"Radius": {
+			"type": "float"
+		},
+		"RadiusOnUse": {
+			"type": "float"
+		},
+		"Particle": {
+			"type": "string"
+		},
+		"ParticleParam1": {
+			"type": "int"
+		},
+		"ParticleParam2": {
+			"type": "int"
+		},
+		"Effects": {
+			"type": "list",
+			"item": {
+				"type": "compound",
+				"children": {
+					"ID": {
+						"type": "byte"
+					},
+					"Amplifier": {
+						"type": "byte"
+					},
+					"Duration": {
+						"type": "int"
+					},
+					"Ambient": {
+						"type": "byte"
+					},
+					"ShowParticles": {
+						"type": "byte"
+					}
+				}
+			}
+		}
+	}
+}
