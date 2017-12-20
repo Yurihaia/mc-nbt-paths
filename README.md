@@ -12,7 +12,4 @@ child_ref: LIST. A List of refrences to add to the child if `type` is "compound"
 children: OBJECT. The sub nodes in `type` is "compound"  
     **a node**: OBJECT. A child node. See *Node*  
 item: OBJECT. The object type if `type` is "list". See *Node*  
-use-context: BOOLEAN. If the parser should use context to see what ref to use next.
-context: OBJECT. A object containing references to pass to the context manager
-	entity_id: STRING. A ref to the string that specifies what entity to use
 ```

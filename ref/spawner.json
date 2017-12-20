@@ -10,11 +10,7 @@
 						"type": "compound",
 						"child_ref": [
 							"./entity.json"
-						],
-						"use-context": true,
-						"context": {
-							"entity_id": "#/SpawnPotentials/*/Entity/id"
-						}
+						]
 					},
 					"Weight": {
 						"type": "int"
