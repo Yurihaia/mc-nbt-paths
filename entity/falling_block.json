@@ -1,0 +1,34 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"../ref/entity.json"
+	],
+	"children": {
+		"BlockState": {
+			"type": "compound",
+			"children": {
+				"Name": {
+					"type": "string"
+				},
+				"Properties": {
+					"type": "compound",
+				}
+			}
+		},
+		"Time": {
+			"type": "int"
+		},
+		"DropItem": {
+			"type": "byte"
+		},
+		"HurtEntities": {
+			"type": "byte"
+		},
+		"FallHurtMax": {
+			"type": "int"
+		},
+		"FallHurtAmount": {
+			"type": "float"
+		}
+	}
+}

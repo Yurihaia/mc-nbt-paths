@@ -171,6 +171,12 @@
 		},
 		"minecraft:tnt_minecart": {
 			"ref": "../entity/tnt_minecart.json"
+		},
+		"minecraft:falling_block": {
+			"ref": "../entity/falling_block.json"
+		},
+		"minecraft:tnt": {
+			"ref": "../entity/tnt.json"
 		}
 	}
 }
