@@ -1,0 +1,17 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"./minecart.json"
+	],
+	"children": {
+		"PushX": {
+			"type": "double"
+		},
+		"PushZ": {
+			"type": "double"
+		},
+		"Fuel": {
+			"type": "short"
+		}
+	}
+}

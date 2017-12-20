@@ -1,0 +1,11 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"../ref/minecart.json"
+	],
+	"children": {
+		"TNTFuse": {
+			"type": "int"
+		}
+	}
+}

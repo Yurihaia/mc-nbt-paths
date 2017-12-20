@@ -1,0 +1,7 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"../ref/spawner.json",
+		"../ref/minecart.json"
+	]
+}

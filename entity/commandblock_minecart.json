@@ -1,0 +1,20 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"./minecart.json"
+	],
+	"children": {
+		"Command": {
+			"type": "string"
+		},
+		"SuccessCount": {
+			"type": "int"
+		},
+		"LastOutput": {
+			"type": "string"
+		},
+		"TrackOutput": {
+			"type": "byte"
+		}
+	}
+}

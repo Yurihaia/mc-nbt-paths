@@ -1,0 +1,15 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"./minecart.json",
+		"../ref/inventory-holder.json"
+	],
+	"children": {
+		"TransferCooldown": {
+			"type": "int"
+		},
+		"Enabled": {
+			"type": "byte"
+		}
+	}
+}

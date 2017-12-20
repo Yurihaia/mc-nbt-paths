@@ -153,6 +153,24 @@
 		},
 		"minecraft:spectral_arrow": {
 			"ref": "../entity/spectral_arrow.json"
+		},
+		"minecraft:minecart": {
+			"ref": "../entity/minecart.json"
+		},
+		"minecraft:commandblock_minecart": {
+			"ref": "../entity/commandblock_minecart.json"
+		},
+		"minecraft:furnace_minecart": {
+			"ref": "../entity/furnace_minecart.json"
+		},
+		"minecraft:hopper_minecart": {
+			"ref": "../entity/hopper_minecart.json"
+		},
+		"minecraft:spawner_minecart": {
+			"ref": "../entity/spawner_minecart.json"
+		},
+		"minecraft:tnt_minecart": {
+			"ref": "../entity/tnt_minecart.json"
 		}
 	}
 }
