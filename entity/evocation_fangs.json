@@ -1,0 +1,22 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"../ref/entity.json"
+	],
+	"children": {
+		"Warmup": {
+			"type": "int"
+		},
+		"Owner": {
+			"type": "compound",
+			"children": {
+				"OwnerUUIDLeast": {
+					"type": "long"
+				},
+				"OwnerUUIDMost": {
+					"type": "long"
+				}
+			}
+		}
+	}
+}

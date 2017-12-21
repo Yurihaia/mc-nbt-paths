@@ -1,0 +1,29 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"../ref/entity.json"
+	],
+	"children": {
+		"TileX": {
+			"type": "int"
+		},
+		"TileY": {
+			"type": "int"
+		},
+		"TileZ": {
+			"type": "int"
+		},
+		"Facing": {
+			"type": "byte",
+		},
+		"Item": {
+			"ref": "../ref/inventory-item.json"
+		},
+		"ItemDropChance": {
+			"type": "float"
+		},
+		"ItemRotation": {
+			"type": "byte"
+		}
+	}
+}

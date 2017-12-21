@@ -1,0 +1,23 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"../ref/entity.json"
+	],
+	"children": {
+		"TileX": {
+			"type": "int"
+		},
+		"TileY": {
+			"type": "int"
+		},
+		"TileZ": {
+			"type": "int"
+		},
+		"Facing": {
+			"type": "byte"
+		},
+		"Motive": {
+			"type": "string"
+		}
+	}
+}

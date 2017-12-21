@@ -1,0 +1,19 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"../ref/entity.json"
+	],
+	"children": {
+		"Owner": {
+			"type": "compound",
+			"children": {
+				"OwnerUUIDMost": {
+					"type": "long"
+				},
+				"OwnerUUIDLeast": {
+					"type": "long"
+				}
+			}
+		}
+	}
+}

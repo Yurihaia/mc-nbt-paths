@@ -1,0 +1,60 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"../ref/entity.json"
+	],
+	"children": {
+		"Owner": {
+			"type": "compound",
+			"children": {
+				"L": {
+					"type": "long"
+				},
+				"M": {
+					"type": "long"
+				},
+				"X": {
+					"type": "int"
+				},
+				"Y": {
+					"type": "int"
+				},
+				"Z": {
+					"type": "int"
+				}
+			}
+		},
+		"Steps": {
+			"type": "int"
+		},
+		"Target": {
+			"type": "compound",
+			"children": {
+				"L": {
+					"type": "long"
+				},
+				"M": {
+					"type": "long"
+				},
+				"X": {
+					"type": "int"
+				},
+				"Y": {
+					"type": "int"
+				},
+				"Z": {
+					"type": "int"
+				}
+			}
+		},
+		"TXD": {
+			"type": "double"
+		},
+		"TYD": {
+			"type": "double"
+		},
+		"TZD": {
+			"type": "double"
+		}
+	}
+}

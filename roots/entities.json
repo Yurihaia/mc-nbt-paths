@@ -2,28 +2,16 @@
 	"type": "root",
 	"children": {
 		"$../entity/group/mob.json": {
-			"type": "compound",
-			"child_ref": [
-				"../ref/mob.json"
-			]
+			"ref": "../ref/mob.json"
 		},
 		"$../entity/group/breedable.json": {
-			"type": "compound",
-			"child_ref": [
-				"../ref/breedable.json"
-			]
+			"ref": "../ref/breedable.json"
 		},
 		"$../entity/group/fireball.json": {
-			"type": "compound",
-			"child_ref": [
-				"../ref/fireball.json"
-			]
+			"ref": "../ref/fireball.json"
 		},
 		"$../entity/group/throwable.json": {
-			"type": "compound",
-			"child_ref": [
-				"../ref/throwable.json"
-			]
+			"ref": "../ref/throwable.json"
 		},
 		"minecraft:area_effect_cloud": {
 			"ref": "../entity/area_effect_cloud.json"
@@ -177,6 +165,33 @@
 		},
 		"minecraft:tnt": {
 			"ref": "../entity/tnt.json"
+		},
+		"minecraft:ender_crystal": {
+			"ref": "../entity/ender_crystal.json"
+		},
+		"minecraft:evocation_fangs": {
+			"ref": "../entity/evocation_fangs.json"
+		},
+		"minecraft:eye_of_ender_signal": {
+			"ref": "../ref/entity.json"
+		},
+		"minecraft:fireworks_rocket": {
+			"ref": "../entity/fireworks_rocket.json"
+		},
+		"minecraft:item_frame": {
+			"ref": "../entity/item_frame.json"
+		},
+		"minecraft:leash_knot": {
+			"ref": "../ref/entity.json"
+		},
+		"minecraft:llama_spit": {
+			"ref": "../entity/llama_spit.json"
+		},
+		"minecraft:painting": {
+			"ref": "../entity/painting.json"
+		},
+		"minecraft:shulker_bullet": {
+			"ref": "../entity/shulker_bullet.json"
 		}
 	}
 }

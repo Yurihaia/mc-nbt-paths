@@ -1,0 +1,25 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"../ref/entity.json"
+	],
+	"children": {
+		"ShowBottom": {
+			"type": "byte"
+		},
+		"BeamTarget": {
+			"type": "compound",
+			"children": {
+				"X": {
+					"type": "int"
+				},
+				"Y": {
+					"type": "int"
+				},
+				"Z": {
+					"type": "int"
+				}
+			}
+		}
+	}
+}

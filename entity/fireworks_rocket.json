@@ -1,0 +1,17 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"../ref/entity.json"
+	],
+	"children": {
+		"Life": {
+			"type": "int"
+		},
+		"LifeTime": {
+			"type": "int"
+		},
+		"FireworksItem": {
+			"ref": "../ref/inventory-item.json"
+		}
+	}
+}
