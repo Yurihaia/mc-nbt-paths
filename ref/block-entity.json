@@ -1,0 +1,17 @@
+{
+	"type": "compound",
+	"children": {
+		"id": {
+			"type": "string"
+		},
+		"x": {
+			"type": "int"
+		},
+		"y": {
+			"type": "int"
+		},
+		"z": {
+			"type": "int"
+		}
+	}
+}

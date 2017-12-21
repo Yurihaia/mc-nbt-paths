@@ -1,0 +1,8 @@
+{
+	"type": "root",
+	"children": {
+		"minecraft:banner": {
+			"ref": "../block/banner.json"
+		}
+	}
+}

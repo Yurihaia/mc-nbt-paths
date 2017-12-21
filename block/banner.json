@@ -1,0 +1,25 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"../ref/block-entity.json"
+	],
+	"children": {
+		"CustomName": {
+			"type": "string"
+		},
+		"Base": {
+			"type": "int"
+		},
+		"Patterns": {
+			"type": "compound",
+			"children": {
+				"Color": {
+					"type": "int"
+				},
+				"Pattern": {
+					"type": "string"
+				}
+			}
+		}
+	}
+}
