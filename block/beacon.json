@@ -1,0 +1,20 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"../ref/block-entity.json"
+	],
+	"children": {
+		"Lock": {
+			"type": "string"
+		},
+		"Levels": {
+			"type": "int"
+		},
+		"Primary": {
+			"type": "int"
+		},
+		"Secondary": {
+			"type": "int"
+		}
+	}
+}

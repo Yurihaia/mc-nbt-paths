@@ -1,0 +1,26 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"../ref/block-entity.json"
+	],
+	"children": {
+		"CustomName": {
+			"type": "string"
+		},
+		"Lock": {
+			"type": "string"
+		},
+		"Item": {
+			"type": "list",
+			"item": {
+				"ref": "../ref/inventory-item.json"
+			}
+		},
+		"BrewTime": {
+			"type": "int"
+		},
+		"Fuel": {
+			"type": "byte"
+		}
+	}
+}

@@ -3,6 +3,15 @@
 	"children": {
 		"minecraft:banner": {
 			"ref": "../block/banner.json"
+		},
+		"minecraft:beacon": {
+			"ref": "../block/beacon.json"
+		},
+		"minecraft:bed": {
+			"ref": "../ref/block-entity.json"
+		},
+		"minecraft:brewing_stand": {
+			"ref": "../ref/brewing_stand.json"
 		}
 	}
 }
