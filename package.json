@@ -1,0 +1,11 @@
+{
+	"description": "NBT paths",
+	"name": "mc-nbt-paths",
+	"version": "0.0.1",
+	"author": "MrYurihi",
+	"private": true,
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/MrYurihi/mc-nbt-paths"
+	}
+}
