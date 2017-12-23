@@ -1,0 +1,11 @@
+{
+	"type": "root",
+	"children": {
+		"entity": {
+			"ref": "../roots/entities.json"
+		},
+		"block": {
+			"ref": "../roots/blocks.json"
+		}
+	}
+}
