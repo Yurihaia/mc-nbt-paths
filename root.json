@@ -2,10 +2,10 @@
 	"type": "root",
 	"children": {
 		"entity": {
-			"ref": "../roots/entities.json"
+			"ref": "./roots/entities.json"
 		},
 		"block": {
-			"ref": "../roots/blocks.json"
+			"ref": "./roots/blocks.json"
 		}
 	}
 }

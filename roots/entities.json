@@ -1,6 +1,9 @@
 {
 	"type": "root",
 	"children": {
+		"none": {
+			"ref": "../ref/entity.json"
+		},
 		"$../entity/group/mob.json": {
 			"ref": "../ref/mob.json"
 		},
