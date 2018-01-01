@@ -2,7 +2,7 @@
 	"type": "root",
 	"children": {
 		"none": {
-			"ref": "../ref/block-entity.json"
+			"type": "no-nbt"
 		},
 		"minecraft:banner": {
 			"ref": "../block/banner.json"
