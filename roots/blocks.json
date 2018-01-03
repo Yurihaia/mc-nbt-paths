@@ -17,7 +17,7 @@
 			"ref": "../block/brewing_stand.json"
 		},
 		"minecraft:chest": {
-			"ref": "../block/brewing_stand.json"
+			"ref": "../block/chest.json"
 		}
 	}
 }
