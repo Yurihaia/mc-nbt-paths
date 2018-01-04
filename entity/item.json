@@ -14,10 +14,26 @@
 			"type": "short"
 		},
 		"Owner": {
-			"type": "string"
+			"type": "compound",
+			"children": {
+				"M": {
+					"type": "long"
+				},
+				"L": {
+					"type": "long"
+				}
+			}
 		},
 		"Thrower": {
-			"type": "string"
+			"type": "compound",
+			"children": {
+				"M": {
+					"type": "long"
+				},
+				"L": {
+					"type": "long"
+				}
+			}
 		},
 		"Item": {
 			"ref": "../ref/inventory-item.json"

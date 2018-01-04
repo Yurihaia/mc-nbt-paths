@@ -5,7 +5,15 @@
 	],
 	"children": {
 		"ownerName": {
-			"type": "string"
-		}
+			"type": "compound",
+			"children": {
+				"M": {
+					"type": "long"
+				},
+				"L": {
+					"type": "long"
+				}
+			}
+		},
 	}
 }
