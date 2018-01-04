@@ -1,7 +1,7 @@
 {
 	"description": "NBT paths",
 	"name": "mc-nbt-paths",
-	"version": "0.0.5",
+	"version": "18w01a-0.0.6",
 	"author": "MrYurihi",
 	"private": true,
 	"repository": {
