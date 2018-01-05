@@ -1,0 +1,62 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"../ref/block-entity.json"
+	],
+	"children": {
+		"author": {
+			"type": "string"
+		},
+		"ignoreEntities": {
+			"type": "byte"
+		},
+		"integrity": {
+			"type": "float"
+		},
+		"metadata": {
+			"type": "string"
+		},
+		"mirror": {
+			"type": "string"
+		},
+		"mode": {
+			"type": "string"
+		},
+		"name": {
+			"type": "string"
+		},
+		"posX": {
+			"type": "int"
+		},
+		"posY": {
+			"type": "int"
+		},
+		"posZ": {
+			"type": "int"
+		},
+		"powered": {
+			"type": "byte"
+		},
+		"rotation": {
+			"type": "string"
+		},
+		"seed": {
+			"type": "long"
+		},
+		"showair": {
+			"type": "byte"
+		},
+		"showboundingbox": {
+			"type": "byte"
+		},
+		"sizeX": {
+			"type": "int"
+		},
+		"sizeY": {
+			"type": "int"
+		},
+		"sizeZ": {
+			"type": "int"
+		}
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"../ref/block-entity.json"
+	],
+	"children": {
+		"Owner": {
+			"type": "compound",
+			"children": {
+				"Id": {
+					"type": "string"
+				},
+				"Name": {
+					"type": "string"
+				},
+				"Properties": {
+					"type": "compound",
+					"children": {
+						"textures": {
+							"type": "list",
+							"item": {
+								"type": "compound",
+								"children": {
+									"Value": {
+										"type": "string"
+									},
+									"Signature": {
+										"type": "string"
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
