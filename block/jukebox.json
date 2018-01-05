@@ -6,9 +6,7 @@
 	"children": {
 		"RecordItem": {
 			"type": "compound",
-			"ref": [
-				"../ref/item.json"
-			]
+			"ref": "../ref/item.json"
 		}
 	}
 }
