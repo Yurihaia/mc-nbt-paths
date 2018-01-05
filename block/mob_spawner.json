@@ -24,7 +24,7 @@
 		},
 		"SpawnData": {
 			"type": "compound",
-			"child_ref": [
+			"ref": [
 				"../ref/entity.json"
 			]
 		},
@@ -35,7 +35,7 @@
 				"children": {
 					"Entity": {
 						"type": "compound",
-						"child_ref": [
+						"ref": [
 							"../ref/entity.json"
 						]
 					},
