@@ -1,0 +1,13 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"../ref/block-entity.json",
+		"../ref/inventory-holder.json",
+		"../block/chest.json"
+	],
+	"children": {
+		"TransferCooldown": {
+			"type": "int"
+		}
+	}
+}

@@ -1,11 +1,11 @@
 {
 	"type": "compound",
 	"child_ref": [
-		"./item.json"
+		"../ref/block-entity.json"
 	],
 	"children": {
-		"Slot": {
-			"type": "byte"
+		"CustomName": {
+			"type": "string"
 		}
 	}
 }
