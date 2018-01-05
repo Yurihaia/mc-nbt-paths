@@ -1,0 +1,28 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"../ref/block-entity.json"
+	],
+	"children": {
+		"Age": {
+			"type": "long"
+		},
+		"ExactTeleport": {
+			"type": "byte"
+		},
+		"ExitPortal": {
+			"type": "compound",
+			"children": {
+				"X": {
+					"type": "int"
+				},
+				"Y": {
+					"type": "int"
+				},
+				"Z": {
+					"type": "int"
+				}
+			}
+		}
+	}
+}

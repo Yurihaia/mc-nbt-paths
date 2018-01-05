@@ -1,0 +1,17 @@
+{
+	"type": "compound",
+	"children": {
+		"Count": {
+			"type": "byte"
+		},
+		"Damage": {
+			"type": "short"
+		},
+		"id": {
+			"type": "string"
+		},
+		"tag": {
+			"type": "compound"
+		}
+	}
+}

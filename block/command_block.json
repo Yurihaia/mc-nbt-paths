@@ -1,0 +1,38 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"../ref/block-entity.json"
+	],
+	"children": {
+		"auto": {
+			"type": "byte"
+		},
+		"Command": {
+			"type": "string"
+		},
+		"conditionMet": {
+			"type": "byte"
+		},
+		"CustomName": {
+			"type": "string"
+		},
+		"LastExecution": {
+			"type": "long"
+		},
+		"LastOutput": {
+			"type": "string"
+		},
+		"powered": {
+			"type": "byte"
+		},
+		"SuccessCount": {
+			"type": "int"
+		},
+		"TrackOutput": {
+			"type": "byte"
+		},
+		"UpdateLastExecution": {
+			"type": "byte"
+		}
+	}
+}

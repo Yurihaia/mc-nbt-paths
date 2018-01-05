@@ -1,0 +1,29 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"../ref/block-entity.json"
+	],
+	"children": {
+		"BurnTime": {
+			"type": "short"
+		},
+		"CookTime": {
+			"type": "short"
+		},
+		"CookTimeTotal": {
+			"type": "short"
+		},
+		"CustomName": {
+			"type": "string"
+		},
+		"Items": {
+			"type": "list",
+			"item": {
+				"ref": "../ref/inventory-item.json"
+			}
+		},
+		"Lock": {
+			"type": "string"
+		}
+	}
+}

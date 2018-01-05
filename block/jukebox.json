@@ -1,0 +1,12 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"../ref/block-entity.json"
+	],
+	"children": {
+		"RecordItem": {
+			"type": "compound",
+			"ref": "../ref/item.json"
+		}
+	}
+}

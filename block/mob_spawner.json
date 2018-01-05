@@ -1,0 +1,48 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"../ref/block-entity.json"
+	],
+	"children": {
+		"Delay": {
+			"type": "short"
+		},
+		"MaxNearbyEntities": {
+			"type": "short"
+		},
+		"MaxSpawnDelay": {
+			"type": "short"
+		},
+		"MinSpawnDelay": {
+			"type": "short"
+		},
+		"RequiredPlayerRange": {
+			"type": "short"
+		},
+		"SpawnCount": {
+			"type": "short"
+		},
+		"SpawnData": {
+			"type": "compound",
+			"ref": "../ref/entity.json"
+		},
+		"SpawnPotentials": {
+			"type": "list",
+			"item": {
+				"type": "compound",
+				"children": {
+					"Entity": {
+						"type": "compound",
+						"ref": "../ref/entity.json"
+					},
+					"Weight": {
+						"type": "int"
+					}
+				}
+			}
+		},
+		"SpawnRange": {
+			"type": "short"
+		}
+	}
+}
