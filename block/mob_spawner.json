@@ -24,9 +24,7 @@
 		},
 		"SpawnData": {
 			"type": "compound",
-			"ref": [
-				"../ref/entity.json"
-			]
+			"ref": "../ref/entity.json"
 		},
 		"SpawnPotentials": {
 			"type": "list",
@@ -35,9 +33,7 @@
 				"children": {
 					"Entity": {
 						"type": "compound",
-						"ref": [
-							"../ref/entity.json"
-						]
+						"ref": "../ref/entity.json"
 					},
 					"Weight": {
 						"type": "int"
