@@ -61,8 +61,14 @@
         }
       }
     },
-    "Unbreakable": {
-      "type": "byte"
+    "CanDestroy": {
+      "type": "list",
+      "item": {
+        "type": "string"
+      }
+    },
+    "HideFlags": {
+      "type": "int"
     }
   }
 }
