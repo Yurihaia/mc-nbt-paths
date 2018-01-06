@@ -6,6 +6,9 @@
 		},
 		"block": {
 			"ref": "./roots/blocks.json"
+		},
+		"item": {
+			"ref": "./roots/items.json"
 		}
 	}
 }

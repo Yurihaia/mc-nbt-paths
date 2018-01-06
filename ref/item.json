@@ -4,9 +4,6 @@
 		"Count": {
 			"type": "byte"
 		},
-		"Damage": {
-			"type": "short"
-		},
 		"id": {
 			"type": "string"
 		},
