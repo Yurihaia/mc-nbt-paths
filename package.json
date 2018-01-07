@@ -3,7 +3,6 @@
 	"name": "mc-nbt-paths",
 	"version": "18w01a-0.0.8",
 	"author": "MrYurihi",
-	"private": true,
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/MrYurihi/mc-nbt-paths"
