@@ -15,7 +15,7 @@
 				"ref_dict": [
 					{
 						"name": "id",
-						"nbt_ref": "../id"
+						"nbt_ref": "./id"
 					}
 				],
 				"ref": "../roots/items.json#%(id)s",
