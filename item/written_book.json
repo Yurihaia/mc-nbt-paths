@@ -1,0 +1,21 @@
+{
+  "type": "compound",
+  "child_ref": [
+    "../ref/item-tag.json",
+    "./writable_book.json"
+  ],
+  "children": {
+    "author": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "generation": {
+      "type": "int"
+    },
+    "resolved": {
+      "type": "byte"
+    }
+  }
+}
