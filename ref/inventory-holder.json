@@ -4,20 +4,7 @@
 		"Items": {
 			"type": "list",
 			"item": {
-				"ref": "./inventory-item.json",
-				"context": {
-					"ref_dict": [
-						{
-							"name": "id",
-							"ref": "./id",
-							"default": "none"
-						}
-					],
-					"data": {
-						"type": "item",
-						"id": "%(id)s"
-					}
-				}
+				"ref": "./inventory-item.json"
 			}
 		},
 		"LootTable": {

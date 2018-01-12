@@ -11,7 +11,16 @@
 			"type": "string"
 		},
 		"tag": {
-			"type": "compound"
+			"context": {
+				"ref_dict": [
+					{
+						"name": "id",
+						"nbt_ref": "../id"
+					}
+				],
+				"ref": "../roots/items.json#%(id)s",
+				"default": "../roots/items.json#none"
+			}
 		}
 	}
 }
