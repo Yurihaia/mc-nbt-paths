@@ -7,10 +7,7 @@
 				"type": "compound",
 				"children": {
 					"Entity": {
-						"type": "compound",
-						"child_ref": [
-							"./entity.json"
-						]
+						"ref": "./entity.json"
 					},
 					"Weight": {
 						"type": "int"

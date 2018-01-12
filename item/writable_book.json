@@ -1,14 +1,14 @@
 {
-  "type": "compound",
-  "child_ref": [
-    "../ref/item-tag.json"
-  ],
-  "children": {
-    "pages": {
-      "type": "list",
-      "item": {
-        "type": "string"
-      }
-    }
-  }
+	"type": "compound",
+	"child_ref": [
+		"../ref/item-tag.json"
+	],
+	"children": {
+		"pages": {
+			"type": "list",
+			"item": {
+				"type": "string"
+			}
+		}
+	}
 }
