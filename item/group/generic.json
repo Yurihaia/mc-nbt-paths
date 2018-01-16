@@ -101,7 +101,7 @@
 	"minecraft:emerald_block",
 	"minecraft:emerald_ore",
 	"minecraft:enchanted_book",
-  "minecraft:enchanted_golden_apple"
+	"minecraft:enchanted_golden_apple"
 	"minecraft:enchanting_table",
 	"minecraft:end_portal_frame",
 	"minecraft:end_rod",
@@ -289,7 +289,6 @@
 	"minecraft:wooden_pressure_plate",
 	"minecraft:yellow_glazed_terracotta",
 	"minecraft:yellow_shulker_box",
-	"",
 	"minecraft:stone",
 	"minecraft:granite",
 	"minecraft:polished_granite",
