@@ -1,20 +1,20 @@
 {
-  "type": "root",
-  "children": {
-    "none": {
-      "ref": "../ref/item-tag.json"
-    },
-    "$../item/group/generic.json": {
+	"type": "root",
+	"children": {
+		"none": {
 			"ref": "../ref/item-tag.json"
 		},
-    "$../item/group/breakable.json": {
-      "ref": "../ref/breakable.json"
-    },
-    "minecraft:writable_book": {
-      "ref": "../item/writable_book.json"
-    },
-    "minecraft:written_book": {
-      "ref": "../item/written_book.json"
-    }
-  }
+		"$../item/group/generic.json": {
+			"ref": "../ref/item-tag.json"
+		},
+		"$../item/group/breakable.json": {
+			"ref": "../ref/breakable.json"
+		},
+		"minecraft:writable_book": {
+			"ref": "../item/writable_book.json"
+		},
+		"minecraft:written_book": {
+			"ref": "../item/written_book.json"
+		}
+	}
 }

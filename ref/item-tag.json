@@ -1,71 +1,71 @@
 {
-  "type": "compound",
-  "children": {
-    "AttributeModifiers": {
-      "type": "list",
-      "item": {
-        "type": "compound",
-        "children": {
-          "AttributeName": {
-            "type": "string"
-          },
-          "Name": {
-            "type": "string"
-          },
-          "Amount": {
-            "type": "double"
-          },
-          "Operation": {
-            "type": "int"
-          },
-          "UUIDLeast": {
-            "type": "long"
-          },
-          "UUIDMost": {
-            "type": "long"
-          }
-        }
-      }
-    },
-    "display": {
-      "type": "compound",
-      "children": {
-        "Name": {
-          "type": "string"
-        },
-        "color": {
-          "type": "int"
-        },
-        "Lore": {
-          "type": "list",
-          "item": {
-            "type": "string"
-          }
-        }
-      }
-    },
-    "ench": {
-      "type": "list",
-      "item": {
-        "type": "compound",
-        "children": {
-          "id": {
-            "type": "byte"
-          },
-          "lvl": {
-            "type": "short"
-          }
-        }
-      }
-    },
-    "CanDestroy": {
-      "type": "list",
-      "item": {
-        "type": "string"
-      }
-    },
-    "HideFlags": {
-      "type": "int"
-    }
-  }
+	"type": "compound",
+	"children": {
+		"AttributeModifiers": {
+			"type": "list",
+			"item": {
+				"type": "compound",
+				"children": {
+					"AttributeName": {
+						"type": "string"
+					},
+					"Name": {
+						"type": "string"
+					},
+					"Amount": {
+						"type": "double"
+					},
+					"Operation": {
+						"type": "int"
+					},
+					"UUIDLeast": {
+						"type": "long"
+					},
+					"UUIDMost": {
+						"type": "long"
+					}
+				}
+			}
+		},
+		"display": {
+			"type": "compound",
+			"children": {
+				"Name": {
+					"type": "string"
+				},
+				"color": {
+					"type": "int"
+				},
+				"Lore": {
+					"type": "list",
+					"item": {
+						"type": "string"
+					}
+				}
+			}
+		},
+		"ench": {
+			"type": "list",
+			"item": {
+				"type": "compound",
+				"children": {
+					"id": {
+						"type": "byte"
+					},
+					"lvl": {
+						"type": "short"
+					}
+				}
+			}
+		},
+		"CanDestroy": {
+			"type": "list",
+			"item": {
+				"type": "string"
+			}
+		},
+		"HideFlags": {
+			"type": "int"
+		}
+	}
 }
