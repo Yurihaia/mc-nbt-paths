@@ -41,9 +41,6 @@
 					"item": {
 						"type": "string"
 					}
-				},
-				"LocName": {
-					"type": "string"
 				}
 			}
 		},

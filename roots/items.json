@@ -4,6 +4,9 @@
 		"none": {
 			"ref": "../ref/item-tag.json"
 		},
+		"$../item/group/generic.json": {
+			"ref": "../ref/item-tag.json"
+		},
 		"$../item/group/breakable.json": {
 			"ref": "../ref/breakable.json"
 		},
