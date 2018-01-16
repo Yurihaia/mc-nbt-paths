@@ -1,17 +1,17 @@
 {
-  "type": "compound",
-  "child_ref": [
-    "./item-tag.json"
-  ],
-  "children": {
-    "Damage": {
-      "type": "short"
-    },
-    "Unbreakable": {
-      "type": "byte"
-    },
-    "RepairCost": {
-      "type": "int"
-    }
-  }
+	"type": "compound",
+	"child_ref": [
+		"./item-tag.json"
+	],
+	"children": {
+		"Damage": {
+			"type": "short"
+		},
+		"Unbreakable": {
+			"type": "byte"
+		},
+		"RepairCost": {
+			"type": "int"
+		}
+	}
 }

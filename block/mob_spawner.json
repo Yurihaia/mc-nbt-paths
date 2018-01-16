@@ -3,5 +3,5 @@
 	"child_ref": [
 		"../ref/block-entity.json",
 		"../ref/spawner.json"
-	],
+	]
 }
