@@ -14,7 +14,7 @@
 			"type": "int"
 		},
 		"Facing": {
-			"type": "byte",
+			"type": "byte"
 		},
 		"Item": {
 			"ref": "../ref/inventory-item.json"

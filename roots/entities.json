@@ -11,7 +11,7 @@
 			"ref": "../ref/breedable.json"
 		},
 		"$../entity/group/fireball.json": {
-			"ref": "../ref/fireball.json"
+			"ref": "../ref/fireball_base.json"
 		},
 		"$../entity/group/throwable.json": {
 			"ref": "../ref/throwable.json"
