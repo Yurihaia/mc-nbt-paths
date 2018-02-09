@@ -21,6 +21,10 @@
 		}
 	},
 	"definitions": {
+		"uri": {
+			"type": "string",
+			"pattern": ""
+		},
 		"noProp": {
 			"required": [
 				"type"
