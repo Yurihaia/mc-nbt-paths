@@ -5,12 +5,14 @@
     ],
     "children": {
         "CanPlaceOn": {
+            "description": "A list of blocks this block can be placed on in adventure mode",
             "type": "list",
             "item": {
                 "type": "string"
             }
         },
         "BlockEntityTag": {
+            "description": "NBT data when placed",
             "context": {
                 "ref_dict": [
                     {

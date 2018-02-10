@@ -10,24 +10,81 @@
         "map_tracking_position": {
             "type": "byte"
         },
+        "display": {
+			"type": "compound",
+			"children": {
+				"MapColor": {
+                    "type": "int",
+                    "description": "Color of the map"
+                }
+			}
+		},
         "Decorations": {
+            "description": "List of map decorations",
             "type": "list",
             "item": {
                 "type": "compound",
                 "children": {
                     "id": {
+                        "description": "Arbitrary name of decoration",
                         "type": "string"
                     },
                     "type": {
-                        "type": "byte"
+                        "type": "byte",
+                        "description": "Type of decoration",
+                        "suggestions": [
+                            {
+                                "value": "0",
+                                "description": "White arrow"
+                            },
+                            {
+                                "value": "1",
+                                "description": "Green arrow"
+                            },
+                            {
+                                "value": "2",
+                                "description": "Red arrow"
+                            },
+                            {
+                                "value": "3",
+                                "description": "Blue arrow"
+                            },
+                            {
+                                "value": "4",
+                                "description": "White X"
+                            },
+                            {
+                                "value": "5",
+                                "description": "Red triangle"
+                            },
+                            {
+                                "value": "6",
+                                "description": "Large white dot"
+                            },
+                            {
+                                "value": "7",
+                                "description": "Small white dot"
+                            },
+                            {
+                                "value": "8",
+                                "description": "Woodland Mansion"
+                            },
+                            {
+                                "value": "9",
+                                "description": "Ocean Monument"
+                            }
+                        ]
                     },
                     "x": {
+                        "description": "X position of decoration",
                         "type": "double"
                     },
                     "z": {
+                        "description": "Z position of decoration",
                         "type": "double"
                     },
                     "rot": {
+                        "description": "Rotation of decoration",
                         "type": "double"
                     }
                 }

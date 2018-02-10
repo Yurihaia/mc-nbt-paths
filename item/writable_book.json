@@ -5,8 +5,10 @@
 	],
 	"children": {
 		"pages": {
+			"description": "A list of pages",
 			"type": "list",
 			"item": {
+				"description": "The text on a page",
 				"type": "string"
 			}
 		}
