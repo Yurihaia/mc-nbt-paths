@@ -5,16 +5,20 @@
 	],
 	"children": {
 		"BoundX": {
-			"type": "int"
+			"type": "int",
+			"description": "The x coordinate of the point the vex stays around"
 		},
 		"BoundY": {
-			"type": "int"
+			"type": "int",
+			"description": "The y coordinate of the point the vex stays around"
 		},
 		"BoundZ": {
-			"type": "int"
+			"type": "int",
+			"description": "The z coordinate of the point the vex stays around"
 		},
 		"LifeTicks": {
-			"type": "int"
+			"type": "int",
+			"description": "How many ticks the vex has been alive for"
 		}
 	}
 }

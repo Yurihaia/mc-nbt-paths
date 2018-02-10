@@ -1,0 +1,21 @@
+{
+    "type": "int",
+    "suggestions": [
+        {
+            "value": "1",
+            "description": "Farmer"
+        },
+        {
+            "value": "2",
+            "description": "Fisherman"
+        },
+        {
+            "value": "3",
+            "description": "Shepherd"
+        },
+        {
+            "value": "4",
+            "description": "Fletcher"
+        }
+    ]
+}

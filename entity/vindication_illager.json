@@ -5,7 +5,8 @@
 	],
 	"children": {
 		"Johnny": {
-			"type": "byte"
+			"type": "byte",
+			"description": "Should the vindicator attack all mobs"
 		}
 	}
 }

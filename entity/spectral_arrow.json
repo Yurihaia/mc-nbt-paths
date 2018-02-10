@@ -5,7 +5,8 @@
 	],
 	"children": {
 		"Duration": {
-			"type": "int"
+			"type": "int",
+			"description": "How long the glowing should last"
 		}
 	}
 }

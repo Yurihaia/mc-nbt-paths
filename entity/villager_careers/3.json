@@ -1,0 +1,17 @@
+{
+    "type": "int",
+    "suggestions": [
+        {
+            "value": "1",
+            "description": "Armorer"
+        },
+        {
+            "value": "2",
+            "description": "Weapon Smith"
+        },
+        {
+            "value": "3",
+            "description": "Tool Smith"
+        }
+    ]
+}

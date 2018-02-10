@@ -5,7 +5,8 @@
 	],
 	"children": {
 		"Invul": {
-			"type": "byte"
+			"type": "byte",
+			"description": "How many ticks of invulnerability left"
 		}
 	}
 }

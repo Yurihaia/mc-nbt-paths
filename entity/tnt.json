@@ -5,7 +5,8 @@
 	],
 	"children": {
 		"Fuse": {
-			"type": "short"
+			"type": "short",
+			"description": "How long until the tnt blows up"
 		}
 	}
 }

@@ -6,10 +6,12 @@
 	],
 	"children": {
 		"Angry": {
-			"type": "byte"
+			"type": "byte",
+			"description": "If the wolf is angry"
 		},
 		"CollarColor": {
-			"type": "byte"
+			"type": "byte",
+			"description": "Collar color for dogs"
 		}
 	}
 }

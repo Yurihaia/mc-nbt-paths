@@ -5,7 +5,8 @@
 	],
 	"children": {
 		"SpellTicks": {
-			"type": "int"
+			"type": "int",
+			"description": "How long until the illager casts a spell"
 		}
 	}
 }

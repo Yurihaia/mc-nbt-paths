@@ -5,7 +5,8 @@
 	],
 	"children": {
 		"PlayerCreated": {
-			"type": "byte"
+			"type": "byte",
+			"description": "If a player created the golem"
 		}
 	}
 }

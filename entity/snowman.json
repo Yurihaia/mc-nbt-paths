@@ -5,7 +5,8 @@
 	],
 	"children": {
 		"Pumpkin": {
-			"type": "byte"
+			"type": "byte",
+			"description": "If the snow golem has the pumpkin"
 		}
 	}
 }

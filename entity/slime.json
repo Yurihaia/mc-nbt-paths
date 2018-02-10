@@ -5,10 +5,12 @@
 	],
 	"children": {
 		"Size": {
-			"type": "int"
+			"type": "int",
+			"description": "Size of slime"
 		},
-		"wasOnGroup": {
-			"type": "byte"
+		"wasOnGround": {
+			"type": "byte",
+			"description": "If the slime is touching the ground"
 		}
 	}
 }

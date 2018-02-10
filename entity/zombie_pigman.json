@@ -5,10 +5,12 @@
 	],
 	"children": {
 		"Anger": {
-			"type": "short"
+			"type": "short",
+			"description": "How many ticks until it isn't angry"
 		},
 		"HurtBy": {
-			"type": "string"
+			"type": "string",
+			"description": "The UUID of the last player who attacked it"
 		}
 	}
 }

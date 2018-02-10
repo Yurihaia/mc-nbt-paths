@@ -1,0 +1,13 @@
+{
+    "type": "int",
+    "suggestions": [
+        {
+            "value": "1",
+            "description": "Butcher"
+        },
+        {
+            "value": "2",
+            "description": "Leatherworker"
+        }
+    ]
+}

@@ -5,7 +5,8 @@
 	],
 	"children": {
 		"TNTFuse": {
-			"type": "int"
+			"type": "int",
+			"description": "How long until the tnt minecart blows up"
 		}
 	}
 }

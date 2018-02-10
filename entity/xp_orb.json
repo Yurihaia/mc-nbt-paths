@@ -5,13 +5,16 @@
 	],
 	"children": {
 		"Age": {
-			"type": "short"
+			"type": "short",
+			"description": "How long the XP orb has existed"
 		},
 		"Health": {
-			"type": "byte"
+			"type": "byte",
+			"description": "How much health the orb has"
 		},
 		"Value": {
-			"type": "short"
+			"type": "short",
+			"description": "How much experience the orb gives"
 		}
 	}
 }
