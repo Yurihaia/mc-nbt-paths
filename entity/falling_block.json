@@ -11,7 +11,7 @@
 					"type": "string"
 				},
 				"Properties": {
-					"type": "compound",
+					"type": "compound"
 				}
 			}
 		},

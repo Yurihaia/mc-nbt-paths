@@ -10,9 +10,6 @@
 				"../ref/inventory-item.json"
 			],
 			"children": {
-				"tag": {
-					
-				}
 			}
 		}
 	}

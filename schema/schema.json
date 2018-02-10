@@ -12,14 +12,49 @@
 			"$ref": "#/definitions/listProp"
 		},
 		{
+			"properties": {
+				"ref": {
+					"type": "string"
+				}
+			},
 			"required": ["ref"]
+		},
+		{
+			"properties": {
+				"context": {
+					"type": "object",
+					"properties": {
+						"ref_dict": {
+							"type": "array",
+							"items": {
+								"type": "object",
+								"properties": {
+									"name": {
+										"type": "string"
+									},
+									"nbt_ref": {
+										"type": "string"
+									}
+								}
+							}
+						},
+						"ref": {
+							"type": "string"
+						},
+						"default": {
+							"type": "string"
+						}
+					},
+					"required": [
+						"ref_dict",
+						"ref",
+						"default"
+					]
+				}
+			},
+			"required": ["context"]
 		}
 	],
-	"properties": {
-		"ref": {
-			"type": "string"
-		}
-	},
 	"definitions": {
 		"uri": {
 			"type": "string",
@@ -32,6 +67,7 @@
 			"properties": {
 				"type": {
 					"enum": [
+						"no-nbt",
 						"byte",
 						"short",
 						"int",
