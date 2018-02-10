@@ -1,0 +1,11 @@
+{
+    "type": "compound",
+    "child_ref": [
+        "../ref/item-tag.json"
+    ],
+    "children": {
+        "Explosion": {
+            "ref": "../ref/firework_explosion"
+        }
+    }
+}

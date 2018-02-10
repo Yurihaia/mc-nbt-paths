@@ -1,0 +1,22 @@
+{
+    "type": "compound",
+	"child_ref": [
+		"../ref/item-tag.json"
+    ],
+    "children": {
+        "Fireworks": {
+            "type": "compound",
+            "children": {
+                "Flight": {
+                    "type": "byte"
+                },
+                "Explosions": {
+                    "type": "list",
+                    "item": {
+                        "ref": "../ref/firework_explosion.json"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "type": "compound",
+    "child_ref": [
+        "../ref/item-tag.json"
+    ],
+    "children": {
+        "map_scale_direction": {
+            "type": "int"
+        },
+        "map_tracking_position": {
+            "type": "byte"
+        },
+        "Decorations": {
+            "type": "list",
+            "item": {
+                "type": "compound",
+                "children": {
+                    "id": {
+                        "type": "string"
+                    },
+                    "type": {
+                        "type": "byte"
+                    },
+                    "x": {
+                        "type": "double"
+                    },
+                    "z": {
+                        "type": "double"
+                    },
+                    "rot": {
+                        "type": "double"
+                    }
+                }
+            }
+        }
+    }
+}

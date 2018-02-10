@@ -1,0 +1,38 @@
+{
+    "type": "compound",
+    "child_ref": [
+        "./block-item.json"
+    ],
+    "children": {
+        "SkullOwner": {
+            "type": "compound",
+            "children": {
+                "Id": {
+                    "type": "string"
+                },
+                "Name": {
+                    "type": "string"
+                },
+                "Properties": {
+                    "type": "compound",
+                    "children": {
+                        "textures": {
+                            "type": "list",
+                            "item": {
+                                "type": "compound",
+                                "children": {
+                                    "Signiature": {
+                                        "type": "string"
+                                    },
+                                    "Value": {
+                                        "type": "string"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

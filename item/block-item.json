@@ -1,7 +1,7 @@
 {
     "type": "compound",
     "child_ref": [
-        "./item-tag.json"
+        "../ref/item-tag.json"
     ],
     "children": {
         "CanPlaceOn": {

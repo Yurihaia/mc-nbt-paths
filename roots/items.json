@@ -8,16 +8,37 @@
 			"ref": "../ref/item-tag.json"
 		},
 		"$../item/group/breakable.json": {
-			"ref": "../ref/breakable.json"
+			"ref": "../item/breakable.json"
 		},
 		"$../item/group/block_item.json": {
-			"ref": "../ref/block-item.json"
+			"ref": "../item/block-item.json"
+		},
+		"$../item/group/potion.json": {
+			"ref": "../item/potion-base.json"
 		},
 		"minecraft:writable_book": {
 			"ref": "../item/writable_book.json"
 		},
 		"minecraft:written_book": {
 			"ref": "../item/written_book.json"
+		},
+		"minecraft:player_head": {
+			"ref": "../item/player_head.json"
+		},
+		"minecraft:firework_rocket": {
+			"ref": "../item/firework_rocket.json"
+		},
+		"minecraft:firework_star": {
+			"ref": "../item/firework_star.json"
+		},
+		"minecraft:armor_stand": {
+			"ref": "../item/spawn_item.json"
+		},
+		"minecraft:spawn_egg": {
+			"ref": "../item/spawn_item.json"
+		},
+		"minecraft:map": {
+			"ref": "../item/map.json"
 		}
 	}
 }

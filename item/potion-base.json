@@ -1,0 +1,23 @@
+{
+    "type": "compound",
+    "child_ref": [
+        "../ref/item-tag.json"
+    ],
+    "children": {
+        "Id": {
+            "type": "byte"
+        },
+        "Amplifier": {
+            "type": "byte"
+        },
+        "Duration": {
+            "type": "int"
+        },
+        "Ambient": {
+            "type": "byte"
+        },
+        "ShowParticles": {
+            "type": "byte"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "type": "compound",
+    "children": {
+        "Flicker": {
+            "type": "byte"
+        },
+        "Trail": {
+            "type": "byte"
+        },
+        "Type": {
+            "type": "byte"
+        },
+        "Colors": {
+            "type": "int_array"
+        },
+        "FadeColors": {
+            "type": "int_array"
+        }
+    }
+}

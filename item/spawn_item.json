@@ -1,0 +1,20 @@
+{
+    "type": "compound",
+    "child_ref": [
+        "../ref/item-tag.json"
+    ],
+    "children": {
+        "EntityTag": {
+            "context": {
+                "ref_dict": [
+                    {
+                        "name": "id",
+                        "nbt_ref": "./id"
+                    }
+                ],
+                "ref": "../roots/entities.json#%(id)s",
+                "default": "../roots/entities.json#none"
+            }
+        }
+    }
+}
