@@ -1,0 +1,26 @@
+{
+    "type": "compound",
+    "child_ref": [
+        "./item-tag.json"
+    ],
+    "children": {
+        "CanPlaceOn": {
+            "type": "list",
+            "item": {
+                "type": "string"
+            }
+        },
+        "BlockEntityTag": {
+            "context": {
+                "ref_dict": [
+                    {
+                        "name": "id",
+                        "info_name": "id"
+                    }
+                ],
+                "ref": "../roots/blocks.json#%(id)s",
+                "default": "../roots/blocks.json#none"
+            }
+        }
+    }
+}

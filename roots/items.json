@@ -10,6 +10,9 @@
 		"$../item/group/breakable.json": {
 			"ref": "../ref/breakable.json"
 		},
+		"$../item/group/block_item.json": {
+			"ref": "../ref/block-item.json"
+		},
 		"minecraft:writable_book": {
 			"ref": "../item/writable_book.json"
 		},

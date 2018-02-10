@@ -1,0 +1,14 @@
+{
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "/block/*.json",
+                "/entity/*.json",
+                "/item/*.json",
+                "/ref/*.json",
+                "/roots/*.json"
+            ],
+            "url": "/schema/schema.json"
+        }
+    ]
+}

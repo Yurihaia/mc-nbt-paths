@@ -7,16 +7,55 @@
 				"type": "compound",
 				"children": {
 					"AttributeName": {
-						"type": "string"
+						"type": "string",
+						"suggestions": [
+							"generic.maxHealth",
+							"generic.followRange",
+							"generic.knockbackResistance",
+							"generic.movementSpeed",
+							"generic.attackDamage",
+							"generic.armor",
+							"generic.armorToughness",
+							"generic.attackSpeed",
+							"generic.luck",
+							"horse.jumpStrength",
+							"generic.flyingSpeed",
+							"zombie.spawnReinforcements"
+						]
 					},
 					"Name": {
 						"type": "string"
+					},
+					"Slot": {
+						"type": "string",
+						"suggestions": [
+							"mainhand",
+							"offhand",
+							"feet",
+							"legs",
+							"chest",
+							"head"
+						]
 					},
 					"Amount": {
 						"type": "double"
 					},
 					"Operation": {
-						"type": "int"
+						"type": "int",
+						"suggestions": [
+							{
+								"value": "0",
+								"description": "Adds \"Amount\" to the attribute"
+							},
+							{
+								"value": "1",
+								"description": "Multiplies the attribute by \"Amount\""
+							},
+							{
+								"value": "2",
+								"description": "Multiplies each modifier by \"Amount\""
+							}
+						]
 					},
 					"UUIDLeast": {
 						"type": "long"
