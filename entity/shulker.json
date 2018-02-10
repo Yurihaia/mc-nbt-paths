@@ -5,22 +5,28 @@
 	],
 	"children": {
 		"Peek": {
-			"type": "byte"
+			"type": "byte",
+			"description": "Height of the top shell"
 		},
 		"AttachFace": {
-			"type": "byte"
+			"type": "byte",
+			"description": "The face of the block the shulker is attacked to"
 		},
 		"Color": {
-			"type": "byte"
+			"type": "byte",
+			"description": "Color of the shulker"
 		},
 		"APX": {
-			"type": "int"
+			"type": "int",
+			"description": "Approximate x coordinate"
 		},
 		"APY": {
-			"type": "int"
+			"type": "int",
+			"description": "Approximate y coordinate"
 		},
 		"APZ": {
-			"type": "int"
+			"type": "int",
+			"description": "Approximate z coordinate"
 		}
 	}
 }

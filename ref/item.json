@@ -1,12 +1,9 @@
 {
 	"type": "compound",
+	"child_ref": [
+		"./item-ntt.json"
+	],
 	"children": {
-		"Count": {
-			"type": "byte"
-		},
-		"id": {
-			"type": "string"
-		},
 		"tag": {
 			"context": {
 				"ref_dict": [

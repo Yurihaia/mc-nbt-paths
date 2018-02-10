@@ -6,7 +6,8 @@
 	],
 	"children": {
 		"CatType": {
-			"type": "int"
+			"type": "int",
+			"description": "Type of cat once tamed"
 		}
 	}
 }

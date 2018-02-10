@@ -5,11 +5,15 @@
 	],
 	"children": {
 		"Potion": {
+			"description": "The potion this thrown potion represents",
 			"type": "compound",
 			"child_ref": [
-				"../ref/inventory-item.json"
+				"../ref/item-ntt.json"
 			],
 			"children": {
+				"tag": {
+					"ref": "../item/potion-base.json"
+				}
 			}
 		}
 	}

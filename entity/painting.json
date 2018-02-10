@@ -5,19 +5,51 @@
 	],
 	"children": {
 		"TileX": {
-			"type": "int"
+			"type": "int",
+			"description": "X coordinate of the block the painting is on"
 		},
 		"TileY": {
-			"type": "int"
+			"type": "int",
+			"description": "Y coordinate of the block the painting is on"
 		},
 		"TileZ": {
-			"type": "int"
+			"type": "int",
+			"description": "Z coordinate of the block the painting is on"
 		},
 		"Facing": {
-			"type": "byte"
+			"type": "byte",
+			"description": "Direction the painting is facing"
 		},
 		"Motive": {
-			"type": "string"
+			"type": "string",
+			"description": "Name of painting",
+			"suggestions": [
+				"minecraft:kebab",
+				"minecraft:aztec",
+				"minecraft:alban",
+				"minecraft:aztec2",
+				"minecraft:bomb",
+				"minecraft:plant",
+				"minecraft:wasteland",
+				"minecraft:wanderer",
+				"minecraft:graham",
+				"minecraft:pool",
+				"minecraft:courbet",
+				"minecraft:sunset",
+				"minecraft:sea",
+				"minecraft:match",
+				"minecraft:bust",
+				"minecraft:stage",
+				"minecraft:void",
+				"minecraft:skull_and_roses",
+				"minecraft:wither",
+				"minecraft:fighters",
+				"minecraft:skeleton",
+				"minecraft:donkey_kong",
+				"minecraft:pointer",
+				"minecraft:pigscene",
+				"minecraft:burning_skull"
+			]
 		}
 	}
 }

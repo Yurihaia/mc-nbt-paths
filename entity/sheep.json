@@ -5,9 +5,11 @@
 	],
 	"children": {
 		"Sheared": {
-			"type": "byte"
+			"type": "byte",
+			"description": "If the sheep is sheared"
 		},
 		"Color": {
+			"description": "Color of the sheep",
 			"type": "byte"
 		}
 	}

@@ -1,0 +1,11 @@
+{
+    "type": "compound",
+    "children": {
+        "Count": {
+			"type": "byte"
+		},
+		"id": {
+			"type": "string"
+		}
+    }
+}

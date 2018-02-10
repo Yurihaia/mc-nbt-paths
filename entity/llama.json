@@ -5,31 +5,40 @@
 	],
 	"children": {
 		"Bred": {
-			"type": "byte"
+			"type": "byte",
+			"description": "If the llama was bred, not naturally spawned"
 		},
 		"EatingHaystack": {
-			"type": "byte"
+			"type": "byte",
+			"description": "If the llama is eating a haystack"
 		},
 		"Tame": {
-			"type": "byte"
+			"type": "byte",
+			"description": "If the llama is tamed"
 		},
 		"Temper": {
-			"type": "int"
+			"type": "int",
+			"description": "How hard it is to tame. Lower values are harder"
 		},
 		"Variant": {
-			"type": "int"
+			"type": "int",
+			"description": "Type of llama"
 		},
 		"Strength": {
-			"type": "int"
+			"type": "int",
+			"description": "1/3 of the number of items a llama can carry."
 		},
 		"DecorItem": {
-			"ref": "../ref/inventory-item.json"
+			"ref": "../ref/inventory-item.json",
+			"description": "Item (usually carpet) on the llama"
 		},
 		"OwnerUUID": {
-			"type": "string"
+			"type": "string",
+			"description": "Owner of the llama"
 		},
 		"Items": {
 			"type": "list",
+			"description": "Items carried by the llama",
 			"item": {
 				"ref": "./inventory-item.json"
 			}
