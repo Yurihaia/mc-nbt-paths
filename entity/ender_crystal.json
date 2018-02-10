@@ -5,19 +5,24 @@
 	],
 	"children": {
 		"ShowBottom": {
-			"type": "byte"
+			"type": "byte",
+			"description": "Should the bottom of the ender crystal show"
 		},
 		"BeamTarget": {
+			"description": "Where the beam should point to",
 			"type": "compound",
 			"children": {
 				"X": {
-					"type": "int"
+					"type": "int",
+					"description": "X coordinate of the beam target"
 				},
 				"Y": {
-					"type": "int"
+					"type": "int",
+					"description": "X coordinate of the beam target"
 				},
 				"Z": {
-					"type": "int"
+					"type": "int",
+					"description": "X coordinate of the beam target"
 				}
 			}
 		}

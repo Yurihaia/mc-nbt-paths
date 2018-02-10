@@ -5,16 +5,20 @@
 	],
 	"children": {
 		"Command": {
-			"type": "string"
+			"type": "string",
+			"description": "The command to run"
 		},
 		"SuccessCount": {
-			"type": "int"
+			"type": "int",
+			"description": "The success count of the command run"
 		},
 		"LastOutput": {
-			"type": "string"
+			"type": "string",
+			"description": "The description of the last output"
 		},
 		"TrackOutput": {
-			"type": "byte"
+			"type": "byte",
+			"description": "Should the command block should write to LastOutput"
 		}
 	}
 }

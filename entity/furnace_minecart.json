@@ -5,13 +5,16 @@
 	],
 	"children": {
 		"PushX": {
-			"type": "double"
+			"type": "double",
+			"description": "How much this should push on the X axis"
 		},
 		"PushZ": {
-			"type": "double"
+			"type": "double",
+			"description": "How much this should push on the Y axis"
 		},
 		"Fuel": {
-			"type": "short"
+			"type": "short",
+			"description": "How much this should push on the Z axis"
 		}
 	}
 }

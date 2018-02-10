@@ -5,37 +5,52 @@
 	],
 	"children": {
 		"Age": {
-			"type": "int"
+			"type": "int",
+			"description": "Number of ticks the area effect cloud has existed"
 		},
 		"Color": {
-			"type": "int"
+			"type": "int",
+			"description": "Color of the particles"
 		},
 		"Duration": {
-			"type": "int"
+			"type": "int",
+			"description": "Many ticks the area effect cloud should last",
+			"suggestions": [
+				"0",
+				"2147483647"
+			]
 		},
 		"ReapplicationDelay": {
-			"type": "int"
+			"type": "int",
+			"description": "How many ticks until the effect get reapplied"
 		},
 		"WaitTime": {
-			"type": "int"
+			"type": "int",
+			"description": "Time before the area effect cloud appears"
 		},
 		"OwnerUUIDLeast": {
-			"type": "long"
+			"type": "long",
+			"description": "UUIDLeast of the player who threw the lingering potion"
 		},
 		"OwnerUUIDMost": {
-			"type": "long"
+			"type": "long",
+			"description": "UUIDMost of the player who threw the lingering potion"
 		},
 		"DurationOnUse": {
-			"type": "float"
+			"type": "float",
+			"description": "How much \"Duration\" increases when the effect gets applied"
 		},
 		"Radius": {
-			"type": "float"
+			"type": "float",
+			"description": "Radius of the area effect cloud"
 		},
 		"RadiusOnUse": {
-			"type": "float"
+			"type": "float",
+			"description": "How much the radius should decrease when the effect gets applied"
 		},
 		"Particle": {
-			"type": "string"
+			"type": "string",
+			"description": "Particle id displayed"
 		},
 		"ParticleParam1": {
 			"type": "int"
@@ -46,24 +61,7 @@
 		"Effects": {
 			"type": "list",
 			"item": {
-				"type": "compound",
-				"children": {
-					"ID": {
-						"type": "byte"
-					},
-					"Amplifier": {
-						"type": "byte"
-					},
-					"Duration": {
-						"type": "int"
-					},
-					"Ambient": {
-						"type": "byte"
-					},
-					"ShowParticles": {
-						"type": "byte"
-					}
-				}
+				"ref": "../ref/potion-effect.json"
 			}
 		}
 	}

@@ -5,10 +5,12 @@
 	],
 	"children": {
 		"Lifetime": {
-			"type": "int"
+			"type": "int",
+			"description": "How many ticks the endermite has existed"
 		},
 		"PlayerSpawned": {
-			"type": "byte"
+			"type": "byte",
+			"description": "If the endermite was spawned by a player (not through an enderpearl)"
 		}
 	}
 }

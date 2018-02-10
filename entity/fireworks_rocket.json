@@ -5,13 +5,16 @@
 	],
 	"children": {
 		"Life": {
-			"type": "int"
+			"type": "int",
+			"description": "How long this rocket has been flying"
 		},
 		"LifeTime": {
-			"type": "int"
+			"type": "int",
+			"description": "How many ticks until the rocket explodes"
 		},
 		"FireworksItem": {
-			"ref": "../ref/inventory-item.json"
+			"ref": "../item/firework_rocket.json",
+			"description": "The rocket item to use for explosions"
 		}
 	}
 }

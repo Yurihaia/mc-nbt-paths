@@ -5,13 +5,15 @@
 	],
 	"children": {
 		"ChestedHorse": {
-			"type": "byte"
+			"type": "byte",
+			"description": "If the horse has a chest"
 		},
 		"Items": {
 			"type": "list",
 			"item": {
 				"ref": "./inventory-item.json"
-			}
+			},
+			"description": "Items in the horse chest"
 		}
 	}
 }

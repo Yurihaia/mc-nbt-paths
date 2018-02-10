@@ -5,7 +5,8 @@
 	],
 	"children": {
 		"BatFlags": {
-			"type": "byte"
+			"type": "byte",
+			"description": "Is the bat upside-down"
 		}
 	}
 }

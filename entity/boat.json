@@ -5,7 +5,16 @@
 	],
 	"children": {
 		"Type": {
-			"type": "string"
+			"type": "string",
+			"description": "Type of the boat",
+			"suggestions": [
+				"oak",
+				"spruce",
+				"birch",
+				"jungle",
+				"acacia",
+				"dark_oak"
+			]
 		}
 	}
 }

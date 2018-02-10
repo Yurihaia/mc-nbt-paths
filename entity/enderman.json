@@ -6,12 +6,20 @@
 	"children": {
 		"carriedBlockState": {
 			"type": "compound",
+			"description": "The carried block",
 			"children": {
 				"Name": {
-					"type": "string"
+					"type": "string",
+					"description": "ID of carried block",
+					"suggestions": [
+						{
+							"values": "../misc_group/blocks.json"
+						}
+					]
 				},
 				"Properties": {
-					"type": "compound"
+					"type": "compound",
+					"description": "Name value pairs of block states and values"
 				}
 			}
 		}

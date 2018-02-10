@@ -5,46 +5,63 @@
 	],
 	"children": {
 		"DisabledSlots": {
-			"type": "int"
+			"type": "int",
+			"description": "What slots should be disabled",
+			"suggestions": [
+				{
+					"value": "2039583",
+					"description": "Disables everything"
+				}
+			]
 		},
 		"HandItems": {
 			"type": "list",
 			"item": {
 				"ref": "./inventory-item.json#"
-			}
+			},
+			"description": "Items in main and offhand"
 		},
 		"ArmorItems": {
 			"type": "list",
 			"item": {
 				"ref": "./inventory-item.json#"
-			}
+			},
+			"description": "Armor in armor slots"
 		},
 		"Marker": {
-			"type": "byte"
+			"type": "byte",
+			"description": "Should the armor stand have no hitbox"
 		},
 		"Invisible": {
-			"type": "byte"
+			"type": "byte",
+			"description": "Should the armor stand be invisible"
 		},
 		"NoBasePlate": {
-			"type": "byte"
+			"type": "byte",
+			"description": "Should the armor stand have no base plate"
 		},
 		"FallFlying": {
-			"type": "byte"
+			"type": "byte",
+			"description": "Should the entity glide when falling as long as it has an elytra in it's chest slot"
 		},
 		"Pose": {
 			"type": "compound",
+			"description": "The post of the armor stand",
 			"children": {
 				"Body": {
 					"type": "compound",
 					"children": {
 						"x-rotation": {
-							"type": "float"
+							"type": "float",
+							"description": "X rotation of the body"
 						},
 						"y-rotation": {
-							"type": "float"
+							"type": "float",
+							"description": "Y rotation of the body"
 						},
 						"z-rotation": {
-							"type": "float"
+							"type": "float",
+							"description": "Z rotation of the body"
 						}
 					}
 				},
@@ -52,13 +69,16 @@
 					"type": "compound",
 					"children": {
 						"x-rotation": {
-							"type": "float"
+							"type": "float",
+							"description": "X rotation of the left arm"
 						},
 						"y-rotation": {
-							"type": "float"
+							"type": "float",
+							"description": "Y rotation of the left arm"
 						},
 						"z-rotation": {
-							"type": "float"
+							"type": "float",
+							"description": "Z rotation of the left arm"
 						}
 					}
 				},
@@ -66,13 +86,16 @@
 					"type": "compound",
 					"children": {
 						"x-rotation": {
-							"type": "float"
+							"type": "float",
+							"description": "X rotation of the right arm"
 						},
 						"y-rotation": {
-							"type": "float"
+							"type": "float",
+							"description": "Y rotation of the right arm"
 						},
 						"z-rotation": {
-							"type": "float"
+							"type": "float",
+							"description": "Z rotation of the right arm"
 						}
 					}
 				},
@@ -80,13 +103,16 @@
 					"type": "compound",
 					"children": {
 						"x-rotation": {
-							"type": "float"
+							"type": "float",
+							"description": "X rotation of the left leg"
 						},
 						"y-rotation": {
-							"type": "float"
+							"type": "float",
+							"description": "Y rotation of the left leg"
 						},
 						"z-rotation": {
-							"type": "float"
+							"type": "float",
+							"description": "Z rotation of the left leg"
 						}
 					}
 				},
@@ -94,13 +120,16 @@
 					"type": "compound",
 					"children": {
 						"x-rotation": {
-							"type": "float"
+							"type": "float",
+							"description": "X rotation of the right leg"
 						},
 						"y-rotation": {
-							"type": "float"
+							"type": "float",
+							"description": "Y rotation of the right leg"
 						},
 						"z-rotation": {
-							"type": "float"
+							"type": "float",
+							"description": "Z rotation of the right leg"
 						}
 					}
 				},
@@ -108,23 +137,28 @@
 					"type": "compound",
 					"children": {
 						"x-rotation": {
-							"type": "float"
+							"type": "float",
+							"description": "X rotation of the head"
 						},
 						"y-rotation": {
-							"type": "float"
+							"type": "float",
+							"description": "Y rotation of the head"
 						},
 						"z-rotation": {
-							"type": "float"
+							"type": "float",
+							"description": "Z rotation of the head"
 						}
 					}
 				}
 			}
 		},
 		"ShowArms": {
-			"type": "byte"
+			"type": "byte",
+			"description": "Should the arms be displayed"
 		},
 		"Small": {
-			"type": "byte"
+			"type": "byte",
+			"description": "Should the armor stand be small"
 		}
 	}
 }

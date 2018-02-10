@@ -5,7 +5,8 @@
 	],
 	"children": {
 		"ExplosionPower": {
-			"type": "int"
+			"type": "int",
+			"description": "Explosion power of created fireballs"
 		}
 	}
 }

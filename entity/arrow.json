@@ -5,31 +5,39 @@
 	],
 	"children": {
 		"pickup": {
-			"type": "byte"
+			"type": "byte",
+			"description": "Can the arrow be picked up"
 		},
 		"player": {
-			"type": "byte"
+			"type": "byte",
+			"description": "If a player shot the arrow"
 		},
 		"life": {
-			"type": "short"
+			"type": "short",
+			"description": "How many ticks the arrow has exsisted without moving"
 		},
 		"damage": {
-			"type": "double"
+			"type": "double",
+			"description": "How much damage the arrow does"
 		},
-		"inGroup": {
-			"type": "byte"
+		"inGround": {
+			"type": "byte",
+			"description": "If the arrow is in a block"
 		},
 		"crit": {
-			"type": "byte"
+			"type": "byte",
+			"description": "Should the arrow do critical damage"
 		},
 		"Potion": {
-			"type": "string"
+			"type": "string",
+			"description": "Name of the potion effect on the arrow"
 		},
 		"CustomPotionEffects": {
 			"type": "list",
 			"item": {
 				"ref": "../ref/potion-effect.json"
-			}
+			},
+			"description": "List of potion effects to give to the entity who got hit"
 		}
 	}
 }

@@ -5,16 +5,20 @@
 	],
 	"children": {
 		"Warmup": {
-			"type": "int"
+			"type": "int",
+			"description": "How many ticks before the fangs apear"
 		},
 		"Owner": {
 			"type": "compound",
+			"description": "UUID of the entity that summoned the fangs",
 			"children": {
 				"OwnerUUIDLeast": {
-					"type": "long"
+					"type": "long",
+					"description": "UUIDLeast of the owner"
 				},
 				"OwnerUUIDMost": {
-					"type": "long"
+					"type": "long",
+					"description": "UUIDMost of the owner"
 				}
 			}
 		}
