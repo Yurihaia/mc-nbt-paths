@@ -1,38 +1,45 @@
 {
 	"type": "compound",
 	"child_ref": [
-		"../ref/block-entity.json"
+		"../ref/block-entity.json",
+		"../ref/nameable.json"
 	],
 	"children": {
 		"auto": {
-			"type": "byte"
+			"type": "byte",
+			"description": "Whether the command block should be automatically powered"
 		},
 		"Command": {
-			"type": "string"
+			"type": "string",
+			"description": "The command to run"
 		},
 		"conditionMet": {
-			"type": "byte"
-		},
-		"CustomName": {
-			"type": "string"
+			"type": "byte",
+			"description": "If the command block executed last time it was powered (True if not conditional)"
 		},
 		"LastExecution": {
-			"type": "long"
+			"type": "long",
+			"description": "Tick the chain command block last executed"
 		},
 		"LastOutput": {
-			"type": "string"
+			"type": "string",
+			"description": "The description of the last output"
 		},
 		"powered": {
-			"type": "byte"
+			"type": "byte",
+			"description": "If the command block is powered by redstone"
 		},
 		"SuccessCount": {
-			"type": "int"
+			"type": "int",
+			"description": "The success count of the command run"
 		},
 		"TrackOutput": {
-			"type": "byte"
+			"type": "byte",
+			"description": "Should the command block should write to LastOutput"
 		},
 		"UpdateLastExecution": {
-			"type": "byte"
+			"type": "byte",
+			"description": "Should the command block only execute once a tick"
 		}
 	}
 }

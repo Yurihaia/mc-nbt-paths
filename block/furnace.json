@@ -1,29 +1,29 @@
 {
 	"type": "compound",
 	"child_ref": [
-		"../ref/block-entity.json"
+		"../ref/block-entity.json",
+		"../ref/nameable.json",
+		"../ref/lockable.json"
 	],
 	"children": {
 		"BurnTime": {
-			"type": "short"
+			"type": "short",
+			"description": "Number of ticks until fuel runs out"
 		},
 		"CookTime": {
-			"type": "short"
+			"type": "short",
+			"description": "Number of ticks the current item has been smelting"
 		},
 		"CookTimeTotal": {
-			"type": "short"
-		},
-		"CustomName": {
-			"type": "string"
+			"type": "short",
+			"description": "How long (in ticks) the item takes to smelt"
 		},
 		"Items": {
 			"type": "list",
 			"item": {
 				"ref": "../ref/inventory-item.json"
-			}
-		},
-		"Lock": {
-			"type": "string"
+			},
+			"description": "Items in the furnace"
 		}
 	}
 }

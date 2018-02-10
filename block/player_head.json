@@ -5,27 +5,34 @@
 	],
 	"children": {
 		"Owner": {
+			"description": "The skin displayed by this head",
 			"type": "compound",
 			"children": {
 				"Id": {
-					"type": "string"
+					"type": "string",
+					"description": "UUID of the owning player"
 				},
 				"Name": {
-					"type": "string"
+					"type": "string",
+					"description": "Name of the owning player"
 				},
 				"Properties": {
 					"type": "compound",
+					"description": "Properties of the skull",
 					"children": {
 						"textures": {
+							"description": "A list of textures",
 							"type": "list",
 							"item": {
 								"type": "compound",
 								"children": {
 									"Value": {
-										"type": "string"
+										"type": "string",
+										"description": "Base64 encoded JSON object of the texture"
 									},
 									"Signature": {
-										"type": "string"
+										"type": "string",
+										"description": "The signiature of this skull"
 									}
 								}
 							}

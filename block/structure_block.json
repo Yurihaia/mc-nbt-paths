@@ -5,58 +5,92 @@
 	],
 	"children": {
 		"author": {
-			"type": "string"
+			"type": "string",
+			"description": "The author of this structure"
 		},
 		"ignoreEntities": {
-			"type": "byte"
+			"type": "byte",
+			"description": "Should the structure ignore entities"
 		},
 		"integrity": {
-			"type": "float"
+			"type": "float",
+			"description": "What percent of blocks should be placed"
 		},
 		"metadata": {
 			"type": "string"
 		},
 		"mirror": {
-			"type": "string"
+			"type": "string",
+			"description": "The mirror if this structure",
+			"suggestions": [
+				"NONE",
+				"LEFT_RIGHT",
+				"FRONT_BACK"
+			]
 		},
 		"mode": {
-			"type": "string"
+			"type": "string",
+			"description": "Mode of this structure block",
+			"suggestions": [
+				"SAVE",
+				"LOAD",
+				"CORNER",
+				"DATA"
+			]
 		},
 		"name": {
-			"type": "string"
+			"type": "string",
+			"description": "Name of the structure"
 		},
 		"posX": {
-			"type": "int"
+			"type": "int",
+			"description": "Offset of the structure on the x axis "
 		},
 		"posY": {
-			"type": "int"
+			"type": "int",
+			"description": "Offset of the structure on the y axis "
 		},
 		"posZ": {
-			"type": "int"
+			"type": "int",
+			"description": "Offset of the structure on the z axis "
 		},
 		"powered": {
-			"type": "byte"
+			"type": "byte",
+			"description": "If the structure block is powered by redstone"
 		},
 		"rotation": {
-			"type": "string"
+			"type": "string",
+			"description": "Rotation of the structure",
+			"suggestions": [
+				"NONE",
+				"CLOCKWISE_90",
+				"COUNTERCLOCKWISE_90",
+				"CLOCKWISE_180"
+			]
 		},
 		"seed": {
-			"type": "long"
+			"type": "long",
+			"description": "The seed for the integerity"
 		},
 		"showair": {
-			"type": "byte"
+			"type": "byte",
+			"description": "Should the structure block show air"
 		},
 		"showboundingbox": {
-			"type": "byte"
+			"type": "byte",
+			"description": "Should the structure block show the bounding box"
 		},
 		"sizeX": {
-			"type": "int"
+			"type": "int",
+			"description": "Size of the structure on the x axis. (Length)"
 		},
 		"sizeY": {
-			"type": "int"
+			"type": "int",
+			"description": "Size of the structure on the y axis. (Height)"
 		},
 		"sizeZ": {
-			"type": "int"
+			"type": "int",
+			"description": "Size of the structure on the z axis. (Width)"
 		}
 	}
 }

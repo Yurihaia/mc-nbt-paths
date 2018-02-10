@@ -1,20 +1,36 @@
 {
 	"type": "compound",
 	"child_ref": [
-		"../ref/block-entity.json"
+		"../ref/block-entity.json",
+		"../ref/lockable.json"
 	],
 	"children": {
-		"Lock": {
-			"type": "string"
-		},
 		"Levels": {
-			"type": "int"
+			"type": "int",
+			"description": "The number of pyramid steps this beacon is on",
+			"suggestions": [
+				"0",
+				"1",
+				"2",
+				"3",
+				"4"
+			]
 		},
 		"Primary": {
-			"type": "int"
+			"type": "int",
+			"suggestions": [
+				{
+					"values": "../misc_group/effect_id.json"
+				}
+			]
 		},
 		"Secondary": {
-			"type": "int"
+			"type": "int",
+			"suggestions": [
+				{
+					"values": "../misc_group/effect_id.json"
+				}
+			]
 		}
 	}
 }

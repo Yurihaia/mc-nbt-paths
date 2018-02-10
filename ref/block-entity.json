@@ -2,16 +2,25 @@
 	"type": "compound",
 	"children": {
 		"id": {
-			"type": "string"
+			"type": "string",
+			"description": "The id of this block entity",
+			"suggestions": [
+				{
+					"values": "../roots/block_list.json"
+				}
+			]
 		},
 		"x": {
-			"type": "int"
+			"type": "int",
+			"description": "The x coordiate of this block entity"
 		},
 		"y": {
-			"type": "int"
+			"type": "int",
+			"description": "The y coordiate of this block entity"
 		},
 		"z": {
-			"type": "int"
+			"type": "int",
+			"description": "The z coordiate of this block entity"
 		}
 	}
 }

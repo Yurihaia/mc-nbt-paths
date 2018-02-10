@@ -31,7 +31,22 @@
 									"description": {
 										"type": "string"
 									}
-								}
+								},
+								"required": [
+									"value",
+									"description"
+								]
+							},
+							{
+								"type": "object",
+								"properties": {
+									"values": {
+										"type": "string"
+									}
+								},
+								"required": [
+									"values"
+								]
 							}
 						]
 					}

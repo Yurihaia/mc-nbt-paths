@@ -1,0 +1,9 @@
+{
+    "type": "compound",
+    "children": {
+        "CustomName": {
+            "type": "string",
+            "description": "A custom name given to this block entity"
+        }
+    }
+}

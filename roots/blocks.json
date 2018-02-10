@@ -4,11 +4,11 @@
 		"none": {
 			"type": "no-nbt"
 		},
-		"$../block/group/mob_head.json": {
-			"ref": "../ref/block-entity.json"
-		},
 		"$../block/group/shulker_box.json": {
 			"ref": "../block/chest.json"
+		},
+		"$../block/group/command_block.json": {
+			"ref": "../block/command_block.json"
 		},
 		"minecraft:banner": {
 			"ref": "../block/banner.json"
@@ -24,9 +24,6 @@
 		},
 		"minecraft:chest": {
 			"ref": "../block/chest.json"
-		},
-		"minecraft:command_block": {
-			"ref": "../block/command_block.json"
 		},
 		"minecraft:comparator": {
 			"ref": "../block/comparator.json"

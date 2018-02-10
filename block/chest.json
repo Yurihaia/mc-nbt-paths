@@ -2,14 +2,8 @@
 	"type": "compound",
 	"child_ref": [
 		"../ref/block-entity.json",
-		"../ref/inventory-holder.json"
-	],
-	"children": {
-		"CustomName": {
-			"type": "string"
-		},
-		"Lock": {
-			"type": "string"
-		}
-	}
+		"../ref/inventory-holder.json",
+		"../ref/nameable.json",
+		"../ref/lockable.json"
+	]
 }
