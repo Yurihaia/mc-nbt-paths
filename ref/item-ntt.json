@@ -7,7 +7,12 @@
 		},
 		"id": {
 			"type": "string",
-			"description": "ID of the item"
+			"description": "ID of the item",
+			"suggestions": [
+				{
+					"values": "../roots/item_list.json"
+				}
+			]
 		}
     }
 }
