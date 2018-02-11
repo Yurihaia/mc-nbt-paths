@@ -3,7 +3,7 @@
     "children": {
         "CustomName": {
             "type": "string",
-            "description": "A custom name given to this block entity"
+            "description": "A JSON text component custom name"
         }
     }
 }

@@ -8,16 +8,19 @@
 			"type": "list",
 			"item": {
 				"type": "double"
-			}
+			},
+			"description": "Direction and magnitude of motion. Does not slow down"
 		},
 		"life": {
-			"type": "int"
+			"type": "int",
+			"description": "How long has this been alive"
 		},
 		"power": {
 			"type": "list",
 			"item": {
 				"type": "double"
-			}
+			},
+			"description": "Same as direction but without resistance"
 		}
 	}
 }

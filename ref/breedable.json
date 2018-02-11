@@ -5,19 +5,24 @@
 	],
 	"children": {
 		"InLove": {
-			"type": "int"
+			"type": "int",
+			"description": "If the animal has just been fed"
 		},
 		"Age": {
-			"type": "int"
+			"type": "int",
+			"description": "The age of the animal"
 		},
 		"ForcedAge": {
-			"type": "int"
+			"type": "int",
+			"description": "The age of the animal. Will not increment"
 		},
 		"LoveCauseLeast": {
-			"type": "long"
+			"type": "long",
+			"description": "The UUIDLeast of the player you fed the animal"
 		},
 		"LoveCauseMost": {
-			"type": "long"
+			"type": "long",
+			"description": "The UUIDMost of the player you fed the animal"
 		}
 	}
 }

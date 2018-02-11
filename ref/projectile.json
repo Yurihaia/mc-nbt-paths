@@ -5,22 +5,28 @@
 	],
 	"children": {
 		"xTile": {
-			"type": "int"
+			"type": "int",
+			"description": "The x positions of the tile   the projectile is in"
 		},
 		"yTile": {
-			"type": "int"
+			"type": "int",
+			"description": "The y positions of the tile   the projectile is in"
 		},
 		"zTile": {
-			"type": "int"
+			"type": "int",
+			"description": "The z positions of the tile   the projectile is in"
 		},
 		"inBlockState": {
+			"description": "The block that the projectile is in",
 			"type": "compound",
 			"children": {
 				"Name": {
-					"type": "string"
+					"type": "string",
+					"description": "ID of the block"
 				},
 				"Properties": {
-					"type": "compound"
+					"type": "compound",
+					"description": "Block state name value pairs"
 				}
 			}
 		},

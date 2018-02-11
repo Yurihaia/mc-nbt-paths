@@ -5,22 +5,28 @@
 	],
 	"children": {
 		"Health": {
-			"type": "float"
+			"type": "float",
+			"description": "The health of the mob"
 		},
 		"AbsorptionAmount": {
-			"type": "float"
+			"type": "float",
+			"description": "How many absorbtion health the mob has"
 		},
 		"HurtTime": {
-			"type": "short"
+			"type": "short",
+			"description": "How may ticks since the mob was hurt"
 		},
 		"HurtByTimestamp": {
-			"type": "int"
+			"type": "int",
+			"description": "When was the mob last hurt"
 		},
 		"DeathTime": {
-			"type": "short"
+			"type": "short",
+			"description": "Number of ticks the mob has been dead for"
 		},
 		"FallFlying": {
-			"type": "byte"
+			"type": "byte",
+			"description": "If the mob should fly if wearing elytra"
 		},
 		"Attributes": {
 			"type": "list",
@@ -28,29 +34,65 @@
 				"type": "compound",
 				"children": {
 					"Name": {
-						"type": "string"
+						"type": "string",
+						"description": "Name of the attribute",
+						"suggestions": [
+							"generic.maxHealth",
+							"generic.followRange",
+							"generic.knockbackResistance",
+							"generic.movementSpeed",
+							"generic.attackDamage",
+							"generic.armor",
+							"generic.armorToughness",
+							"generic.attackSpeed",
+							"generic.luck",
+							"horse.jumpStrength",
+							"generic.flyingSpeed",
+							"zombie.spawnReinforcements"
+						]
 					},
 					"Base": {
-						"type": "double"
+						"type": "double",
+						"description": "Base value"
 					},
 					"Modifiers": {
+						"description": "A list of modifiers",
 						"type": "list",
 						"item": {
 							"type": "compound",
 							"children": {
 								"Name": {
+									"description": "An arbitrary name",
 									"type": "string"
 								},
 								"Amount": {
+									"description": "The amount of this modifier",
 									"type": "double"
 								},
 								"Operation": {
-									"type": "int"
+									"description": "The operation this modifier does to the base amount",
+									"type": "int",
+									"suggestions": [
+										{
+											"value": "0",
+											"description": "Adds \"Amount\" to the attribute"
+										},
+										{
+											"value": "1",
+											"description": "Multiplies the attribute by \"Amount\""
+										},
+										{
+											"value": "2",
+											"description": "Multiplies each modifier by \"Amount\""
+										}
+									]
 								},
 								"UUIDLeast": {
+									"description": "UUIDLeast of this modifier",
 									"type": "long"
 								},
 								"UUIDMost": {
+									"description": "UUIDMost of this modifier",
 									"type": "long"
 								}
 							}
@@ -63,73 +105,92 @@
 			"type": "list",
 			"item": {
 				"ref": "./potion-effect.json"
-			}
+			},
+			"description": "A list of effects on the mob"
 		},
 		"HandItems": {
 			"type": "list",
 			"item": {
 				"ref": "./inventory-item.json#"
-			}
+			},
+			"description": "Items in the main and off hand"
 		},
 		"ArmorItems": {
 			"type": "list",
 			"item": {
 				"ref": "./inventory-item.json#"
-			}
+			},
+			"description": "Armor items"
 		},
 		"HandDropChances": {
 			"type": "list",
 			"item": {
-				"ref": "./inventory-item.json#"
-			}
+				"type": "float"
+			},
+			"description": "Chance for item in hands to drop"
 		},
 		"ArmorDropChances": {
 			"type": "list",
 			"item": {
-				"ref": "./inventory-item.json#"
-			}
+				"type": "float"
+			},
+			"description": "Chance for item in armor slots to drop"
 		},
 		"DeathLootTable": {
-			"type": "string"
+			"type": "string",
+			"description": "Loot table to drop upon death"
 		},
 		"DeathLootTableSeed": {
-			"type": "long"
+			"type": "long",
+			"description": "Seed for random numbers in death loot table"
 		},
 		"CanPickUpLoot": {
-			"type": "byte"
+			"type": "byte",
+			"description": "If the mob can pick up items"
 		},
 		"NoAI": {
-			"type": "byte"
+			"type": "byte",
+			"description": "Should the mob not do any"
 		},
 		"PersistenceRequired": {
-			"type": "byte"
+			"type": "byte",
+			"description": "Should the mob be forced to never despawn"
 		},
 		"LeftHanded": {
-			"type": "byte"
+			"type": "byte",
+			"description": "Is the mob left handed"
 		},
 		"Team": {
-			"type": "string"
+			"type": "string",
+			"description": "The team to put the mob on when it spawns"
 		},
 		"Leashed": {
-			"type": "byte"
+			"type": "byte",
+			"description": "Is the mob leashed"
 		},
 		"Leash": {
+			"description": "The Leash destination",
 			"type": "compound",
 			"children": {
 				"UUIDMost": {
+					"description": "UUIDMost of the leash holder",
 					"type": "long"
 				},
 				"UUIDLeast": {
+					"description": "UUIDLeast of the leash holder",
 					"type": "long"
 				},
 				"X": {
-					"type": "int"
+					"type": "int",
+					"description": "X position of leash knot"
 				},
 				"Y": {
-					"type": "int"
+					"type": "int",
+					"description": "Y position of leash knot"
 				},
 				"Z": {
-					"type": "int"
+					"type": "int",
+					"description": "Z position of leash knot"
 				}
 			}
 		}

@@ -2,39 +2,57 @@
 	"type": "compound",
 	"children": {
 		"SpawnPotentials": {
+			"description": "List of potential entities to spawn",
 			"type": "list",
 			"item": {
 				"type": "compound",
 				"children": {
 					"Entity": {
-						"ref": "./entity.json"
+						"context": {
+							"ref_dict": [
+								{
+									"name": "id",
+									"nbt_ref": "./id"
+								}
+							],
+							"ref": "../roots/entities.json#%(id)s",
+							"default": "../roots/entities.json#none"
+						}
 					},
 					"Weight": {
-						"type": "int"
+						"type": "int",
+						"description": "Chance for the entity to be spawned"
 					}
 				}
 			}
 		},
 		"SpawnCount": {
-			"type": "short"
+			"type": "short",
+			"description": "How many entities to spawn"
 		},
 		"SpawnRange": {
-			"type": "short"
+			"type": "short",
+			"description": "Radius to spawn mobs"
 		},
 		"Delay": {
-			"type": "short"
+			"type": "short",
+			"description": "Delay between spawning mobs"
 		},
 		"MinSpawnDelay": {
-			"type": "short"
+			"type": "short",
+			"description": "Minimum random delay"
 		},
 		"MaxSpawnDelay": {
-			"type": "short"
+			"type": "short",
+			"description": "Maximum random delay"
 		},
 		"MaxNearbyEntities": {
-			"type": "short"
+			"type": "short",
+			"description": "Maximum nearby entites"
 		},
 		"RequiredPlayerRange": {
-			"type": "short"
+			"type": "short",
+			"description": "Range a player has to be in"
 		}
 	}
 }

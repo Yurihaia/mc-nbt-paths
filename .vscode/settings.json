@@ -6,7 +6,8 @@
                 "/entity/*.json",
                 "/item/*.json",
                 "/ref/*.json",
-                "/roots/*.json"
+                "/roots/*.json",
+                "/misc_group/*.json"
             ],
             "url": "/schema/schema.json"
         }

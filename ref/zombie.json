@@ -5,10 +5,12 @@
 	],
 	"children": {
 		"IsBaby": {
-			"type": "byte"
+			"type": "byte",
+			"description": "If the zombie is a baby zombie"
 		},
 		"CanBreakDoors": {
-			"type": "byte"
+			"type": "byte",
+			"description": "If the zombie can break doors"
 		}
 	}
 }

@@ -5,13 +5,16 @@
 	],
 	"children": {
 		"owner": {
+			"description": "UUID of the thrower",
 			"type": "compound",
 			"children": {
 				"M": {
-					"type": "long"
+					"type": "long",
+					"description": "UUIDMost of the thrower"
 				},
 				"L": {
-					"type": "long"
+					"type": "long",
+					"description": "UUIDLeast of the thrower"
 				}
 			}
 		}

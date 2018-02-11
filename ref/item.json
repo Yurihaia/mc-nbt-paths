@@ -5,6 +5,7 @@
 	],
 	"children": {
 		"tag": {
+			"description": "The NBT of the item",
 			"context": {
 				"ref_dict": [
 					{

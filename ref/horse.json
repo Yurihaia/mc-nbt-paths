@@ -5,25 +5,32 @@
 	],
 	"children": {
 		"Bred": {
-			"type": "byte"
+			"type": "byte",
+			"description": "Was this bred by a player"
 		},
 		"EatingHaystack": {
-			"type": "byte"
+			"type": "byte",
+			"description": "Is it eating a haystack"
 		},
 		"Tame": {
-			"type": "byte"
+			"type": "byte",
+			"description": "Has a player tamed it"
 		},
 		"Temper": {
-			"type": "int"
+			"type": "int",
+			"description": "How hard it is to tame. Higher values are easier"
 		},
 		"OwnerUUID": {
-			"type": "string"
+			"type": "string",
+			"description": "UUID of the owner"
 		},
 		"ArmorItem": {
-			"ref": "./inventory-item.json"
+			"ref": "./inventory-item.json",
+			"description": "Horse armor item"
 		},
 		"SaddleItem": {
-			"ref": "./inventory-item.json"
+			"ref": "./inventory-item.json",
+			"description": "Saddle item"
 		}
 	}
 }

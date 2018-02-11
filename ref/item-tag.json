@@ -2,11 +2,14 @@
 	"type": "compound",
 	"children": {
 		"AttributeModifiers": {
+			"description": "List of modifiers to an entities attributes",
 			"type": "list",
 			"item": {
+				"description": "An individual modifier",
 				"type": "compound",
 				"children": {
 					"AttributeName": {
+						"description": "The name of the attribute",
 						"type": "string",
 						"suggestions": [
 							"generic.maxHealth",
@@ -24,9 +27,11 @@
 						]
 					},
 					"Name": {
+						"description": "An arbitrary name",
 						"type": "string"
 					},
 					"Slot": {
+						"description": "The slot that this modifier takes effect in",
 						"type": "string",
 						"suggestions": [
 							"mainhand",
@@ -38,9 +43,11 @@
 						]
 					},
 					"Amount": {
+						"description": "The amount of this modifier",
 						"type": "double"
 					},
 					"Operation": {
+						"description": "The operation this modifier does to the base amount",
 						"type": "int",
 						"suggestions": [
 							{
@@ -58,24 +65,30 @@
 						]
 					},
 					"UUIDLeast": {
+						"description": "UUIDLeast of this modifier",
 						"type": "long"
 					},
 					"UUIDMost": {
+						"description": "UUIDMost of this modifier",
 						"type": "long"
 					}
 				}
 			}
 		},
 		"display": {
+			"description": "Dsiplay properties for the item",
 			"type": "compound",
 			"children": {
 				"Name": {
+					"description": "A JSON text component for the items name",
 					"type": "string"
 				},
 				"color": {
+					"description": "The color of leather armor. Still exists on other items",
 					"type": "int"
 				},
 				"Lore": {
+					"description": "Lines of lore. Each line is a JSON text component",
 					"type": "list",
 					"item": {
 						"type": "string"
@@ -84,15 +97,23 @@
 			}
 		},
 		"ench": {
+			"description": "A list of enchantments",
 			"type": "list",
 			"item": {
 				"type": "compound",
 				"children": {
 					"id": {
-						"type": "byte"
+						"description": "The ID of the enchantment",
+						"type": "byte",
+						"suggestions": [
+							{
+								"values": "../misc_group/enchant.json"
+							}
+						]
 					},
 					"lvl": {
-						"type": "short"
+						"type": "short",
+						"description": "Level of the enchantment"
 					}
 				}
 			}

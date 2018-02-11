@@ -1,0 +1,122 @@
+[
+	{
+		"value": "0",
+		"description": "Protection"
+	},
+	{
+		"value": "1",
+		"description": "Fire Protection"
+	},
+	{
+		"value": "2",
+		"description": "Feather Falling"
+	},
+	{
+		"value": "3",
+		"description": "Blast Protection"
+	},
+	{
+		"value": "4",
+		"description": "Projectile Protection"
+	},
+	{
+		"value": "5",
+		"description": "Respiration"
+	},
+	{
+		"value": "6",
+		"description": "Aqua Affinity"
+	},
+	{
+		"value": "7",
+		"description": "Thorns"
+	},
+	{
+		"value": "8",
+		"description": "Depth Strider"
+	},
+	{
+		"value": "9",
+		"description": "Frost Walker"
+	},
+	{
+		"value": "10",
+		"description": "Curse of Binding"
+	},
+	{
+		"value": "16",
+		"description": "Sharpness"
+	},
+	{
+		"value": "17",
+		"description": "Smite"
+	},
+	{
+		"value": "18",
+		"description": "Bane of Arthropods"
+	},
+	{
+		"value": "19",
+		"description": "Knockback"
+	},
+	{
+		"value": "20",
+		"description": "Fire Aspect"
+	},
+	{
+		"value": "21",
+		"description": "Looting"
+	},
+	{
+		"value": "22",
+		"description": "Sweeping Edge"
+	},
+	{
+		"value": "32",
+		"description": "Efficiency"
+	},
+	{
+		"value": "33",
+		"description": "Silk Touch"
+	},
+	{
+		"value": "34",
+		"description": "Unbreaking"
+	},
+	{
+		"value": "35",
+		"description": "Fortune"
+	},
+	{
+		"value": "48",
+		"description": "Power"
+	},
+	{
+		"value": "49",
+		"description": "Punch"
+	},
+	{
+		"value": "50",
+		"description": "Flame"
+	},
+	{
+		"value": "51",
+		"description": "Infinity"
+	},
+	{
+		"value": "61",
+		"description": "Luck of the Sea"
+	},
+	{
+		"value": "62",
+		"description": "Lure"
+	},
+	{
+		"value": "70",
+		"description": "Mending"
+	},
+	{
+		"value": "71",
+		"description": "Curse of Vanishing"
+	}
+]

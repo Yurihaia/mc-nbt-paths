@@ -5,13 +5,16 @@
 			"type": "list",
 			"item": {
 				"ref": "./inventory-item.json"
-			}
+			},
+			"description": "Items in this container"
 		},
 		"LootTable": {
-			"type": "string"
+			"type": "string",
+			"description": "Loot table that generates the contents"
 		},
 		"LootTableSeed": {
-			"type": "long"
+			"type": "long",
+			"description": "Seed for random numbers in the loot table"
 		}
 	}
 }
