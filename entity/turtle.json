@@ -1,0 +1,36 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"../ref/breedable.json"
+	],
+	"children": {
+        "HomePosX": {
+            "type": "int",
+            "description": "The x coord where the turtle was born"
+        },
+        "HomePosY": {
+            "type": "int",
+            "description": "The y coord where the turtle was born"
+        },
+        "HomePosZ": {
+            "type": "int",
+            "description": "The z coord where the turtle was born"
+        },
+        "TravelPosX": {
+            "type": "int",
+            "description": "The x coord where the turtle is going to"
+        },
+        "TravelPosY": {
+            "type": "int",
+            "description": "The y coord where the turtle is going to"
+        },
+        "TravelPosZ": {
+            "type": "int",
+            "description": "The z coord where the turtle is going to"
+        },
+        "HasEgg": {
+            "type": "byte",
+            "description": "Does the turtle have layed eggs"
+        }
+	}
+}

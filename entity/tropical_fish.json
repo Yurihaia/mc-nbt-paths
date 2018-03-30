@@ -1,0 +1,12 @@
+{
+    "type": "compound",
+    "child_ref": [
+        "../ref/mob.json"
+    ],
+    "children": {
+        "Variant": {
+            "type": "int",
+            "description": "Design of the fish"
+        }
+    }
+}

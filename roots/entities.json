@@ -195,6 +195,9 @@
 		},
 		"minecraft:shulker_bullet": {
 			"ref": "../entity/shulker_bullet.json"
+		},
+		"minecraft:turtle": {
+			"ref": "../entity/turtle.json"
 		}
 	}
 }
