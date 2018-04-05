@@ -10,7 +10,9 @@
 			"description": "ID of the item",
 			"suggestions": [
 				{
-					"values": "../roots/item_list.json"
+					"function": {
+						"id": "itemList"
+					}
 				}
 			]
 		}

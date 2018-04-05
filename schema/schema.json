@@ -66,6 +66,17 @@
 								"required": [
 									"values"
 								]
+							},
+							{
+								"type": "object",
+								"properties": {
+									"function": {
+										"$ref": "#/definitions/function"
+									}
+								},
+								"required": [
+									"function"
+								]
 							}
 						]
 					}
@@ -95,18 +106,7 @@
 				{
 					"properties": {
 						"function": {
-							"type": "object",
-							"properties": {
-								"id": {
-									"type": "string"
-								},
-								"params": {
-									"type": "object"
-								}
-							},
-							"required": [
-								"id"
-							]
+							"$ref": "#/definitions/function"
 						}
 					},
 					"required": ["function"]
@@ -176,6 +176,20 @@
 					"$ref": "#/definitions/nest_node"
 				}
 			}
+		},
+		"function": {
+			"type": "object",
+			"properties": {
+				"id": {
+					"type": "string"
+				},
+				"params": {
+					"type": "object"
+				}
+			},
+			"required": [
+				"id"
+			]
 		}
 	}
 }
