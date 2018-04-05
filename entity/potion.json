@@ -8,11 +8,11 @@
 			"description": "The potion this thrown potion represents",
 			"type": "compound",
 			"child_ref": [
-				"../ref/item-ntt.json"
+				"../ref/item_ntt.json"
 			],
 			"children": {
 				"tag": {
-					"ref": "../item/potion-base.json"
+					"ref": "../item/potion_base.json"
 				}
 			}
 		}

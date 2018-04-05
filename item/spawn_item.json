@@ -1,20 +1,18 @@
 {
     "type": "compound",
     "child_ref": [
-        "../ref/item-tag.json"
+        "../ref/item_tag.json"
     ],
     "children": {
         "EntityTag": {
             "description": "The NBT of the spawned entity",
-            "context": {
-                "ref_dict": [
-                    {
-                        "name": "id",
-                        "nbt_ref": "./id"
-                    }
-                ],
-                "ref": "../roots/entities.json#%(id)s",
-                "default": "../roots/entities.json#none"
+            "function": {
+                "id": "insertStringNBT",
+                "params": {
+                    "ref": "../roots/entities.json#%s",
+                    "default": "../roots/entities.json#none",
+                    "tag_path": "./id"
+                }
             }
         }
     }

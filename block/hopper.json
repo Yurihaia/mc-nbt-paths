@@ -1,8 +1,8 @@
 {
 	"type": "compound",
 	"child_ref": [
-		"../ref/block-entity.json",
-		"../ref/inventory-holder.json",
+		"../ref/block_entity.json",
+		"../ref/inventory_holder.json",
 		"../block/chest.json"
 	],
 	"children": {

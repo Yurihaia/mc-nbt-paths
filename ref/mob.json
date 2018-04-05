@@ -104,21 +104,21 @@
 		"ActiveEffects": {
 			"type": "list",
 			"item": {
-				"ref": "./potion-effect.json"
+				"ref": "./poition_effect.json"
 			},
 			"description": "A list of effects on the mob"
 		},
 		"HandItems": {
 			"type": "list",
 			"item": {
-				"ref": "./inventory-item.json#"
+				"ref": "./inventory_item.json#"
 			},
 			"description": "Items in the main and off hand"
 		},
 		"ArmorItems": {
 			"type": "list",
 			"item": {
-				"ref": "./inventory-item.json#"
+				"ref": "./inventory_item.json#"
 			},
 			"description": "Armor items"
 		},

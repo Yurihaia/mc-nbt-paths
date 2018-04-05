@@ -11,7 +11,7 @@
 		"Items": {
 			"type": "list",
 			"item": {
-				"ref": "./inventory-item.json"
+				"ref": "./inventory_item.json"
 			},
 			"description": "Items in the horse chest"
 		}

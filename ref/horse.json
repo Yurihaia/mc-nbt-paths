@@ -25,11 +25,11 @@
 			"description": "UUID of the owner"
 		},
 		"ArmorItem": {
-			"ref": "./inventory-item.json",
+			"ref": "./inventory_item.json",
 			"description": "Horse armor item"
 		},
 		"SaddleItem": {
-			"ref": "./inventory-item.json",
+			"ref": "./inventory_item.json",
 			"description": "Saddle item"
 		}
 	}

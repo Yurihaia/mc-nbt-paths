@@ -17,7 +17,7 @@
 			"ref": "../block/beacon.json"
 		},
 		"minecraft:bed": {
-			"ref": "../ref/block-entity.json"
+			"ref": "../ref/block_entity.json"
 		},
 		"minecraft:brewing_stand": {
 			"ref": "../block/brewing_stand.json"
@@ -29,7 +29,7 @@
 			"ref": "../block/comparator.json"
 		},
 		"minecraft:daylight_detector": {
-			"ref": "../ref/block-entity.json"
+			"ref": "../ref/block_entity.json"
 		},
 		"minecraft:dispenser": {
 			"ref": "../block/chest.json"
@@ -44,10 +44,10 @@
 			"ref": "../block/end_gateway.json"
 		},
 		"minecraft:end_portal": {
-			"ref": "../ref/block-entity.json"
+			"ref": "../ref/block_entity.json"
 		},
 		"minecraft:ender_chest": {
-			"ref": "../ref/block-entity.json"
+			"ref": "../ref/block_entity.json"
 		},
 		"minecraft:furnace": {
 			"ref": "../block/furnace.json"

@@ -21,7 +21,7 @@
 			"description": "The facing direction of the item frame"
 		},
 		"Item": {
-			"ref": "../ref/inventory-item.json",
+			"ref": "../ref/inventory_item.json",
 			"description": "The item in the item frame"
 		},
 		"ItemDropChance": {

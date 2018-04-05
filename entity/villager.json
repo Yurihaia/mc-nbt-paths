@@ -38,16 +38,14 @@
 			"type": "int"
 		},
 		"Career": {
-			"context": {
-				"ref_dict": [
-					{
-						"name": "type",
-						"nbt_ref": "./Profession"
-					}
-				],
-				"ref": "./villager_careers/%(type)s.json",
-				"default": "./villager_careers/none.json"
-			},
+			"function": {
+                "id": "insertStringNBT",
+                "params": {
+                    "ref": "./villager_careers/%s.json",
+                    "default": "./villager_careers/none.json",
+                    "tag_path": "./Profession"
+                }
+            },
 			"description": "Which careers the villager has"
 		},
 		"CareerLevel": {
@@ -61,7 +59,7 @@
 		"Inventory": {
 			"type": "list",
 			"item": {
-				"ref": "./inventory-item.json"
+				"ref": "./inventory_item.json"
 			},
 			"description": "The items a villager has in their inventory"
 		},
@@ -89,15 +87,15 @@
 								"description": "How many times this trade has been used"
 							},
 							"buy": {
-								"ref": "../ref/inventory-item.json",
+								"ref": "../ref/inventory_item.json",
 								"description": "The first item the villager is buying"
 							},
 							"buyB": {
-								"ref": "../ref/inventory-item.json",
+								"ref": "../ref/inventory_item.json",
 								"description": "The second item the villager is buying"
 							},
 							"sell": {
-								"ref": "../ref/inventory-item.json",
+								"ref": "../ref/inventory_item.json",
 								"description": "The item the villager is selling"
 							}
 						}

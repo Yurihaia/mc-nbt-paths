@@ -2,6 +2,6 @@
 	"type": "compound",
 	"child_ref": [
 		"./minecart.json",
-		"../ref/inventory-holder.json"
+		"../ref/inventory_holder.json"
 	]
 }

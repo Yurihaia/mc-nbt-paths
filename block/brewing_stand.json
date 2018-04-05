@@ -1,7 +1,7 @@
 {
 	"type": "compound",
 	"child_ref": [
-		"../ref/block-entity.json",
+		"../ref/block_entity.json",
 		"../ref/nameable.json",
 		"../ref/lockable.json"
 	],
@@ -9,7 +9,7 @@
 		"Items": {
 			"type": "list",
 			"item": {
-				"ref": "../ref/inventory-item.json"
+				"ref": "../ref/inventory_item.json"
 			},
 			"description": "Items in the brewing stand"
 		},

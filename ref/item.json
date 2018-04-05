@@ -1,21 +1,19 @@
 {
 	"type": "compound",
 	"child_ref": [
-		"./item-ntt.json"
+		"./item_ntt.json"
 	],
 	"children": {
 		"tag": {
 			"description": "The NBT of the item",
-			"context": {
-				"ref_dict": [
-					{
-						"name": "id",
-						"nbt_ref": "./id"
-					}
-				],
-				"ref": "../roots/items.json#%(id)s",
-				"default": "../roots/items.json#none"
-			}
+			"function": {
+                "id": "insertStringNBT",
+                "params": {
+                    "ref": "../roots/items.json#%s",
+                    "default": "../roots/items.json#none",
+                    "tag_path": "./id"
+                }
+            }
 		}
 	}
 }

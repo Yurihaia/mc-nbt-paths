@@ -1,7 +1,0 @@
-{
-    "type": "compound",
-    "child_ref": [
-        "../ref/item-tag.json",
-        "../ref/potion-effect.json"
-    ]
-}

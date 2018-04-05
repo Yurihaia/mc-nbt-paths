@@ -94,64 +94,22 @@
 				},
 				{
 					"properties": {
-						"context": {
+						"function": {
 							"type": "object",
 							"properties": {
-								"ref_dict": {
-									"type": "array",
-									"items": {
-										"properties": {
-											"name": {
-												"type": "string"
-											}
-										},
-										"required": [
-											"name"
-										],
-										"oneOf": [
-											{
-												"type": "object",
-												"properties": {
-													"nbt_ref": {
-														"type": "string"
-													}
-												},
-												"required": [
-													"nbt_ref"
-												]
-											},
-											{
-												"type": "object",
-												"properties": {
-													"info_name": {
-														"type": "string",
-														"enum": [
-															"type", "id"
-														]
-													}
-												},
-												"required": [
-													"info_name"
-												]
-											}
-										]
-									}
-								},
-								"ref": {
+								"id": {
 									"type": "string"
 								},
-								"default": {
-									"type": "string"
+								"params": {
+									"type": "object"
 								}
 							},
 							"required": [
-								"ref_dict",
-								"ref",
-								"default"
+								"id"
 							]
 						}
 					},
-					"required": ["context"]
+					"required": ["function"]
 				}
 			]
 		},

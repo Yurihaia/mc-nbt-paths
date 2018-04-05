@@ -8,15 +8,13 @@
 				"type": "compound",
 				"children": {
 					"Entity": {
-						"context": {
-							"ref_dict": [
-								{
-									"name": "id",
-									"nbt_ref": "./id"
-								}
-							],
-							"ref": "../roots/entities.json#%(id)s",
-							"default": "../roots/entities.json#none"
+						"function": {
+							"id": "insertStringNBT",
+							"params": {
+								"ref": "../roots/entities.json#%s",
+								"default": "../roots/entities.json#none",
+								"tag_path": "./id"
+							}
 						}
 					},
 					"Weight": {

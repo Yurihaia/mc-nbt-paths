@@ -1,7 +1,7 @@
 {
 	"type": "compound",
 	"child_ref": [
-		"../ref/block-entity.json"
+		"../ref/block_entity.json"
 	],
 	"children": {
 		"RecordItem": {

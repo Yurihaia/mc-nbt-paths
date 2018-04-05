@@ -35,7 +35,7 @@
 		"CustomPotionEffects": {
 			"type": "list",
 			"item": {
-				"ref": "../ref/potion-effect.json"
+				"ref": "../ref/poition_effect.json"
 			},
 			"description": "List of potion effects to give to the entity who got hit"
 		}

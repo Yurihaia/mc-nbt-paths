@@ -1,7 +1,7 @@
 {
     "type": "compound",
     "child_ref": [
-        "./block-item.json"
+        "./block_item.json"
     ],
     "children": {
         "SkullOwner": {

@@ -2,19 +2,19 @@
 	"type": "root",
 	"children": {
 		"none": {
-			"ref": "../ref/item-tag.json"
+			"ref": "../ref/item_tag.json"
 		},
 		"$../item/group/generic.json": {
-			"ref": "../ref/item-tag.json"
+			"ref": "../ref/item_tag.json"
 		},
 		"$../item/group/breakable.json": {
 			"ref": "../item/breakable.json"
 		},
 		"$../item/group/block_item.json": {
-			"ref": "../item/block-item.json"
+			"ref": "../item/block_item.json"
 		},
 		"$../item/group/potion.json": {
-			"ref": "../item/potion-base.json"
+			"ref": "../item/potion_base.json"
 		},
 		"minecraft:writable_book": {
 			"ref": "../item/writable_book.json"

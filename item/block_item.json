@@ -1,7 +1,7 @@
 {
     "type": "compound",
     "child_ref": [
-        "../ref/item-tag.json"
+        "../ref/item_tag.json"
     ],
     "children": {
         "CanPlaceOn": {
@@ -13,15 +13,13 @@
         },
         "BlockEntityTag": {
             "description": "NBT data when placed",
-            "context": {
-                "ref_dict": [
-                    {
-                        "name": "id",
-                        "info_name": "id"
-                    }
-                ],
-                "ref": "../roots/blocks.json#%(id)s",
-                "default": "../roots/blocks.json#none"
+            "function": {
+                "id": "insertStringNBT",
+                "params": {
+                    "ref": "../roots/blocks.json#%s",
+                    "default": "../roots/blocks.json#none",
+                    "tag_path": "./id"
+                }
             }
         }
     }
