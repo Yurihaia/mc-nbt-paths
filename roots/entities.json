@@ -198,6 +198,18 @@
 		},
 		"minecraft:turtle": {
 			"ref": "../entity/turtle.json"
+		},
+		"minecraft:phantom": {
+			"ref": "../entity/phantom.json"
+		},
+		"minecraft:trident": {
+			"ref": "../entity/trident.json"
+		},
+		"minecraft:cod_fish": {
+			"ref": "../entity/fish.json"
+		},
+		"minecraft:salmon_fish": {
+			"ref": "../entity/fish.json"
 		}
 	}
 }
