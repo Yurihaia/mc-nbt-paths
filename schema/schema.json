@@ -90,6 +90,9 @@
 					"$ref": "#/definitions/noProp"
 				},
 				{
+					"$ref": "#/definitions/rootProp"
+				},
+				{
 					"$ref": "#/definitions/compoundProp"
 				},
 				{
@@ -135,6 +138,26 @@
 				}
 			}
 		},
+		"rootProp": {
+			"required": [
+				"type"
+			],
+			"properties": {
+				"type": {
+					"enum": [
+						"root"
+					]
+				},
+				"children": {
+					"type": "object",
+					"patternProperties": {
+						".*": {
+							"$ref": "#/definitions/nest_node"
+						}
+					}
+				}
+			}
+		},
 		"compoundProp": {
 			"required": [
 				"type"
@@ -142,7 +165,6 @@
 			"properties": {
 				"type": {
 					"enum": [
-						"root",
 						"compound"
 					]
 				},
