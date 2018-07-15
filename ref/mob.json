@@ -1,8 +1,6 @@
 {
 	"type": "compound",
-	"child_ref": [
-		"./entity.json"
-	],
+	"child_ref": ["./entity.json"],
 	"children": {
 		"Health": {
 			"type": "float",
@@ -66,24 +64,29 @@
 									"type": "string"
 								},
 								"Amount": {
-									"description": "The amount of this modifier",
+									"description":
+										"The amount of this modifier",
 									"type": "double"
 								},
 								"Operation": {
-									"description": "The operation this modifier does to the base amount",
+									"description":
+										"The operation this modifier does to the base amount",
 									"type": "int",
 									"suggestions": [
 										{
 											"value": "0",
-											"description": "Adds \"Amount\" to the attribute"
+											"description":
+												"Adds \"Amount\" to the attribute"
 										},
 										{
 											"value": "1",
-											"description": "Multiplies the attribute by \"Amount\""
+											"description":
+												"Multiplies the attribute by \"Amount\""
 										},
 										{
 											"value": "2",
-											"description": "Multiplies each modifier by \"Amount\""
+											"description":
+												"Multiplies each modifier by \"Amount\""
 										}
 									]
 								},

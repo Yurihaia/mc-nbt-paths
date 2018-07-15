@@ -18,10 +18,7 @@
 								"type": "string"
 							}
 						},
-						"required": [
-							"value",
-							"description"
-						]
+						"required": ["value", "description"]
 					}
 				]
 			}
@@ -51,10 +48,7 @@
 										"type": "string"
 									}
 								},
-								"required": [
-									"value",
-									"description"
-								]
+								"required": ["value", "description"]
 							},
 							{
 								"type": "object",
@@ -63,9 +57,7 @@
 										"type": "string"
 									}
 								},
-								"required": [
-									"values"
-								]
+								"required": ["values"]
 							},
 							{
 								"type": "object",
@@ -74,9 +66,7 @@
 										"$ref": "#/definitions/function"
 									}
 								},
-								"required": [
-									"function"
-								]
+								"required": ["function"]
 							}
 						]
 					}
@@ -85,7 +75,7 @@
 					"type": "string"
 				}
 			},
-			"oneOf": [	
+			"oneOf": [
 				{
 					"$ref": "#/definitions/noProp"
 				},
@@ -117,9 +107,7 @@
 			]
 		},
 		"noProp": {
-			"required": [
-				"type"
-			],
+			"required": ["type"],
 			"properties": {
 				"type": {
 					"enum": [
@@ -139,14 +127,10 @@
 			}
 		},
 		"rootProp": {
-			"required": [
-				"type"
-			],
+			"required": ["type"],
 			"properties": {
 				"type": {
-					"enum": [
-						"root"
-					]
+					"enum": ["root"]
 				},
 				"children": {
 					"type": "object",
@@ -159,14 +143,10 @@
 			}
 		},
 		"compoundProp": {
-			"required": [
-				"type"
-			],
+			"required": ["type"],
 			"properties": {
 				"type": {
-					"enum": [
-						"compound"
-					]
+					"enum": ["compound"]
 				},
 				"children": {
 					"type": "object",
@@ -185,14 +165,10 @@
 			}
 		},
 		"listProp": {
-			"required": [
-				"type"
-			],
+			"required": ["type"],
 			"properties": {
 				"type": {
-					"enum": [
-						"list"
-					]
+					"enum": ["list"]
 				},
 				"item": {
 					"$ref": "#/definitions/nest_node"
@@ -209,9 +185,7 @@
 					"type": "object"
 				}
 			},
-			"required": [
-				"id"
-			]
+			"required": ["id"]
 		}
 	}
 }

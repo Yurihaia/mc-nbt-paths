@@ -1,8 +1,6 @@
 {
 	"type": "compound",
-	"child_ref": [
-		"./projectile.json"
-	],
+	"child_ref": ["./projectile.json"],
 	"children": {
 		"owner": {
 			"description": "UUID of the thrower",

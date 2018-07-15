@@ -1,46 +1,46 @@
 {
-    "type": "compound",
-    "child_ref": [
-        "./block_item.json"
-    ],
-    "children": {
-        "SkullOwner": {
-            "description": "The player whose head this is",
-            "type": "compound",
-            "children": {
-                "Id": {
-                    "description": "UUID of the player",
-                    "type": "string"
-                },
-                "Name": {
-                    "description": "Name of the player",
-                    "type": "string"
-                },
-                "Properties": {
-                    "description": "Properties of the head",
-                    "type": "compound",
-                    "children": {
-                        "textures": {
-                            "description": "A list of textures",
-                            "type": "list",
-                            "item": {
-                                "description": "A texture",
-                                "type": "compound",
-                                "children": {
-                                    "Signiature": {
-                                        "description": "Signiature of the texture",
-                                        "type": "string"
-                                    },
-                                    "Value": {
-                                        "description": "Base64 encdoed JSON object",
-                                        "type": "string"
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
+	"type": "compound",
+	"child_ref": ["./block_item.json"],
+	"children": {
+		"SkullOwner": {
+			"description": "The player whose head this is",
+			"type": "compound",
+			"children": {
+				"Id": {
+					"description": "UUID of the player",
+					"type": "string"
+				},
+				"Name": {
+					"description": "Name of the player",
+					"type": "string"
+				},
+				"Properties": {
+					"description": "Properties of the head",
+					"type": "compound",
+					"children": {
+						"textures": {
+							"description": "A list of textures",
+							"type": "list",
+							"item": {
+								"description": "A texture",
+								"type": "compound",
+								"children": {
+									"Signiature": {
+										"description":
+											"Signiature of the texture",
+										"type": "string"
+									},
+									"Value": {
+										"description":
+											"Base64 encdoed JSON object",
+										"type": "string"
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 }

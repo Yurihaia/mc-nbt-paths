@@ -1,8 +1,6 @@
 {
 	"type": "compound",
-	"child_ref": [
-		"../ref/projectile.json"
-	],
+	"child_ref": ["../ref/projectile.json"],
 	"children": {
 		"pickup": {
 			"type": "byte",
@@ -14,7 +12,8 @@
 		},
 		"life": {
 			"type": "short",
-			"description": "How many ticks the arrow has exsisted without moving"
+			"description":
+				"How many ticks the arrow has exsisted without moving"
 		},
 		"damage": {
 			"type": "double",
@@ -37,7 +36,8 @@
 			"item": {
 				"ref": "../ref/poition_effect.json"
 			},
-			"description": "List of potion effects to give to the entity who got hit"
+			"description":
+				"List of potion effects to give to the entity who got hit"
 		}
 	}
 }

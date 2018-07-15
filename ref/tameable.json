@@ -1,8 +1,6 @@
 {
 	"type": "compound",
-	"child_ref": [
-		"./mob.json"
-	],
+	"child_ref": ["./mob.json"],
 	"children": {
 		"OwnerUUID": {
 			"type": "string",

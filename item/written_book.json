@@ -1,9 +1,6 @@
 {
 	"type": "compound",
-	"child_ref": [
-		"../ref/item_tag.json",
-		"./writable_book.json"
-	],
+	"child_ref": ["../ref/item_tag.json", "./writable_book.json"],
 	"children": {
 		"author": {
 			"type": "string",
@@ -37,7 +34,8 @@
 		},
 		"resolved": {
 			"type": "byte",
-			"description": "If the book has been opened and the json selectors have been solidified"
+			"description":
+				"If the book has been opened and the json selectors have been solidified"
 		}
 	}
 }

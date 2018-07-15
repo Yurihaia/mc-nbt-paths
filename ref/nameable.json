@@ -1,9 +1,9 @@
 {
-    "type": "compound",
-    "children": {
-        "CustomName": {
-            "type": "string",
-            "description": "A JSON text component custom name"
-        }
-    }
+	"type": "compound",
+	"children": {
+		"CustomName": {
+			"type": "string",
+			"description": "A JSON text component custom name"
+		}
+	}
 }

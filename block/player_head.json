@@ -1,8 +1,6 @@
 {
 	"type": "compound",
-	"child_ref": [
-		"../ref/block_entity.json"
-	],
+	"child_ref": ["../ref/block_entity.json"],
 	"children": {
 		"Owner": {
 			"description": "The skin displayed by this head",
@@ -28,11 +26,13 @@
 								"children": {
 									"Value": {
 										"type": "string",
-										"description": "Base64 encoded JSON object of the texture"
+										"description":
+											"Base64 encoded JSON object of the texture"
 									},
 									"Signature": {
 										"type": "string",
-										"description": "The signiature of this skull"
+										"description":
+											"The signiature of this skull"
 									}
 								}
 							}

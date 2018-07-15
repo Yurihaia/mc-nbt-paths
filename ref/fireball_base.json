@@ -1,15 +1,14 @@
 {
 	"type": "compound",
-	"child_ref": [
-		"../ref/entity.json"
-	],
+	"child_ref": ["../ref/entity.json"],
 	"children": {
 		"direction": {
 			"type": "list",
 			"item": {
 				"type": "double"
 			},
-			"description": "Direction and magnitude of motion. Does not slow down"
+			"description":
+				"Direction and magnitude of motion. Does not slow down"
 		},
 		"life": {
 			"type": "int",

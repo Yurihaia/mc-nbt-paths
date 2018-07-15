@@ -1,8 +1,6 @@
 {
 	"type": "compound",
-	"child_ref": [
-		"../ref/breedable.json"
-	],
+	"child_ref": ["../ref/breedable.json"],
 	"children": {
 		"Profession": {
 			"type": "int",
@@ -39,13 +37,13 @@
 		},
 		"Career": {
 			"function": {
-                "id": "insertStringNBT",
-                "params": {
-                    "ref": "./villager_careers/%s.json",
-                    "default": "./villager_careers/none.json",
-                    "tag_path": "./Profession"
-                }
-            },
+				"id": "insertStringNBT",
+				"params": {
+					"ref": "./villager_careers/%s.json",
+					"default": "./villager_careers/none.json",
+					"tag_path": "./Profession"
+				}
+			},
 			"description": "Which careers the villager has"
 		},
 		"CareerLevel": {
@@ -76,27 +74,33 @@
 						"children": {
 							"rewardExp": {
 								"type": "byte",
-								"description": "How much XP is rewarded to the player"
+								"description":
+									"How much XP is rewarded to the player"
 							},
 							"maxUses": {
 								"type": "int",
-								"description": "How many times this trade can be used"
+								"description":
+									"How many times this trade can be used"
 							},
 							"uses": {
 								"type": "int",
-								"description": "How many times this trade has been used"
+								"description":
+									"How many times this trade has been used"
 							},
 							"buy": {
 								"ref": "../ref/inventory_item.json",
-								"description": "The first item the villager is buying"
+								"description":
+									"The first item the villager is buying"
 							},
 							"buyB": {
 								"ref": "../ref/inventory_item.json",
-								"description": "The second item the villager is buying"
+								"description":
+									"The second item the villager is buying"
 							},
 							"sell": {
 								"ref": "../ref/inventory_item.json",
-								"description": "The item the villager is selling"
+								"description":
+									"The item the villager is selling"
 							}
 						}
 					}

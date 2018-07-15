@@ -1,13 +1,11 @@
 {
 	"type": "compound",
-	"child_ref": [
-		"../ref/block_entity.json",
-		"../ref/nameable.json"
-	],
+	"child_ref": ["../ref/block_entity.json", "../ref/nameable.json"],
 	"children": {
 		"auto": {
 			"type": "byte",
-			"description": "Whether the command block should be automatically powered"
+			"description":
+				"Whether the command block should be automatically powered"
 		},
 		"Command": {
 			"type": "string",
@@ -15,7 +13,8 @@
 		},
 		"conditionMet": {
 			"type": "byte",
-			"description": "If the command block executed last time it was powered (True if not conditional)"
+			"description":
+				"If the command block executed last time it was powered (True if not conditional)"
 		},
 		"LastExecution": {
 			"type": "long",

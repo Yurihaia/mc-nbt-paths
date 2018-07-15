@@ -1,26 +1,24 @@
 {
-    "type": "compound",
-    "child_ref": [
-        "../ref/mob.json"
-    ],
-    "children": {
-        "PuffState": {
-            "type": "int",
-            "description": "How puffed the fish is",
-            "suggestions": [
-                {
-                    "value": "0",
-                    "description": "Not puffed"
-                },
-                {
-                    "value": "1",
-                    "description": "Medium puffed"
-                },
-                {
-                    "value": "2",
-                    "description": "Fully puffed"
-                }
-            ]
-        }
-    }
+	"type": "compound",
+	"child_ref": ["../ref/mob.json"],
+	"children": {
+		"PuffState": {
+			"type": "int",
+			"description": "How puffed the fish is",
+			"suggestions": [
+				{
+					"value": "0",
+					"description": "Not puffed"
+				},
+				{
+					"value": "1",
+					"description": "Medium puffed"
+				},
+				{
+					"value": "2",
+					"description": "Fully puffed"
+				}
+			]
+		}
+	}
 }

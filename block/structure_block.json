@@ -1,8 +1,6 @@
 {
 	"type": "compound",
-	"child_ref": [
-		"../ref/block_entity.json"
-	],
+	"child_ref": ["../ref/block_entity.json"],
 	"children": {
 		"author": {
 			"type": "string",
@@ -22,21 +20,12 @@
 		"mirror": {
 			"type": "string",
 			"description": "The mirror if this structure",
-			"suggestions": [
-				"NONE",
-				"LEFT_RIGHT",
-				"FRONT_BACK"
-			]
+			"suggestions": ["NONE", "LEFT_RIGHT", "FRONT_BACK"]
 		},
 		"mode": {
 			"type": "string",
 			"description": "Mode of this structure block",
-			"suggestions": [
-				"SAVE",
-				"LOAD",
-				"CORNER",
-				"DATA"
-			]
+			"suggestions": ["SAVE", "LOAD", "CORNER", "DATA"]
 		},
 		"name": {
 			"type": "string",

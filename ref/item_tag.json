@@ -31,7 +31,8 @@
 						"type": "string"
 					},
 					"Slot": {
-						"description": "The slot that this modifier takes effect in",
+						"description":
+							"The slot that this modifier takes effect in",
 						"type": "string",
 						"suggestions": [
 							"mainhand",
@@ -47,20 +48,24 @@
 						"type": "double"
 					},
 					"Operation": {
-						"description": "The operation this modifier does to the base amount",
+						"description":
+							"The operation this modifier does to the base amount",
 						"type": "int",
 						"suggestions": [
 							{
 								"value": "0",
-								"description": "Adds \"Amount\" to the attribute"
+								"description":
+									"Adds \"Amount\" to the attribute"
 							},
 							{
 								"value": "1",
-								"description": "Multiplies the attribute by \"Amount\""
+								"description":
+									"Multiplies the attribute by \"Amount\""
 							},
 							{
 								"value": "2",
-								"description": "Multiplies each modifier by \"Amount\""
+								"description":
+									"Multiplies each modifier by \"Amount\""
 							}
 						]
 					},
@@ -84,11 +89,13 @@
 					"type": "string"
 				},
 				"color": {
-					"description": "The color of leather armor. Still exists on other items",
+					"description":
+						"The color of leather armor. Still exists on other items",
 					"type": "int"
 				},
 				"Lore": {
-					"description": "Lines of lore. Each line is a JSON text component",
+					"description":
+						"Lines of lore. Each line is a JSON text component",
 					"type": "list",
 					"item": {
 						"type": "string"

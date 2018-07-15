@@ -1,8 +1,6 @@
 {
 	"type": "compound",
-	"child_ref": [
-		"../ref/block_entity.json"
-	],
+	"child_ref": ["../ref/block_entity.json"],
 	"children": {
 		"Text1": {
 			"type": "string",

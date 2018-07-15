@@ -1,8 +1,6 @@
 {
 	"type": "compound",
-	"child_ref": [
-		"../ref/zombie.json"
-	],
+	"child_ref": ["../ref/zombie.json"],
 	"children": {
 		"Anger": {
 			"type": "short",

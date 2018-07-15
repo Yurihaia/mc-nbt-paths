@@ -1,8 +1,6 @@
 {
 	"type": "compound",
-	"child_ref": [
-		"./arrow.json"
-	],
+	"child_ref": ["./arrow.json"],
 	"children": {
 		"Duration": {
 			"type": "int",

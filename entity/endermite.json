@@ -1,8 +1,6 @@
 {
 	"type": "compound",
-	"child_ref": [
-		"../ref/mob.json"
-	],
+	"child_ref": ["../ref/mob.json"],
 	"children": {
 		"Lifetime": {
 			"type": "int",
@@ -10,7 +8,8 @@
 		},
 		"PlayerSpawned": {
 			"type": "byte",
-			"description": "If the endermite was spawned by a player (not through an enderpearl)"
+			"description":
+				"If the endermite was spawned by a player (not through an enderpearl)"
 		}
 	}
 }

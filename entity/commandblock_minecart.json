@@ -1,8 +1,6 @@
 {
 	"type": "compound",
-	"child_ref": [
-		"./minecart.json"
-	],
+	"child_ref": ["./minecart.json"],
 	"children": {
 		"Command": {
 			"type": "string",

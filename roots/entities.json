@@ -51,9 +51,7 @@
 		},
 		"minecraft:husk": {
 			"type": "compound",
-			"child_ref": [
-				"../ref/zombie.json"
-			]
+			"child_ref": ["../ref/zombie.json"]
 		},
 		"minecraft:illusion_illager": {
 			"ref": "../entity/spell_illager.json"
@@ -114,9 +112,7 @@
 		},
 		"minecraft:zombie": {
 			"type": "compound",
-			"child_ref": [
-				"../ref/zombie.json"
-			]
+			"child_ref": ["../ref/zombie.json"]
 		},
 		"minecraft:zombie_horse": {
 			"ref": "../entity/horse.json"

@@ -1,20 +1,11 @@
 {
 	"type": "compound",
-	"child_ref": [
-		"../ref/block_entity.json",
-		"../ref/lockable.json"
-	],
+	"child_ref": ["../ref/block_entity.json", "../ref/lockable.json"],
 	"children": {
 		"Levels": {
 			"type": "int",
 			"description": "The number of pyramid steps this beacon is on",
-			"suggestions": [
-				"0",
-				"1",
-				"2",
-				"3",
-				"4"
-			]
+			"suggestions": ["0", "1", "2", "3", "4"]
 		},
 		"Primary": {
 			"type": "int",

@@ -1,8 +1,6 @@
 {
 	"type": "compound",
-	"child_ref": [
-		"../ref/horse.json"
-	],
+	"child_ref": ["../ref/horse.json"],
 	"children": {
 		"SkeletonTrap": {
 			"type": "byte",

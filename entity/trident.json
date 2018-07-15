@@ -1,8 +1,6 @@
 {
 	"type": "compound",
-	"child_ref": [
-		"../ref/projectile.json"
-	],
+	"child_ref": ["../ref/projectile.json"],
 	"children": {
 		"pickup": {
 			"type": "byte",
@@ -26,9 +24,7 @@
 		},
 		"Trident": {
 			"type": "compound",
-			"child_ref": [
-				"../roots/items.json#minecraft:trident"
-			]
+			"child_ref": ["../roots/items.json#minecraft:trident"]
 		}
 	}
 }

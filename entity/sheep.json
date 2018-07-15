@@ -1,8 +1,6 @@
 {
 	"type": "compound",
-	"child_ref": [
-		"../ref/breedable.json"
-	],
+	"child_ref": ["../ref/breedable.json"],
 	"children": {
 		"Sheared": {
 			"type": "byte",

@@ -1,8 +1,6 @@
 {
 	"type": "compound",
-	"child_ref": [
-		"../ref/zombie.json"
-	],
+	"child_ref": ["../ref/zombie.json"],
 	"children": {
 		"Profession": {
 			"type": "int",
@@ -10,7 +8,8 @@
 		},
 		"ConversionTime": {
 			"type": "int",
-			"description": "Number of ticks until turned into villager. -1 when not being converted"
+			"description":
+				"Number of ticks until turned into villager. -1 when not being converted"
 		},
 		"ConversionPlayerLeast": {
 			"type": "long",

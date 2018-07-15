@@ -1,12 +1,10 @@
 {
-    "type": "compound",
-    "child_ref": [
-        "./fish.json"
-    ],
-    "children": {
-        "Variant": {
-            "type": "int",
-            "description": "Design of the fish"
-        }
-    }
+	"type": "compound",
+	"child_ref": ["./fish.json"],
+	"children": {
+		"Variant": {
+			"type": "int",
+			"description": "Design of the fish"
+		}
+	}
 }

@@ -1,8 +1,6 @@
 {
 	"type": "compound",
-	"child_ref": [
-		"./breedable.json"
-	],
+	"child_ref": ["./breedable.json"],
 	"children": {
 		"Bred": {
 			"type": "byte",
