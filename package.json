@@ -3,6 +3,11 @@
     "name": "mc-nbt-paths",
     "version": "1.13.0-18w16a",
     "author": "MrYurihi",
+    "contributors": [
+        "MrYurihi",
+        "Levertion",
+        "Bassab03"
+    ],
     "license": "Unlicense",
     "repository": {
         "type": "git",
