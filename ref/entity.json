@@ -1,113 +1,115 @@
 {
-	"type": "compound",
-	"child_ref": [
-		"./nameable.json"
-	],
-	"children": {
-		"id": {
-			"type": "string",
-			"description": "ID of the entity"
-		},
-		"Pos": {
-			"type": "list",
-			"description": "X, Y, and Z coordinates of the entity",
-			"item": {
-				"type": "double"
-			}
-		},
-		"Motion": {
-			"description": "X, Y, and Z motion of the entity",
-			"type": "list",
-			"item": {
-				"type": "double"
-			}
-		},
-		"Rotation": {
-			"description": "Pitch and Yaw of the entity",
-			"type": "list",
-			"item": {
-				"type": "double"
-			}
-		},
-		"FallDistance": {
-			"description": "How many blocks the entity has fallen",
-			"type": "float"
-		},
-		"Fire": {
-			"description": "How many ticks the entity is on fire until it isn't",
-			"type": "short"
-		},
-		"Air": {
-			"description": "How much air the entity has left before it starts to drown",
-			"type": "short"
-		},
-		"OnGround": {
-			"description": "If the entity is on the ground",
-			"type": "byte"
-		},
-		"NoGravity": {
-			"description": "If the entity should not fall",
-			"type": "byte"
-		},
-		"Dimension": {
-			"description": "The dimension the entity is in",
-			"type": "int",
-			"suggestions": [
-				{
-					"value": "-1",
-					"description": "The Nether"
-				},
-				{
-					"value": "0",
-					"description": "Overworld"
-				},
-				{
-					"value": "1",
-					"description": "The End"
-				}
-			]
-		},
-		"Invulnerable": {
-			"description": "If the entity should not take damage from non creative and void damage",
-			"type": "byte"
-		},
-		"PortalCooldown": {
-			"description": "How long until the entity can teleport through a nether portal",
-			"type": "int"
-		},
-		"UUIDLeast": {
-			"description": "UUIDLeast of the entity",
-			"type": "long"
-		},
-		"UUIDMost": {
-			"description": "UUIDMost of the entity",
-			"type": "long"
-		},
-		"CustomNameVisible": {
-			"description": "Is the name visible",
-			"type": "byte"
-		},
-		"Silent": {
-			"description": "Is the entity silent",
-			"type": "byte"
-		},
-		"Passengers": {
-			"description": "A list of entities riding this entity",
-			"type": "list",
-			"item": {
-				"ref": "./entity.json#"
-			}
-		},
-		"Glowing": {
-			"description": "Is this entity glowing",
-			"type": "byte"
-		},
-		"Tags": {
-			"description": "A list of tags",
-			"type": "list",
-			"item": {
-				"type": "string"
-			}
-		}
-	}
+    "type": "compound",
+    "child_ref": ["./nameable.json"],
+    "children": {
+        "id": {
+            "type": "string",
+            "description": "ID of the entity"
+        },
+        "Pos": {
+            "type": "list",
+            "description": "X, Y, and Z coordinates of the entity",
+            "item": {
+                "type": "double"
+            }
+        },
+        "Motion": {
+            "description": "X, Y, and Z motion of the entity",
+            "type": "list",
+            "item": {
+                "type": "double"
+            }
+        },
+        "Rotation": {
+            "description": "Pitch and Yaw of the entity",
+            "type": "list",
+            "item": {
+                "type": "double"
+            }
+        },
+        "FallDistance": {
+            "description": "How many blocks the entity has fallen",
+            "type": "float"
+        },
+        "Fire": {
+            "description":
+                "How many ticks the entity is on fire until it isn't",
+            "type": "short"
+        },
+        "Air": {
+            "description":
+                "How much air the entity has left before it starts to drown",
+            "type": "short"
+        },
+        "OnGround": {
+            "description": "If the entity is on the ground",
+            "type": "byte"
+        },
+        "NoGravity": {
+            "description": "If the entity should not fall",
+            "type": "byte"
+        },
+        "Dimension": {
+            "description": "The dimension the entity is in",
+            "type": "int",
+            "suggestions": [
+                {
+                    "value": "-1",
+                    "description": "The Nether"
+                },
+                {
+                    "value": "0",
+                    "description": "Overworld"
+                },
+                {
+                    "value": "1",
+                    "description": "The End"
+                }
+            ]
+        },
+        "Invulnerable": {
+            "description":
+                "If the entity should not take damage from non creative and void damage",
+            "type": "byte"
+        },
+        "PortalCooldown": {
+            "description":
+                "How long until the entity can teleport through a nether portal",
+            "type": "int"
+        },
+        "UUIDLeast": {
+            "description": "UUIDLeast of the entity",
+            "type": "long"
+        },
+        "UUIDMost": {
+            "description": "UUIDMost of the entity",
+            "type": "long"
+        },
+        "CustomNameVisible": {
+            "description": "Is the name visible",
+            "type": "byte"
+        },
+        "Silent": {
+            "description": "Is the entity silent",
+            "type": "byte"
+        },
+        "Passengers": {
+            "description": "A list of entities riding this entity",
+            "type": "list",
+            "item": {
+                "ref": "./entity.json#"
+            }
+        },
+        "Glowing": {
+            "description": "Is this entity glowing",
+            "type": "byte"
+        },
+        "Tags": {
+            "description": "A list of tags",
+            "type": "list",
+            "item": {
+                "type": "string"
+            }
+        }
+    }
 }

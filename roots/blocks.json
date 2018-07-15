@@ -1,77 +1,77 @@
 {
-	"type": "root",
-	"children": {
-		"none": {
-			"type": "no-nbt"
-		},
-		"$../block/group/shulker_box.json": {
-			"ref": "../block/chest.json"
-		},
-		"$../block/group/command_block.json": {
-			"ref": "../block/command_block.json"
-		},
-		"minecraft:banner": {
-			"ref": "../block/banner.json"
-		},
-		"minecraft:beacon": {
-			"ref": "../block/beacon.json"
-		},
-		"minecraft:bed": {
-			"ref": "../ref/block_entity.json"
-		},
-		"minecraft:brewing_stand": {
-			"ref": "../block/brewing_stand.json"
-		},
-		"minecraft:chest": {
-			"ref": "../block/chest.json"
-		},
-		"minecraft:comparator": {
-			"ref": "../block/comparator.json"
-		},
-		"minecraft:daylight_detector": {
-			"ref": "../ref/block_entity.json"
-		},
-		"minecraft:dispenser": {
-			"ref": "../block/chest.json"
-		},
-		"minecraft:dropper": {
-			"ref": "../block/chest.json"
-		},
-		"minecraft:enchanting_table": {
-			"ref": "../block/enchanting_table.json"
-		},
-		"minecraft:end_gateway": {
-			"ref": "../block/end_gateway.json"
-		},
-		"minecraft:end_portal": {
-			"ref": "../ref/block_entity.json"
-		},
-		"minecraft:ender_chest": {
-			"ref": "../ref/block_entity.json"
-		},
-		"minecraft:furnace": {
-			"ref": "../block/furnace.json"
-		},
-		"minecraft:hopper": {
-			"ref": "../block/hopper.json"
-		},
-		"minecraft:jukebox": {
-			"ref": "../block/jukebox.json"
-		},
-		"minecraft:mob_spawner": {
-			"ref": "../block/mob_spawner.json"
-		},
-		"minecraft:player_head": {
-			"ref": "../block/player_head.json"
-		},
-		"minecraft:sign": {
-			"ref": "../block/sign.json"
-		},
-		"minecraft:structure_block": {
-			"ref": "../block/structure_block.json"
-		},
-		"minecraft:trapped_chest": {
-			"ref": "../block/chest.json"
-		}
-	}
+    "type": "root",
+    "children": {
+        "none": {
+            "type": "no-nbt"
+        },
+        "$../block/group/shulker_box.json": {
+            "ref": "../block/chest.json"
+        },
+        "$../block/group/command_block.json": {
+            "ref": "../block/command_block.json"
+        },
+        "minecraft:banner": {
+            "ref": "../block/banner.json"
+        },
+        "minecraft:beacon": {
+            "ref": "../block/beacon.json"
+        },
+        "minecraft:bed": {
+            "ref": "../ref/block_entity.json"
+        },
+        "minecraft:brewing_stand": {
+            "ref": "../block/brewing_stand.json"
+        },
+        "minecraft:chest": {
+            "ref": "../block/chest.json"
+        },
+        "minecraft:comparator": {
+            "ref": "../block/comparator.json"
+        },
+        "minecraft:daylight_detector": {
+            "ref": "../ref/block_entity.json"
+        },
+        "minecraft:dispenser": {
+            "ref": "../block/chest.json"
+        },
+        "minecraft:dropper": {
+            "ref": "../block/chest.json"
+        },
+        "minecraft:enchanting_table": {
+            "ref": "../block/enchanting_table.json"
+        },
+        "minecraft:end_gateway": {
+            "ref": "../block/end_gateway.json"
+        },
+        "minecraft:end_portal": {
+            "ref": "../ref/block_entity.json"
+        },
+        "minecraft:ender_chest": {
+            "ref": "../ref/block_entity.json"
+        },
+        "minecraft:furnace": {
+            "ref": "../block/furnace.json"
+        },
+        "minecraft:hopper": {
+            "ref": "../block/hopper.json"
+        },
+        "minecraft:jukebox": {
+            "ref": "../block/jukebox.json"
+        },
+        "minecraft:mob_spawner": {
+            "ref": "../block/mob_spawner.json"
+        },
+        "minecraft:player_head": {
+            "ref": "../block/player_head.json"
+        },
+        "minecraft:sign": {
+            "ref": "../block/sign.json"
+        },
+        "minecraft:structure_block": {
+            "ref": "../block/structure_block.json"
+        },
+        "minecraft:trapped_chest": {
+            "ref": "../block/chest.json"
+        }
+    }
 }

@@ -1,8 +1,6 @@
 {
     "type": "compound",
-    "child_ref": [
-        "./block_item.json"
-    ],
+    "child_ref": ["./block_item.json"],
     "children": {
         "SkullOwner": {
             "description": "The player whose head this is",
@@ -28,11 +26,13 @@
                                 "type": "compound",
                                 "children": {
                                     "Signiature": {
-                                        "description": "Signiature of the texture",
+                                        "description":
+                                            "Signiature of the texture",
                                         "type": "string"
                                     },
                                     "Value": {
-                                        "description": "Base64 encdoed JSON object",
+                                        "description":
+                                            "Base64 encdoed JSON object",
                                         "type": "string"
                                     }
                                 }

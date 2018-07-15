@@ -1,12 +1,10 @@
 {
-	"type": "compound",
-	"child_ref": [
-		"../ref/fireball_base.json"
-	],
-	"children": {
-		"ExplosionPower": {
-			"type": "int",
-			"description": "Power of the explosion"
-		}
-	}
+    "type": "compound",
+    "child_ref": ["../ref/fireball_base.json"],
+    "children": {
+        "ExplosionPower": {
+            "type": "int",
+            "description": "Power of the explosion"
+        }
+    }
 }

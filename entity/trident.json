@@ -1,34 +1,30 @@
 {
-	"type": "compound",
-	"child_ref": [
-		"../ref/projectile.json"
-	],
-	"children": {
-		"pickup": {
-			"type": "byte",
-			"description": "Can the arrow be picked up"
-		},
-		"life": {
-			"type": "short",
-			"description": "How many ticks the trident has exsisted"
-		},
-		"damage": {
-			"type": "double",
-			"description": "How much damage the trident does"
-		},
-		"inGround": {
-			"type": "byte",
-			"description": "If the trident is in a block"
-		},
-		"crit": {
-			"type": "byte",
-			"description": "Should the trident do critical damage"
-		},
-		"Trident": {
-			"type": "compound",
-			"child_ref": [
-				"../roots/items.json#minecraft:trident"
-			]
-		}
-	}
+    "type": "compound",
+    "child_ref": ["../ref/projectile.json"],
+    "children": {
+        "pickup": {
+            "type": "byte",
+            "description": "Can the arrow be picked up"
+        },
+        "life": {
+            "type": "short",
+            "description": "How many ticks the trident has exsisted"
+        },
+        "damage": {
+            "type": "double",
+            "description": "How much damage the trident does"
+        },
+        "inGround": {
+            "type": "byte",
+            "description": "If the trident is in a block"
+        },
+        "crit": {
+            "type": "byte",
+            "description": "Should the trident do critical damage"
+        },
+        "Trident": {
+            "type": "compound",
+            "child_ref": ["../roots/items.json#minecraft:trident"]
+        }
+    }
 }

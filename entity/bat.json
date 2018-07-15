@@ -1,12 +1,10 @@
 {
-	"type": "compound",
-	"child_ref": [
-		"../ref/mob.json"
-	],
-	"children": {
-		"BatFlags": {
-			"type": "byte",
-			"description": "Is the bat upside-down"
-		}
-	}
+    "type": "compound",
+    "child_ref": ["../ref/mob.json"],
+    "children": {
+        "BatFlags": {
+            "type": "byte",
+            "description": "Is the bat upside-down"
+        }
+    }
 }

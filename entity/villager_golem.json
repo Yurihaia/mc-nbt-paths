@@ -1,12 +1,10 @@
 {
-	"type": "compound",
-	"child_ref": [
-		"../ref/mob.json"
-	],
-	"children": {
-		"PlayerCreated": {
-			"type": "byte",
-			"description": "If a player created the golem"
-		}
-	}
+    "type": "compound",
+    "child_ref": ["../ref/mob.json"],
+    "children": {
+        "PlayerCreated": {
+            "type": "byte",
+            "description": "If a player created the golem"
+        }
+    }
 }

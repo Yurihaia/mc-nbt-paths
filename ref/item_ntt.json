@@ -2,19 +2,19 @@
     "type": "compound",
     "children": {
         "Count": {
-			"type": "byte",
-			"description": "How many items does this item stack have"
-		},
-		"id": {
-			"type": "string",
-			"description": "ID of the item",
-			"suggestions": [
-				{
-					"function": {
-						"id": "itemList"
-					}
-				}
-			]
-		}
+            "type": "byte",
+            "description": "How many items does this item stack have"
+        },
+        "id": {
+            "type": "string",
+            "description": "ID of the item",
+            "suggestions": [
+                {
+                    "function": {
+                        "id": "itemList"
+                    }
+                }
+            ]
+        }
     }
 }

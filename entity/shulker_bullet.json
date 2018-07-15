@@ -1,76 +1,74 @@
 {
-	"type": "compound",
-	"child_ref": [
-		"../ref/entity.json"
-	],
-	"children": {
-		"Owner": {
-			"description": "The entity that this bullet originated from",
-			"type": "compound",
-			"children": {
-				"L": {
-					"type": "long",
-					"description": "UUIDLeast of the owner"
-				},
-				"M": {
-					"type": "long",
-					"description": "UUIDMost of the owner"
-				},
-				"X": {
-					"type": "int",
-					"description": "X position of the owner"
-				},
-				"Y": {
-					"type": "int",
-					"description": "Y position of the owner"
-				},
-				"Z": {
-					"type": "int",
-					"description": "Z position of the owner"
-				}
-			}
-		},
-		"Steps": {
-			"type": "int",
-			"description": "Number of blocks the bullet has traveled"
-		},
-		"Target": {
-			"type": "compound",
-			"description": "The target of the bullet",
-			"children": {
-				"L": {
-					"type": "long",
-					"description": "The UUIDLeast of the target"
-				},
-				"M": {
-					"type": "long",
-					"description": "The UUIDMost of the target"
-				},
-				"X": {
-					"type": "int",
-					"description": "X position of the target"
-				},
-				"Y": {
-					"type": "int",
-					"description": "Y position of the target"
-				},
-				"Z": {
-					"type": "int",
-					"description": "Z position of the target"
-				}
-			}
-		},
-		"TXD": {
-			"type": "double",
-			"description": "Offset on x axis"
-		},
-		"TYD": {
-			"type": "double",
-			"description": "Offset on y axis"
-		},
-		"TZD": {
-			"type": "double",
-			"description": "Offset on z axis"
-		}
-	}
+    "type": "compound",
+    "child_ref": ["../ref/entity.json"],
+    "children": {
+        "Owner": {
+            "description": "The entity that this bullet originated from",
+            "type": "compound",
+            "children": {
+                "L": {
+                    "type": "long",
+                    "description": "UUIDLeast of the owner"
+                },
+                "M": {
+                    "type": "long",
+                    "description": "UUIDMost of the owner"
+                },
+                "X": {
+                    "type": "int",
+                    "description": "X position of the owner"
+                },
+                "Y": {
+                    "type": "int",
+                    "description": "Y position of the owner"
+                },
+                "Z": {
+                    "type": "int",
+                    "description": "Z position of the owner"
+                }
+            }
+        },
+        "Steps": {
+            "type": "int",
+            "description": "Number of blocks the bullet has traveled"
+        },
+        "Target": {
+            "type": "compound",
+            "description": "The target of the bullet",
+            "children": {
+                "L": {
+                    "type": "long",
+                    "description": "The UUIDLeast of the target"
+                },
+                "M": {
+                    "type": "long",
+                    "description": "The UUIDMost of the target"
+                },
+                "X": {
+                    "type": "int",
+                    "description": "X position of the target"
+                },
+                "Y": {
+                    "type": "int",
+                    "description": "Y position of the target"
+                },
+                "Z": {
+                    "type": "int",
+                    "description": "Z position of the target"
+                }
+            }
+        },
+        "TXD": {
+            "type": "double",
+            "description": "Offset on x axis"
+        },
+        "TYD": {
+            "type": "double",
+            "description": "Offset on y axis"
+        },
+        "TZD": {
+            "type": "double",
+            "description": "Offset on z axis"
+        }
+    }
 }

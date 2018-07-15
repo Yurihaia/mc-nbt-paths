@@ -1,12 +1,11 @@
 {
-	"type": "compound",
-	"child_ref": [
-		"../ref/block_entity.json"
-	],
-	"children": {
-		"OutputSignal": {
-			"type": "int",
-			"description": "The redstone output strength given off by this comparator"
-		}
-	}
+    "type": "compound",
+    "child_ref": ["../ref/block_entity.json"],
+    "children": {
+        "OutputSignal": {
+            "type": "int",
+            "description":
+                "The redstone output strength given off by this comparator"
+        }
+    }
 }

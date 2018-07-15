@@ -1,36 +1,34 @@
 {
-	"type": "compound",
-	"child_ref": [
-		"../ref/entity.json"
-	],
-	"children": {
-		"TileX": {
-			"type": "int",
-			"description": "X value of the block the frame is on"
-		},
-		"TileY": {
-			"type": "int",
-			"description": "Y value of the block the frame is on"
-		},
-		"TileZ": {
-			"type": "int",
-			"description": "Z value of the block the frame is on"
-		},
-		"Facing": {
-			"type": "byte",
-			"description": "The facing direction of the item frame"
-		},
-		"Item": {
-			"ref": "../ref/inventory_item.json",
-			"description": "The item in the item frame"
-		},
-		"ItemDropChance": {
-			"type": "float",
-			"description": "Chance for item to drop"
-		},
-		"ItemRotation": {
-			"type": "byte",
-			"description": "Rotation of item"
-		}
-	}
+    "type": "compound",
+    "child_ref": ["../ref/entity.json"],
+    "children": {
+        "TileX": {
+            "type": "int",
+            "description": "X value of the block the frame is on"
+        },
+        "TileY": {
+            "type": "int",
+            "description": "Y value of the block the frame is on"
+        },
+        "TileZ": {
+            "type": "int",
+            "description": "Z value of the block the frame is on"
+        },
+        "Facing": {
+            "type": "byte",
+            "description": "The facing direction of the item frame"
+        },
+        "Item": {
+            "ref": "../ref/inventory_item.json",
+            "description": "The item in the item frame"
+        },
+        "ItemDropChance": {
+            "type": "float",
+            "description": "Chance for item to drop"
+        },
+        "ItemRotation": {
+            "type": "byte",
+            "description": "Rotation of item"
+        }
+    }
 }

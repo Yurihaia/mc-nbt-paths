@@ -1,16 +1,14 @@
 {
-	"type": "compound",
-	"child_ref": [
-		"./mob.json"
-	],
-	"children": {
-		"OwnerUUID": {
-			"type": "string",
-			"description": "UUID of the owner"
-		},
-		"Sitting": {
-			"type": "byte",
-			"description": "If the mob is sitting"
-		}
-	}
+    "type": "compound",
+    "child_ref": ["./mob.json"],
+    "children": {
+        "OwnerUUID": {
+            "type": "string",
+            "description": "UUID of the owner"
+        },
+        "Sitting": {
+            "type": "byte",
+            "description": "If the mob is sitting"
+        }
+    }
 }

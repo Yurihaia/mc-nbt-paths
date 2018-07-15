@@ -1,15 +1,15 @@
 [
-	"minecraft:blaze",
-	"minecraft:cave_spider",
-	"minecraft:elder_guardian",
-	"minecraft:guardian",
-	"minecraft:giant",
-	"minecraft:silverfish",
-	"minecraft:skeleton",
-	"minecraft:spider",
-	"minecraft:squid",
-	"minecraft:stray",
-	"minecraft:witch",
-	"minecraft:wither_skeleton",
-	"minecraft:dolphin"
+    "minecraft:blaze",
+    "minecraft:cave_spider",
+    "minecraft:elder_guardian",
+    "minecraft:guardian",
+    "minecraft:giant",
+    "minecraft:silverfish",
+    "minecraft:skeleton",
+    "minecraft:spider",
+    "minecraft:squid",
+    "minecraft:stray",
+    "minecraft:witch",
+    "minecraft:wither_skeleton",
+    "minecraft:dolphin"
 ]

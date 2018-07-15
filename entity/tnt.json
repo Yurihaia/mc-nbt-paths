@@ -1,12 +1,10 @@
 {
-	"type": "compound",
-	"child_ref": [
-		"../ref/entity.json"
-	],
-	"children": {
-		"Fuse": {
-			"type": "short",
-			"description": "How long until the tnt blows up"
-		}
-	}
+    "type": "compound",
+    "child_ref": ["../ref/entity.json"],
+    "children": {
+        "Fuse": {
+            "type": "short",
+            "description": "How long until the tnt blows up"
+        }
+    }
 }

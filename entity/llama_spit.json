@@ -1,22 +1,20 @@
 {
-	"type": "compound",
-	"child_ref": [
-		"../ref/entity.json"
-	],
-	"children": {
-		"Owner": {
-			"description": "UUID of the entity that made this llama spit",
-			"type": "compound",
-			"children": {
-				"OwnerUUIDMost": {
-					"type": "long",
-					"description": "UUIDMost of the owner"
-				},
-				"OwnerUUIDLeast": {
-					"type": "long",
-					"description": "UUIDLeast of the owner"
-				}
-			}
-		}
-	}
+    "type": "compound",
+    "child_ref": ["../ref/entity.json"],
+    "children": {
+        "Owner": {
+            "description": "UUID of the entity that made this llama spit",
+            "type": "compound",
+            "children": {
+                "OwnerUUIDMost": {
+                    "type": "long",
+                    "description": "UUIDMost of the owner"
+                },
+                "OwnerUUIDLeast": {
+                    "type": "long",
+                    "description": "UUIDLeast of the owner"
+                }
+            }
+        }
+    }
 }

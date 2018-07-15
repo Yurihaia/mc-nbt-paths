@@ -1,16 +1,14 @@
 {
-	"type": "compound",
-	"child_ref": [
-		"./mob.json"
-	],
-	"children": {
-		"IsBaby": {
-			"type": "byte",
-			"description": "If the zombie is a baby zombie"
-		},
-		"CanBreakDoors": {
-			"type": "byte",
-			"description": "If the zombie can break doors"
-		}
-	}
+    "type": "compound",
+    "child_ref": ["./mob.json"],
+    "children": {
+        "IsBaby": {
+            "type": "byte",
+            "description": "If the zombie is a baby zombie"
+        },
+        "CanBreakDoors": {
+            "type": "byte",
+            "description": "If the zombie can break doors"
+        }
+    }
 }

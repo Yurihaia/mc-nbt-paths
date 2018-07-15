@@ -1,34 +1,35 @@
 {
-	"type": "compound",
-	"child_ref": [
-		"../ref/block_entity.json"
-	],
-	"children": {
-		"Age": {
-			"type": "long",
-			"description": "The age in ticks of this gateway. If below 200, will display purple beam"
-		},
-		"ExactTeleport": {
-			"type": "byte",
-			"description": "Should an entity teleport to the exact location of the exit portal"
-		},
-		"ExitPortal": {
-			"type": "compound",
-			"children": {
-				"X": {
-					"type": "int",
-					"description": "The x coordinate of the exit"
-				},
-				"Y": {
-					"type": "int",
-					"description": "The y coordinate of the exit"
-				},
-				"Z": {
-					"type": "int",
-					"description": "The z coordinate of the exit"
-				}
-			},
-			"description": "Coordinates of where the gateway should teleport entities to"
-		}
-	}
+    "type": "compound",
+    "child_ref": ["../ref/block_entity.json"],
+    "children": {
+        "Age": {
+            "type": "long",
+            "description":
+                "The age in ticks of this gateway. If below 200, will display purple beam"
+        },
+        "ExactTeleport": {
+            "type": "byte",
+            "description":
+                "Should an entity teleport to the exact location of the exit portal"
+        },
+        "ExitPortal": {
+            "type": "compound",
+            "children": {
+                "X": {
+                    "type": "int",
+                    "description": "The x coordinate of the exit"
+                },
+                "Y": {
+                    "type": "int",
+                    "description": "The y coordinate of the exit"
+                },
+                "Z": {
+                    "type": "int",
+                    "description": "The z coordinate of the exit"
+                }
+            },
+            "description":
+                "Coordinates of where the gateway should teleport entities to"
+        }
+    }
 }

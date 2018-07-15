@@ -1,8 +1,6 @@
 {
     "type": "compound",
-    "child_ref": [
-        "../ref/mob.json"
-    ],
+    "child_ref": ["../ref/mob.json"],
     "children": {
         "PuffState": {
             "type": "int",

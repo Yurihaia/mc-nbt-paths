@@ -1,8 +1,6 @@
 {
     "type": "compound",
-    "child_ref": [
-        "../ref/item_tag.json"
-    ],
+    "child_ref": ["../ref/item_tag.json"],
     "children": {
         "EntityTag": {
             "description": "The NBT of the spawned entity",

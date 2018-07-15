@@ -1,9 +1,7 @@
 {
-	"type": "compound",
-	"child_ref": [
-		"../ref/breedable.json"
-	],
-	"children": {
+    "type": "compound",
+    "child_ref": ["../ref/breedable.json"],
+    "children": {
         "HomePosX": {
             "type": "int",
             "description": "The x coord where the turtle was born"
@@ -32,5 +30,5 @@
             "type": "byte",
             "description": "Does the turtle have layed eggs"
         }
-	}
+    }
 }

@@ -1,12 +1,10 @@
 {
-	"type": "compound",
-	"child_ref": [
-		"./item_ntt.json"
-	],
-	"children": {
-		"tag": {
-			"description": "The NBT of the item",
-			"function": {
+    "type": "compound",
+    "child_ref": ["./item_ntt.json"],
+    "children": {
+        "tag": {
+            "description": "The NBT of the item",
+            "function": {
                 "id": "insertStringNBT",
                 "params": {
                     "ref": "../roots/items.json#%s",
@@ -14,6 +12,6 @@
                     "tag_path": "./id"
                 }
             }
-		}
-	}
+        }
+    }
 }

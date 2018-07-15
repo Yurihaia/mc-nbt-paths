@@ -1,29 +1,29 @@
 {
-	"type": "compound",
-	"child_ref": [
-		"../ref/block_entity.json",
-		"../ref/nameable.json",
-		"../ref/lockable.json"
-	],
-	"children": {
-		"BurnTime": {
-			"type": "short",
-			"description": "Number of ticks until fuel runs out"
-		},
-		"CookTime": {
-			"type": "short",
-			"description": "Number of ticks the current item has been smelting"
-		},
-		"CookTimeTotal": {
-			"type": "short",
-			"description": "How long (in ticks) the item takes to smelt"
-		},
-		"Items": {
-			"type": "list",
-			"item": {
-				"ref": "../ref/inventory_item.json"
-			},
-			"description": "Items in the furnace"
-		}
-	}
+    "type": "compound",
+    "child_ref": [
+        "../ref/block_entity.json",
+        "../ref/nameable.json",
+        "../ref/lockable.json"
+    ],
+    "children": {
+        "BurnTime": {
+            "type": "short",
+            "description": "Number of ticks until fuel runs out"
+        },
+        "CookTime": {
+            "type": "short",
+            "description": "Number of ticks the current item has been smelting"
+        },
+        "CookTimeTotal": {
+            "type": "short",
+            "description": "How long (in ticks) the item takes to smelt"
+        },
+        "Items": {
+            "type": "list",
+            "item": {
+                "ref": "../ref/inventory_item.json"
+            },
+            "description": "Items in the furnace"
+        }
+    }
 }

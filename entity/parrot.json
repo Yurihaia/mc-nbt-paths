@@ -1,12 +1,10 @@
 {
-	"type": "compound",
-	"child_ref": [
-		"../ref/tameable.json"
-	],
-	"children": {
-		"Variant": {
-			"type": "int",
-			"description": "Type of parot"
-		}
-	}
+    "type": "compound",
+    "child_ref": ["../ref/tameable.json"],
+    "children": {
+        "Variant": {
+            "type": "int",
+            "description": "Type of parot"
+        }
+    }
 }

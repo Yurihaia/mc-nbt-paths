@@ -1,17 +1,14 @@
 {
-	"type": "compound",
-	"child_ref": [
-		"./minecart.json",
-		"../ref/inventory_holder.json"
-	],
-	"children": {
-		"TransferCooldown": {
-			"type": "int",
-			"description": "How many ticks until the next item gets transfered"
-		},
-		"Enabled": {
-			"type": "byte",
-			"description": "Is the hopper minecart enabled"
-		}
-	}
+    "type": "compound",
+    "child_ref": ["./minecart.json", "../ref/inventory_holder.json"],
+    "children": {
+        "TransferCooldown": {
+            "type": "int",
+            "description": "How many ticks until the next item gets transfered"
+        },
+        "Enabled": {
+            "type": "byte",
+            "description": "Is the hopper minecart enabled"
+        }
+    }
 }

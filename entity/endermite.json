@@ -1,16 +1,15 @@
 {
-	"type": "compound",
-	"child_ref": [
-		"../ref/mob.json"
-	],
-	"children": {
-		"Lifetime": {
-			"type": "int",
-			"description": "How many ticks the endermite has existed"
-		},
-		"PlayerSpawned": {
-			"type": "byte",
-			"description": "If the endermite was spawned by a player (not through an enderpearl)"
-		}
-	}
+    "type": "compound",
+    "child_ref": ["../ref/mob.json"],
+    "children": {
+        "Lifetime": {
+            "type": "int",
+            "description": "How many ticks the endermite has existed"
+        },
+        "PlayerSpawned": {
+            "type": "byte",
+            "description":
+                "If the endermite was spawned by a player (not through an enderpearl)"
+        }
+    }
 }

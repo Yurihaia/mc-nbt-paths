@@ -1,43 +1,41 @@
 {
-	"type": "compound",
-	"child_ref": [
-		"../ref/item_tag.json",
-		"./writable_book.json"
-	],
-	"children": {
-		"author": {
-			"type": "string",
-			"description": "The displayed author of the book"
-		},
-		"title": {
-			"type": "string",
-			"description": "The displayed title of the book"
-		},
-		"generation": {
-			"type": "int",
-			"description": "The copy-generation of the book",
-			"suggestions": [
-				{
-					"value": "0",
-					"description": "original"
-				},
-				{
-					"value": "1",
-					"description": "copy of original"
-				},
-				{
-					"value": "2",
-					"description": "copy of copy"
-				},
-				{
-					"value": "3",
-					"description": "tattered"
-				}
-			]
-		},
-		"resolved": {
-			"type": "byte",
-			"description": "If the book has been opened and the json selectors have been solidified"
-		}
-	}
+    "type": "compound",
+    "child_ref": ["../ref/item_tag.json", "./writable_book.json"],
+    "children": {
+        "author": {
+            "type": "string",
+            "description": "The displayed author of the book"
+        },
+        "title": {
+            "type": "string",
+            "description": "The displayed title of the book"
+        },
+        "generation": {
+            "type": "int",
+            "description": "The copy-generation of the book",
+            "suggestions": [
+                {
+                    "value": "0",
+                    "description": "original"
+                },
+                {
+                    "value": "1",
+                    "description": "copy of original"
+                },
+                {
+                    "value": "2",
+                    "description": "copy of copy"
+                },
+                {
+                    "value": "3",
+                    "description": "tattered"
+                }
+            ]
+        },
+        "resolved": {
+            "type": "byte",
+            "description":
+                "If the book has been opened and the json selectors have been solidified"
+        }
+    }
 }

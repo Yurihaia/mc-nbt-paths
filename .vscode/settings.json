@@ -11,5 +11,6 @@
             ],
             "url": "/schema/schema.json"
         }
-    ]
+    ],
+    "files.insertFinalNewline": true
 }

@@ -1,20 +1,18 @@
 {
-	"type": "compound",
-	"child_ref": [
-		"../ref/entity.json"
-	],
-	"children": {
-		"Type": {
-			"type": "string",
-			"description": "Type of the boat",
-			"suggestions": [
-				"oak",
-				"spruce",
-				"birch",
-				"jungle",
-				"acacia",
-				"dark_oak"
-			]
-		}
-	}
+    "type": "compound",
+    "child_ref": ["../ref/entity.json"],
+    "children": {
+        "Type": {
+            "type": "string",
+            "description": "Type of the boat",
+            "suggestions": [
+                "oak",
+                "spruce",
+                "birch",
+                "jungle",
+                "acacia",
+                "dark_oak"
+            ]
+        }
+    }
 }

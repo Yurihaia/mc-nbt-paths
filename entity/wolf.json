@@ -1,17 +1,14 @@
 {
-	"type": "compound",
-	"child_ref": [
-		"../ref/breedable.json",
-		"../ref/tameable.json"
-	],
-	"children": {
-		"Angry": {
-			"type": "byte",
-			"description": "If the wolf is angry"
-		},
-		"CollarColor": {
-			"type": "byte",
-			"description": "Collar color for dogs"
-		}
-	}
+    "type": "compound",
+    "child_ref": ["../ref/breedable.json", "../ref/tameable.json"],
+    "children": {
+        "Angry": {
+            "type": "byte",
+            "description": "If the wolf is angry"
+        },
+        "CollarColor": {
+            "type": "byte",
+            "description": "Collar color for dogs"
+        }
+    }
 }

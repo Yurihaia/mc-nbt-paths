@@ -1,24 +1,22 @@
 {
-	"type": "compound",
-	"child_ref": [
-		"../ref/mob.json"
-	],
-	"children": {
-		"BoundX": {
-			"type": "int",
-			"description": "The x coordinate of the point the vex stays around"
-		},
-		"BoundY": {
-			"type": "int",
-			"description": "The y coordinate of the point the vex stays around"
-		},
-		"BoundZ": {
-			"type": "int",
-			"description": "The z coordinate of the point the vex stays around"
-		},
-		"LifeTicks": {
-			"type": "int",
-			"description": "How many ticks the vex has been alive for"
-		}
-	}
+    "type": "compound",
+    "child_ref": ["../ref/mob.json"],
+    "children": {
+        "BoundX": {
+            "type": "int",
+            "description": "The x coordinate of the point the vex stays around"
+        },
+        "BoundY": {
+            "type": "int",
+            "description": "The y coordinate of the point the vex stays around"
+        },
+        "BoundZ": {
+            "type": "int",
+            "description": "The z coordinate of the point the vex stays around"
+        },
+        "LifeTicks": {
+            "type": "int",
+            "description": "How many ticks the vex has been alive for"
+        }
+    }
 }

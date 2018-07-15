@@ -1,8 +1,6 @@
 {
     "type": "compound",
-    "child_ref": [
-        "./fish.json"
-    ],
+    "child_ref": ["./fish.json"],
     "children": {
         "Variant": {
             "type": "int",

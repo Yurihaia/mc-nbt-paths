@@ -1,20 +1,18 @@
 {
-	"type": "compound",
-	"child_ref": [
-		"../ref/item_tag.json"
-	],
-	"children": {
-		"Damage": {
-			"type": "short",
-			"description": "How much damage this item has had"
-		},
-		"Unbreakable": {
-			"type": "byte",
-			"description": "Should this item not break"
-		},
-		"RepairCost": {
-			"type": "int",
-			"description": "How much experience it costs to repair"
-		}
-	}
+    "type": "compound",
+    "child_ref": ["../ref/item_tag.json"],
+    "children": {
+        "Damage": {
+            "type": "short",
+            "description": "How much damage this item has had"
+        },
+        "Unbreakable": {
+            "type": "byte",
+            "description": "Should this item not break"
+        },
+        "RepairCost": {
+            "type": "int",
+            "description": "How much experience it costs to repair"
+        }
+    }
 }

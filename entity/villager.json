@@ -1,44 +1,42 @@
 {
-	"type": "compound",
-	"child_ref": [
-		"../ref/breedable.json"
-	],
-	"children": {
-		"Profession": {
-			"type": "int",
-			"description": "Profession of the villager",
-			"suggestions": [
-				{
-					"value": "0",
-					"description": "Farmer"
-				},
-				{
-					"value": "1",
-					"description": "Librarian"
-				},
-				{
-					"value": "2",
-					"description": "Priest"
-				},
-				{
-					"value": "3",
-					"description": "Blacksmith"
-				},
-				{
-					"value": "4",
-					"description": "Butcher"
-				},
-				{
-					"value": "5",
-					"description": "Nitwit"
-				}
-			]
-		},
-		"Riches": {
-			"type": "int"
-		},
-		"Career": {
-			"function": {
+    "type": "compound",
+    "child_ref": ["../ref/breedable.json"],
+    "children": {
+        "Profession": {
+            "type": "int",
+            "description": "Profession of the villager",
+            "suggestions": [
+                {
+                    "value": "0",
+                    "description": "Farmer"
+                },
+                {
+                    "value": "1",
+                    "description": "Librarian"
+                },
+                {
+                    "value": "2",
+                    "description": "Priest"
+                },
+                {
+                    "value": "3",
+                    "description": "Blacksmith"
+                },
+                {
+                    "value": "4",
+                    "description": "Butcher"
+                },
+                {
+                    "value": "5",
+                    "description": "Nitwit"
+                }
+            ]
+        },
+        "Riches": {
+            "type": "int"
+        },
+        "Career": {
+            "function": {
                 "id": "insertStringNBT",
                 "params": {
                     "ref": "./villager_careers/%s.json",
@@ -46,62 +44,68 @@
                     "tag_path": "./Profession"
                 }
             },
-			"description": "Which careers the villager has"
-		},
-		"CareerLevel": {
-			"type": "int",
-			"description": "Level of trading options"
-		},
-		"Willing": {
-			"type": "byte",
-			"description": "Is the villager willing to breed"
-		},
-		"Inventory": {
-			"type": "list",
-			"item": {
-				"ref": "./inventory_item.json"
-			},
-			"description": "The items a villager has in their inventory"
-		},
-		"Offers": {
-			"description": "Trading offers",
-			"type": "compound",
-			"children": {
-				"Recipes": {
-					"description": "List of trading offers",
-					"type": "list",
-					"item": {
-						"description": "A trading offer",
-						"type": "compound",
-						"children": {
-							"rewardExp": {
-								"type": "byte",
-								"description": "How much XP is rewarded to the player"
-							},
-							"maxUses": {
-								"type": "int",
-								"description": "How many times this trade can be used"
-							},
-							"uses": {
-								"type": "int",
-								"description": "How many times this trade has been used"
-							},
-							"buy": {
-								"ref": "../ref/inventory_item.json",
-								"description": "The first item the villager is buying"
-							},
-							"buyB": {
-								"ref": "../ref/inventory_item.json",
-								"description": "The second item the villager is buying"
-							},
-							"sell": {
-								"ref": "../ref/inventory_item.json",
-								"description": "The item the villager is selling"
-							}
-						}
-					}
-				}
-			}
-		}
-	}
+            "description": "Which careers the villager has"
+        },
+        "CareerLevel": {
+            "type": "int",
+            "description": "Level of trading options"
+        },
+        "Willing": {
+            "type": "byte",
+            "description": "Is the villager willing to breed"
+        },
+        "Inventory": {
+            "type": "list",
+            "item": {
+                "ref": "./inventory_item.json"
+            },
+            "description": "The items a villager has in their inventory"
+        },
+        "Offers": {
+            "description": "Trading offers",
+            "type": "compound",
+            "children": {
+                "Recipes": {
+                    "description": "List of trading offers",
+                    "type": "list",
+                    "item": {
+                        "description": "A trading offer",
+                        "type": "compound",
+                        "children": {
+                            "rewardExp": {
+                                "type": "byte",
+                                "description":
+                                    "How much XP is rewarded to the player"
+                            },
+                            "maxUses": {
+                                "type": "int",
+                                "description":
+                                    "How many times this trade can be used"
+                            },
+                            "uses": {
+                                "type": "int",
+                                "description":
+                                    "How many times this trade has been used"
+                            },
+                            "buy": {
+                                "ref": "../ref/inventory_item.json",
+                                "description":
+                                    "The first item the villager is buying"
+                            },
+                            "buyB": {
+                                "ref": "../ref/inventory_item.json",
+                                "description":
+                                    "The second item the villager is buying"
+                            },
+                            "sell": {
+                                "ref": "../ref/inventory_item.json",
+                                "description":
+                                    "The item the villager is selling"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

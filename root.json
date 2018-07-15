@@ -1,14 +1,14 @@
 {
-	"type": "root",
-	"children": {
-		"entity": {
-			"ref": "./roots/entities.json"
-		},
-		"block": {
-			"ref": "./roots/blocks.json"
-		},
-		"item": {
-			"ref": "./roots/items.json"
-		}
-	}
+    "type": "root",
+    "children": {
+        "entity": {
+            "ref": "./roots/entities.json"
+        },
+        "block": {
+            "ref": "./roots/blocks.json"
+        },
+        "item": {
+            "ref": "./roots/items.json"
+        }
+    }
 }

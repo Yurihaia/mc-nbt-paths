@@ -1,24 +1,22 @@
 {
-	"type": "compound",
-	"child_ref": [
-		"../ref/block_entity.json"
-	],
-	"children": {
-		"Text1": {
-			"type": "string",
-			"description": "Text component of the text on line 1"
-		},
-		"Text2": {
-			"type": "string",
-			"description": "Text component of the text on line 2"
-		},
-		"Text3": {
-			"type": "string",
-			"description": "Text component of the text on line 3"
-		},
-		"Text4": {
-			"type": "string",
-			"description": "Text component of the text on line 4"
-		}
-	}
+    "type": "compound",
+    "child_ref": ["../ref/block_entity.json"],
+    "children": {
+        "Text1": {
+            "type": "string",
+            "description": "Text component of the text on line 1"
+        },
+        "Text2": {
+            "type": "string",
+            "description": "Text component of the text on line 2"
+        },
+        "Text3": {
+            "type": "string",
+            "description": "Text component of the text on line 3"
+        },
+        "Text4": {
+            "type": "string",
+            "description": "Text component of the text on line 4"
+        }
+    }
 }

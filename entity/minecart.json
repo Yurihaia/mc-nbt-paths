@@ -1,26 +1,24 @@
 {
-	"type": "compound",
-	"child_ref": [
-		"./entity.json"
-	],
-	"children": {
-		"DisplayState": {
-			"type": "compound",
-			"description": "Displayed block",
-			"children": {
-				"Tile": {
-					"type": "string",
-					"description": "Displayed block id"
-				},
-				"Properties": {
-					"type": "compound",
-					"description": "Key value pairs of block states and values"
-				}
-			}
-		},
-		"DisplayOffset": {
-			"type": "int",
-			"description": "How many pixels the display should be offset"
-		}
-	}
+    "type": "compound",
+    "child_ref": ["./entity.json"],
+    "children": {
+        "DisplayState": {
+            "type": "compound",
+            "description": "Displayed block",
+            "children": {
+                "Tile": {
+                    "type": "string",
+                    "description": "Displayed block id"
+                },
+                "Properties": {
+                    "type": "compound",
+                    "description": "Key value pairs of block states and values"
+                }
+            }
+        },
+        "DisplayOffset": {
+            "type": "int",
+            "description": "How many pixels the display should be offset"
+        }
+    }
 }

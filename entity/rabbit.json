@@ -1,16 +1,14 @@
 {
-	"type": "compound",
-	"child_ref": [
-		"../ref/breedable.json"
-	],
-	"children": {
-		"RabbitType": {
-			"description": "Type of the rabbit",
-			"type": "int"
-		},
-		"MoreCarrotTicks": {
-			"description": "Ticks unntil the rabbit eats more carrots",
-			"type": "int"
-		}
-	}
+    "type": "compound",
+    "child_ref": ["../ref/breedable.json"],
+    "children": {
+        "RabbitType": {
+            "description": "Type of the rabbit",
+            "type": "int"
+        },
+        "MoreCarrotTicks": {
+            "description": "Ticks unntil the rabbit eats more carrots",
+            "type": "int"
+        }
+    }
 }

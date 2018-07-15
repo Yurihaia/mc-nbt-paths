@@ -1,96 +1,85 @@
 {
-	"type": "compound",
-	"child_ref": [
-		"../ref/block_entity.json"
-	],
-	"children": {
-		"author": {
-			"type": "string",
-			"description": "The author of this structure"
-		},
-		"ignoreEntities": {
-			"type": "byte",
-			"description": "Should the structure ignore entities"
-		},
-		"integrity": {
-			"type": "float",
-			"description": "What percent of blocks should be placed"
-		},
-		"metadata": {
-			"type": "string"
-		},
-		"mirror": {
-			"type": "string",
-			"description": "The mirror if this structure",
-			"suggestions": [
-				"NONE",
-				"LEFT_RIGHT",
-				"FRONT_BACK"
-			]
-		},
-		"mode": {
-			"type": "string",
-			"description": "Mode of this structure block",
-			"suggestions": [
-				"SAVE",
-				"LOAD",
-				"CORNER",
-				"DATA"
-			]
-		},
-		"name": {
-			"type": "string",
-			"description": "Name of the structure"
-		},
-		"posX": {
-			"type": "int",
-			"description": "Offset of the structure on the x axis "
-		},
-		"posY": {
-			"type": "int",
-			"description": "Offset of the structure on the y axis "
-		},
-		"posZ": {
-			"type": "int",
-			"description": "Offset of the structure on the z axis "
-		},
-		"powered": {
-			"type": "byte",
-			"description": "If the structure block is powered by redstone"
-		},
-		"rotation": {
-			"type": "string",
-			"description": "Rotation of the structure",
-			"suggestions": [
-				"NONE",
-				"CLOCKWISE_90",
-				"COUNTERCLOCKWISE_90",
-				"CLOCKWISE_180"
-			]
-		},
-		"seed": {
-			"type": "long",
-			"description": "The seed for the integerity"
-		},
-		"showair": {
-			"type": "byte",
-			"description": "Should the structure block show air"
-		},
-		"showboundingbox": {
-			"type": "byte",
-			"description": "Should the structure block show the bounding box"
-		},
-		"sizeX": {
-			"type": "int",
-			"description": "Size of the structure on the x axis. (Length)"
-		},
-		"sizeY": {
-			"type": "int",
-			"description": "Size of the structure on the y axis. (Height)"
-		},
-		"sizeZ": {
-			"type": "int",
-			"description": "Size of the structure on the z axis. (Width)"
-		}
-	}
+    "type": "compound",
+    "child_ref": ["../ref/block_entity.json"],
+    "children": {
+        "author": {
+            "type": "string",
+            "description": "The author of this structure"
+        },
+        "ignoreEntities": {
+            "type": "byte",
+            "description": "Should the structure ignore entities"
+        },
+        "integrity": {
+            "type": "float",
+            "description": "What percent of blocks should be placed"
+        },
+        "metadata": {
+            "type": "string"
+        },
+        "mirror": {
+            "type": "string",
+            "description": "The mirror if this structure",
+            "suggestions": ["NONE", "LEFT_RIGHT", "FRONT_BACK"]
+        },
+        "mode": {
+            "type": "string",
+            "description": "Mode of this structure block",
+            "suggestions": ["SAVE", "LOAD", "CORNER", "DATA"]
+        },
+        "name": {
+            "type": "string",
+            "description": "Name of the structure"
+        },
+        "posX": {
+            "type": "int",
+            "description": "Offset of the structure on the x axis "
+        },
+        "posY": {
+            "type": "int",
+            "description": "Offset of the structure on the y axis "
+        },
+        "posZ": {
+            "type": "int",
+            "description": "Offset of the structure on the z axis "
+        },
+        "powered": {
+            "type": "byte",
+            "description": "If the structure block is powered by redstone"
+        },
+        "rotation": {
+            "type": "string",
+            "description": "Rotation of the structure",
+            "suggestions": [
+                "NONE",
+                "CLOCKWISE_90",
+                "COUNTERCLOCKWISE_90",
+                "CLOCKWISE_180"
+            ]
+        },
+        "seed": {
+            "type": "long",
+            "description": "The seed for the integerity"
+        },
+        "showair": {
+            "type": "byte",
+            "description": "Should the structure block show air"
+        },
+        "showboundingbox": {
+            "type": "byte",
+            "description": "Should the structure block show the bounding box"
+        },
+        "sizeX": {
+            "type": "int",
+            "description": "Size of the structure on the x axis. (Length)"
+        },
+        "sizeY": {
+            "type": "int",
+            "description": "Size of the structure on the y axis. (Height)"
+        },
+        "sizeZ": {
+            "type": "int",
+            "description": "Size of the structure on the z axis. (Width)"
+        }
+    }
 }

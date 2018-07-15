@@ -1,7 +1,4 @@
 {
-	"type": "compound",
-	"child_ref": [
-		"../ref/block_entity.json",
-		"../ref/nameable.json"
-	]
+    "type": "compound",
+    "child_ref": ["../ref/block_entity.json", "../ref/nameable.json"]
 }

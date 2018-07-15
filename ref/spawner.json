@@ -1,56 +1,56 @@
 {
-	"type": "compound",
-	"children": {
-		"SpawnPotentials": {
-			"description": "List of potential entities to spawn",
-			"type": "list",
-			"item": {
-				"type": "compound",
-				"children": {
-					"Entity": {
-						"function": {
-							"id": "insertStringNBT",
-							"params": {
-								"ref": "../roots/entities.json#%s",
-								"default": "../roots/entities.json#none",
-								"tag_path": "./id"
-							}
-						}
-					},
-					"Weight": {
-						"type": "int",
-						"description": "Chance for the entity to be spawned"
-					}
-				}
-			}
-		},
-		"SpawnCount": {
-			"type": "short",
-			"description": "How many entities to spawn"
-		},
-		"SpawnRange": {
-			"type": "short",
-			"description": "Radius to spawn mobs"
-		},
-		"Delay": {
-			"type": "short",
-			"description": "Delay between spawning mobs"
-		},
-		"MinSpawnDelay": {
-			"type": "short",
-			"description": "Minimum random delay"
-		},
-		"MaxSpawnDelay": {
-			"type": "short",
-			"description": "Maximum random delay"
-		},
-		"MaxNearbyEntities": {
-			"type": "short",
-			"description": "Maximum nearby entites"
-		},
-		"RequiredPlayerRange": {
-			"type": "short",
-			"description": "Range a player has to be in"
-		}
-	}
+    "type": "compound",
+    "children": {
+        "SpawnPotentials": {
+            "description": "List of potential entities to spawn",
+            "type": "list",
+            "item": {
+                "type": "compound",
+                "children": {
+                    "Entity": {
+                        "function": {
+                            "id": "insertStringNBT",
+                            "params": {
+                                "ref": "../roots/entities.json#%s",
+                                "default": "../roots/entities.json#none",
+                                "tag_path": "./id"
+                            }
+                        }
+                    },
+                    "Weight": {
+                        "type": "int",
+                        "description": "Chance for the entity to be spawned"
+                    }
+                }
+            }
+        },
+        "SpawnCount": {
+            "type": "short",
+            "description": "How many entities to spawn"
+        },
+        "SpawnRange": {
+            "type": "short",
+            "description": "Radius to spawn mobs"
+        },
+        "Delay": {
+            "type": "short",
+            "description": "Delay between spawning mobs"
+        },
+        "MinSpawnDelay": {
+            "type": "short",
+            "description": "Minimum random delay"
+        },
+        "MaxSpawnDelay": {
+            "type": "short",
+            "description": "Maximum random delay"
+        },
+        "MaxNearbyEntities": {
+            "type": "short",
+            "description": "Maximum nearby entites"
+        },
+        "RequiredPlayerRange": {
+            "type": "short",
+            "description": "Range a player has to be in"
+        }
+    }
 }

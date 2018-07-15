@@ -1,8 +1,6 @@
 {
     "type": "compound",
-    "child_ref": [
-        "../ref/item_tag.json"
-    ],
+    "child_ref": ["../ref/item_tag.json"],
     "children": {
         "map_scale_direction": {
             "type": "int"
@@ -11,14 +9,14 @@
             "type": "byte"
         },
         "display": {
-			"type": "compound",
-			"children": {
-				"MapColor": {
+            "type": "compound",
+            "children": {
+                "MapColor": {
                     "type": "int",
                     "description": "Color of the map"
                 }
-			}
-		},
+            }
+        },
         "Decorations": {
             "description": "List of map decorations",
             "type": "list",

@@ -1,12 +1,10 @@
 {
-	"type": "compound",
-	"child_ref": [
-		"../ref/minecart.json"
-	],
-	"children": {
-		"TNTFuse": {
-			"type": "int",
-			"description": "How long until the tnt minecart blows up"
-		}
-	}
+    "type": "compound",
+    "child_ref": ["../ref/minecart.json"],
+    "children": {
+        "TNTFuse": {
+            "type": "int",
+            "description": "How long until the tnt minecart blows up"
+        }
+    }
 }

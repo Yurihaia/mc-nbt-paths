@@ -1,12 +1,10 @@
 {
-	"type": "compound",
-	"child_ref": [
-		"./item.json"
-	],
-	"children": {
-		"Slot": {
-			"type": "byte",
-			"description": "The inventory slot this item is in"
-		}
-	}
+    "type": "compound",
+    "child_ref": ["./item.json"],
+    "children": {
+        "Slot": {
+            "type": "byte",
+            "description": "The inventory slot this item is in"
+        }
+    }
 }

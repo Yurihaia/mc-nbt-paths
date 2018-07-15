@@ -1,28 +1,26 @@
 {
-	"type": "compound",
-	"child_ref": [
-		"./mob.json"
-	],
-	"children": {
-		"InLove": {
-			"type": "int",
-			"description": "If the animal has just been fed"
-		},
-		"Age": {
-			"type": "int",
-			"description": "The age of the animal"
-		},
-		"ForcedAge": {
-			"type": "int",
-			"description": "The age of the animal. Will not increment"
-		},
-		"LoveCauseLeast": {
-			"type": "long",
-			"description": "The UUIDLeast of the player you fed the animal"
-		},
-		"LoveCauseMost": {
-			"type": "long",
-			"description": "The UUIDMost of the player you fed the animal"
-		}
-	}
+    "type": "compound",
+    "child_ref": ["./mob.json"],
+    "children": {
+        "InLove": {
+            "type": "int",
+            "description": "If the animal has just been fed"
+        },
+        "Age": {
+            "type": "int",
+            "description": "The age of the animal"
+        },
+        "ForcedAge": {
+            "type": "int",
+            "description": "The age of the animal. Will not increment"
+        },
+        "LoveCauseLeast": {
+            "type": "long",
+            "description": "The UUIDLeast of the player you fed the animal"
+        },
+        "LoveCauseMost": {
+            "type": "long",
+            "description": "The UUIDMost of the player you fed the animal"
+        }
+    }
 }

@@ -1,24 +1,22 @@
 {
-	"type": "compound",
-	"child_ref": [
-		"../ref/mob.json"
-	],
-	"children": {
-		"powered": {
-			"type": "byte",
-			"description": "If the creeper is a charged creeper"
-		},
-		"ExplosionRadius": {
-			"type": "byte",
-			"description": "Radius of the resulting explosion"
-		},
-		"Fuse": {
-			"type": "short",
-			"description": "How long until the creeper blows up"
-		},
-		"ignited": {
-			"type": "byte",
-			"description": "If the creeper was ignited with flint and steel"
-		}
-	}
+    "type": "compound",
+    "child_ref": ["../ref/mob.json"],
+    "children": {
+        "powered": {
+            "type": "byte",
+            "description": "If the creeper is a charged creeper"
+        },
+        "ExplosionRadius": {
+            "type": "byte",
+            "description": "Radius of the resulting explosion"
+        },
+        "Fuse": {
+            "type": "short",
+            "description": "How long until the creeper blows up"
+        },
+        "ignited": {
+            "type": "byte",
+            "description": "If the creeper was ignited with flint and steel"
+        }
+    }
 }

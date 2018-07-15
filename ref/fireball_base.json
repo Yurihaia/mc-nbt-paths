@@ -1,26 +1,25 @@
 {
-	"type": "compound",
-	"child_ref": [
-		"../ref/entity.json"
-	],
-	"children": {
-		"direction": {
-			"type": "list",
-			"item": {
-				"type": "double"
-			},
-			"description": "Direction and magnitude of motion. Does not slow down"
-		},
-		"life": {
-			"type": "int",
-			"description": "How long has this been alive"
-		},
-		"power": {
-			"type": "list",
-			"item": {
-				"type": "double"
-			},
-			"description": "Same as direction but without resistance"
-		}
-	}
+    "type": "compound",
+    "child_ref": ["../ref/entity.json"],
+    "children": {
+        "direction": {
+            "type": "list",
+            "item": {
+                "type": "double"
+            },
+            "description":
+                "Direction and magnitude of motion. Does not slow down"
+        },
+        "life": {
+            "type": "int",
+            "description": "How long has this been alive"
+        },
+        "power": {
+            "type": "list",
+            "item": {
+                "type": "double"
+            },
+            "description": "Same as direction but without resistance"
+        }
+    }
 }

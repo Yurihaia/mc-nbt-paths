@@ -1,16 +1,14 @@
 {
-	"type": "compound",
-	"child_ref": [
-		"../ref/zombie.json"
-	],
-	"children": {
-		"Anger": {
-			"type": "short",
-			"description": "How many ticks until it isn't angry"
-		},
-		"HurtBy": {
-			"type": "string",
-			"description": "The UUID of the last player who attacked it"
-		}
-	}
+    "type": "compound",
+    "child_ref": ["../ref/zombie.json"],
+    "children": {
+        "Anger": {
+            "type": "short",
+            "description": "How many ticks until it isn't angry"
+        },
+        "HurtBy": {
+            "type": "string",
+            "description": "The UUID of the last player who attacked it"
+        }
+    }
 }

@@ -1,80 +1,83 @@
 {
-	"type": "compound",
-	"child_ref": [
-		"../ref/block_entity.json",
-		"../ref/nameable.json"
-	],
-	"children": {
-		"Base": {
-			"type": "int",
-			"description": "The base color of the banner"
-		},
-		"Patterns": {
-			"type": "compound",
-			"children": {
-				"Color": {
-					"type": "int",
-					"description": "The color of the pattern"
-				},
-				"Pattern": {
-					"type": "string",
-					"description": "The name of the pattern",
-					"suggestions": [
-						{
-							"value": "bs",
-							"description": "Bottom Stripe (Base)"
-						},
-						{
-							"value": "bl",
-							"description": "Bottom Left Corner (Base dexter canton)"
-						},
-						{
-							"value": "gru",
-							"description": "Gradient upside-down (Base gradient)"
-						},
-						{
-							"value": "bts",
-							"description": "Bottom Triangle Sawtooth (Base indented)"
-						},
-						{
-							"value": "br",
-							"description": "Bottom Right Corner (Base sinister canton)"
-						},
-						{
-							"value": "drs",
-							"description": "Down Right Stripe (Bend)"
-						},
-						{
-							"value": "dls",
-							"description": "Down Left Stripe (Bend sinister)"
-						},
-						{
-							"value": "bo",
-							"description": "Border (Bordure)"
-						},
-						{
-							"value": "cbo",
-							"description": "Curly Border (Bordure indented)"
-						},
-						{
-							"value": "bt",
-							"description": "Bottom Triangle (Chevron)"
-						},
-						{
-							"value": "ts",
-							"description": "Top Stripe (Chief)"
-						},
-						{
-							"value": "tl",
-							"description": "Top Left Corner (Chief dexter canton)"
-						},
-						{
-							"value": "tts",
-							"description": "Top Triangle Sawtooth (Chief indented)"
-						}
-					]
-				}
-			}
-		}
-	}
+    "type": "compound",
+    "child_ref": ["../ref/block_entity.json", "../ref/nameable.json"],
+    "children": {
+        "Base": {
+            "type": "int",
+            "description": "The base color of the banner"
+        },
+        "Patterns": {
+            "type": "compound",
+            "children": {
+                "Color": {
+                    "type": "int",
+                    "description": "The color of the pattern"
+                },
+                "Pattern": {
+                    "type": "string",
+                    "description": "The name of the pattern",
+                    "suggestions": [
+                        {
+                            "value": "bs",
+                            "description": "Bottom Stripe (Base)"
+                        },
+                        {
+                            "value": "bl",
+                            "description":
+                                "Bottom Left Corner (Base dexter canton)"
+                        },
+                        {
+                            "value": "gru",
+                            "description":
+                                "Gradient upside-down (Base gradient)"
+                        },
+                        {
+                            "value": "bts",
+                            "description":
+                                "Bottom Triangle Sawtooth (Base indented)"
+                        },
+                        {
+                            "value": "br",
+                            "description":
+                                "Bottom Right Corner (Base sinister canton)"
+                        },
+                        {
+                            "value": "drs",
+                            "description": "Down Right Stripe (Bend)"
+                        },
+                        {
+                            "value": "dls",
+                            "description": "Down Left Stripe (Bend sinister)"
+                        },
+                        {
+                            "value": "bo",
+                            "description": "Border (Bordure)"
+                        },
+                        {
+                            "value": "cbo",
+                            "description": "Curly Border (Bordure indented)"
+                        },
+                        {
+                            "value": "bt",
+                            "description": "Bottom Triangle (Chevron)"
+                        },
+                        {
+                            "value": "ts",
+                            "description": "Top Stripe (Chief)"
+                        },
+                        {
+                            "value": "tl",
+                            "description":
+                                "Top Left Corner (Chief dexter canton)"
+                        },
+                        {
+                            "value": "tts",
+                            "description":
+                                "Top Triangle Sawtooth (Chief indented)"
+                        }
+                    ]
+                }
+            }
+        }
+    }
 }
