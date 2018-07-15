@@ -97,7 +97,7 @@
 			"description": "A list of entities riding this entity",
 			"type": "list",
 			"item": {
-				"ref": "./entity.json#"
+				"ref": "./entity.json"
 			}
 		},
 		"Glowing": {

@@ -114,14 +114,14 @@
 		"HandItems": {
 			"type": "list",
 			"item": {
-				"ref": "./inventory_item.json#"
+				"ref": "./inventory_item.json"
 			},
 			"description": "Items in the main and off hand"
 		},
 		"ArmorItems": {
 			"type": "list",
 			"item": {
-				"ref": "./inventory_item.json#"
+				"ref": "./inventory_item.json"
 			},
 			"description": "Armor items"
 		},

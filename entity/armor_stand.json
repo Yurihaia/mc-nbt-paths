@@ -15,14 +15,14 @@
 		"HandItems": {
 			"type": "list",
 			"item": {
-				"ref": "./inventory_item.json#"
+				"ref": "./inventory_item.json"
 			},
 			"description": "Items in main and offhand"
 		},
 		"ArmorItems": {
 			"type": "list",
 			"item": {
-				"ref": "./inventory_item.json#"
+				"ref": "./inventory_item.json"
 			},
 			"description": "Armor in armor slots"
 		},
