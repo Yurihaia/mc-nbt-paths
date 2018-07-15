@@ -1,22 +1,22 @@
 {
-    "type": "compound",
-    "child_ref": ["./minecart.json"],
-    "children": {
-        "Command": {
-            "type": "string",
-            "description": "The command to run"
-        },
-        "SuccessCount": {
-            "type": "int",
-            "description": "The success count of the command run"
-        },
-        "LastOutput": {
-            "type": "string",
-            "description": "The description of the last output"
-        },
-        "TrackOutput": {
-            "type": "byte",
-            "description": "Should the command block should write to LastOutput"
-        }
-    }
+	"type": "compound",
+	"child_ref": ["./minecart.json"],
+	"children": {
+		"Command": {
+			"type": "string",
+			"description": "The command to run"
+		},
+		"SuccessCount": {
+			"type": "int",
+			"description": "The success count of the command run"
+		},
+		"LastOutput": {
+			"type": "string",
+			"description": "The description of the last output"
+		},
+		"TrackOutput": {
+			"type": "byte",
+			"description": "Should the command block should write to LastOutput"
+		}
+	}
 }

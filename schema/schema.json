@@ -1,191 +1,191 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "oneOf": [
-        {
-            "type": "array",
-            "items": {
-                "oneOf": [
-                    {
-                        "type": "string"
-                    },
-                    {
-                        "type": "object",
-                        "properties": {
-                            "value": {
-                                "type": "string"
-                            },
-                            "description": {
-                                "type": "string"
-                            }
-                        },
-                        "required": ["value", "description"]
-                    }
-                ]
-            }
-        },
-        {
-            "$ref": "#/definitions/nest_node"
-        }
-    ],
-    "definitions": {
-        "nest_node": {
-            "type": "object",
-            "properties": {
-                "suggestions": {
-                    "type": "array",
-                    "items": {
-                        "oneOf": [
-                            {
-                                "type": "string"
-                            },
-                            {
-                                "type": "object",
-                                "properties": {
-                                    "value": {
-                                        "type": "string"
-                                    },
-                                    "description": {
-                                        "type": "string"
-                                    }
-                                },
-                                "required": ["value", "description"]
-                            },
-                            {
-                                "type": "object",
-                                "properties": {
-                                    "values": {
-                                        "type": "string"
-                                    }
-                                },
-                                "required": ["values"]
-                            },
-                            {
-                                "type": "object",
-                                "properties": {
-                                    "function": {
-                                        "$ref": "#/definitions/function"
-                                    }
-                                },
-                                "required": ["function"]
-                            }
-                        ]
-                    }
-                },
-                "description": {
-                    "type": "string"
-                }
-            },
-            "oneOf": [
-                {
-                    "$ref": "#/definitions/noProp"
-                },
-                {
-                    "$ref": "#/definitions/rootProp"
-                },
-                {
-                    "$ref": "#/definitions/compoundProp"
-                },
-                {
-                    "$ref": "#/definitions/listProp"
-                },
-                {
-                    "properties": {
-                        "ref": {
-                            "type": "string"
-                        }
-                    },
-                    "required": ["ref"]
-                },
-                {
-                    "properties": {
-                        "function": {
-                            "$ref": "#/definitions/function"
-                        }
-                    },
-                    "required": ["function"]
-                }
-            ]
-        },
-        "noProp": {
-            "required": ["type"],
-            "properties": {
-                "type": {
-                    "enum": [
-                        "no-nbt",
-                        "byte",
-                        "short",
-                        "int",
-                        "long",
-                        "float",
-                        "double",
-                        "byte_array",
-                        "string",
-                        "int_array",
-                        "long_array"
-                    ]
-                }
-            }
-        },
-        "rootProp": {
-            "required": ["type"],
-            "properties": {
-                "type": {
-                    "enum": ["root"]
-                },
-                "children": {
-                    "type": "object",
-                    "patternProperties": {
-                        ".*": {
-                            "$ref": "#/definitions/nest_node"
-                        }
-                    }
-                }
-            }
-        },
-        "compoundProp": {
-            "required": ["type"],
-            "properties": {
-                "type": {
-                    "enum": ["compound"]
-                },
-                "children": {
-                    "type": "object",
-                    "patternProperties": {
-                        ".*": {
-                            "$ref": "#/definitions/nest_node"
-                        }
-                    }
-                },
-                "child_ref": {
-                    "type": "array",
-                    "items": {
-                        "type": "string"
-                    }
-                }
-            }
-        },
-        "listProp": {
-            "required": ["type"],
-            "properties": {
-                "type": {
-                    "enum": ["list"]
-                },
-                "item": {
-                    "$ref": "#/definitions/nest_node"
-                }
-            }
-        },
-        "function": {
-            "type": "object",
-            "properties": {
-                "id": {
-                    "type": "string"
-                },
-                "params": {
-                    "type": "object"
-                }
-            },
-            "required": ["id"]
-        }
-    }
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"oneOf": [
+		{
+			"type": "array",
+			"items": {
+				"oneOf": [
+					{
+						"type": "string"
+					},
+					{
+						"type": "object",
+						"properties": {
+							"value": {
+								"type": "string"
+							},
+							"description": {
+								"type": "string"
+							}
+						},
+						"required": ["value", "description"]
+					}
+				]
+			}
+		},
+		{
+			"$ref": "#/definitions/nest_node"
+		}
+	],
+	"definitions": {
+		"nest_node": {
+			"type": "object",
+			"properties": {
+				"suggestions": {
+					"type": "array",
+					"items": {
+						"oneOf": [
+							{
+								"type": "string"
+							},
+							{
+								"type": "object",
+								"properties": {
+									"value": {
+										"type": "string"
+									},
+									"description": {
+										"type": "string"
+									}
+								},
+								"required": ["value", "description"]
+							},
+							{
+								"type": "object",
+								"properties": {
+									"values": {
+										"type": "string"
+									}
+								},
+								"required": ["values"]
+							},
+							{
+								"type": "object",
+								"properties": {
+									"function": {
+										"$ref": "#/definitions/function"
+									}
+								},
+								"required": ["function"]
+							}
+						]
+					}
+				},
+				"description": {
+					"type": "string"
+				}
+			},
+			"oneOf": [
+				{
+					"$ref": "#/definitions/noProp"
+				},
+				{
+					"$ref": "#/definitions/rootProp"
+				},
+				{
+					"$ref": "#/definitions/compoundProp"
+				},
+				{
+					"$ref": "#/definitions/listProp"
+				},
+				{
+					"properties": {
+						"ref": {
+							"type": "string"
+						}
+					},
+					"required": ["ref"]
+				},
+				{
+					"properties": {
+						"function": {
+							"$ref": "#/definitions/function"
+						}
+					},
+					"required": ["function"]
+				}
+			]
+		},
+		"noProp": {
+			"required": ["type"],
+			"properties": {
+				"type": {
+					"enum": [
+						"no-nbt",
+						"byte",
+						"short",
+						"int",
+						"long",
+						"float",
+						"double",
+						"byte_array",
+						"string",
+						"int_array",
+						"long_array"
+					]
+				}
+			}
+		},
+		"rootProp": {
+			"required": ["type"],
+			"properties": {
+				"type": {
+					"enum": ["root"]
+				},
+				"children": {
+					"type": "object",
+					"patternProperties": {
+						".*": {
+							"$ref": "#/definitions/nest_node"
+						}
+					}
+				}
+			}
+		},
+		"compoundProp": {
+			"required": ["type"],
+			"properties": {
+				"type": {
+					"enum": ["compound"]
+				},
+				"children": {
+					"type": "object",
+					"patternProperties": {
+						".*": {
+							"$ref": "#/definitions/nest_node"
+						}
+					}
+				},
+				"child_ref": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				}
+			}
+		},
+		"listProp": {
+			"required": ["type"],
+			"properties": {
+				"type": {
+					"enum": ["list"]
+				},
+				"item": {
+					"$ref": "#/definitions/nest_node"
+				}
+			}
+		},
+		"function": {
+			"type": "object",
+			"properties": {
+				"id": {
+					"type": "string"
+				},
+				"params": {
+					"type": "object"
+				}
+			},
+			"required": ["id"]
+		}
+	}
 }

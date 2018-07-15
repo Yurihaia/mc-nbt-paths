@@ -1,14 +1,14 @@
 {
-    "type": "compound",
-    "child_ref": ["../ref/horse.json"],
-    "children": {
-        "SkeletonTrap": {
-            "type": "byte",
-            "description": "Should the skeleton horse be a trap"
-        },
-        "SkeletonTrapTime": {
-            "type": "int",
-            "description": "How many ticks the trap horse has existed"
-        }
-    }
+	"type": "compound",
+	"child_ref": ["../ref/horse.json"],
+	"children": {
+		"SkeletonTrap": {
+			"type": "byte",
+			"description": "Should the skeleton horse be a trap"
+		},
+		"SkeletonTrapTime": {
+			"type": "int",
+			"description": "How many ticks the trap horse has existed"
+		}
+	}
 }

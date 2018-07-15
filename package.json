@@ -1,27 +1,28 @@
 {
-    "description": "NBT paths",
-    "name": "mc-nbt-paths",
-    "version": "1.13.0-18w16a",
-    "author": "MrYurihi",
-    "contributors": [
-        "MrYurihi",
-        "Levertion",
-        "Bassab03"
-    ],
-    "license": "Unlicense",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/MrYurihi/mc-nbt-paths"
-    },
-    "scripts": {
-        "test": "ajv -s schema/schema.json -d \"block/**/*.json\" -d \"entity/**/*.json\" -d \"item/**/*.json\" -d \"ref/**/*.json\" -d \"roots/**/*.json\"",
-        "lint": "prettier --list-different **/*.json"
-    },
-    "devDependencies": {
-        "ajv-cli": "^3.0.0",
-        "prettier": "^1.13.7"
-    },
-    "prettier": {
-        "tabWidth": 4
-    }
+	"description": "NBT paths",
+	"name": "mc-nbt-paths",
+	"version": "1.13.0-18w16a",
+	"author": "MrYurihi",
+	"contributors": [
+		"MrYurihi",
+		"Levertion",
+		"Bassab03"
+	],
+	"license": "Unlicense",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/MrYurihi/mc-nbt-paths"
+	},
+	"scripts": {
+		"test": "ajv -s schema/schema.json -d \"block/**/*.json\" -d \"entity/**/*.json\" -d \"item/**/*.json\" -d \"ref/**/*.json\" -d \"roots/**/*.json\"",
+		"lint": "prettier --list-different **/*.json"
+	},
+	"devDependencies": {
+		"ajv-cli": "^3.0.0",
+		"prettier": "^1.13.7"
+	},
+	"prettier": {
+		"tabWidth": 4,
+		"useTabs": true
+	}
 }

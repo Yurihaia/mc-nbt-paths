@@ -1,20 +1,20 @@
 {
-    "type": "compound",
-    "children": {
-        "Items": {
-            "type": "list",
-            "item": {
-                "ref": "./inventory_item.json"
-            },
-            "description": "Items in this container"
-        },
-        "LootTable": {
-            "type": "string",
-            "description": "Loot table that generates the contents"
-        },
-        "LootTableSeed": {
-            "type": "long",
-            "description": "Seed for random numbers in the loot table"
-        }
-    }
+	"type": "compound",
+	"children": {
+		"Items": {
+			"type": "list",
+			"item": {
+				"ref": "./inventory_item.json"
+			},
+			"description": "Items in this container"
+		},
+		"LootTable": {
+			"type": "string",
+			"description": "Loot table that generates the contents"
+		},
+		"LootTableSeed": {
+			"type": "long",
+			"description": "Seed for random numbers in the loot table"
+		}
+	}
 }

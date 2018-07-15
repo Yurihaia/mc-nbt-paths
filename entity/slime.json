@@ -1,14 +1,14 @@
 {
-    "type": "compound",
-    "child_ref": ["../ref/mob.json"],
-    "children": {
-        "Size": {
-            "type": "int",
-            "description": "Size of slime"
-        },
-        "wasOnGround": {
-            "type": "byte",
-            "description": "If the slime is touching the ground"
-        }
-    }
+	"type": "compound",
+	"child_ref": ["../ref/mob.json"],
+	"children": {
+		"Size": {
+			"type": "int",
+			"description": "Size of slime"
+		},
+		"wasOnGround": {
+			"type": "byte",
+			"description": "If the slime is touching the ground"
+		}
+	}
 }

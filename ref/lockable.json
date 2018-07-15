@@ -1,10 +1,10 @@
 {
-    "type": "compound",
-    "children": {
-        "Lock": {
-            "type": "string",
-            "description":
-                "The name of the item a player has to be holding to open this container"
-        }
-    }
+	"type": "compound",
+	"children": {
+		"Lock": {
+			"type": "string",
+			"description":
+				"The name of the item a player has to be holding to open this container"
+		}
+	}
 }

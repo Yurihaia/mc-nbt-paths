@@ -1,10 +1,10 @@
 {
-    "type": "compound",
-    "child_ref": ["../ref/mob.json"],
-    "children": {
-        "Johnny": {
-            "type": "byte",
-            "description": "Should the vindicator attack all mobs"
-        }
-    }
+	"type": "compound",
+	"child_ref": ["../ref/mob.json"],
+	"children": {
+		"Johnny": {
+			"type": "byte",
+			"description": "Should the vindicator attack all mobs"
+		}
+	}
 }

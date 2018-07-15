@@ -1,9 +1,9 @@
 {
-    "type": "compound",
-    "child_ref": ["../ref/block_entity.json"],
-    "children": {
-        "RecordItem": {
-            "ref": "../ref/item.json"
-        }
-    }
+	"type": "compound",
+	"child_ref": ["../ref/block_entity.json"],
+	"children": {
+		"RecordItem": {
+			"ref": "../ref/item.json"
+		}
+	}
 }

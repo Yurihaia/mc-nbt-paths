@@ -1,50 +1,50 @@
 {
-    "type": "compound",
-    "child_ref": ["../ref/entity.json"],
-    "children": {
-        "Age": {
-            "type": "short",
-            "description": "How long the item has been alive"
-        },
-        "Health": {
-            "type": "short",
-            "description": "Health of the item"
-        },
-        "PickupDelay": {
-            "type": "short",
-            "description": "How long before the item can be picked up"
-        },
-        "Owner": {
-            "description": "UUID of the owner of the item",
-            "type": "compound",
-            "children": {
-                "M": {
-                    "description": "UUIDMost of the owner",
-                    "type": "long"
-                },
-                "L": {
-                    "description": "UUIDLeast of the owner",
-                    "type": "long"
-                }
-            }
-        },
-        "Thrower": {
-            "type": "compound",
-            "description": "UUID of the thrower of the item",
-            "children": {
-                "M": {
-                    "description": "UUIDMost of the thrower",
-                    "type": "long"
-                },
-                "L": {
-                    "description": "UUIDLeast of the thrower",
-                    "type": "long"
-                }
-            }
-        },
-        "Item": {
-            "ref": "../ref/item.json",
-            "description": "The item that this item entity represents"
-        }
-    }
+	"type": "compound",
+	"child_ref": ["../ref/entity.json"],
+	"children": {
+		"Age": {
+			"type": "short",
+			"description": "How long the item has been alive"
+		},
+		"Health": {
+			"type": "short",
+			"description": "Health of the item"
+		},
+		"PickupDelay": {
+			"type": "short",
+			"description": "How long before the item can be picked up"
+		},
+		"Owner": {
+			"description": "UUID of the owner of the item",
+			"type": "compound",
+			"children": {
+				"M": {
+					"description": "UUIDMost of the owner",
+					"type": "long"
+				},
+				"L": {
+					"description": "UUIDLeast of the owner",
+					"type": "long"
+				}
+			}
+		},
+		"Thrower": {
+			"type": "compound",
+			"description": "UUID of the thrower of the item",
+			"children": {
+				"M": {
+					"description": "UUIDMost of the thrower",
+					"type": "long"
+				},
+				"L": {
+					"description": "UUIDLeast of the thrower",
+					"type": "long"
+				}
+			}
+		},
+		"Item": {
+			"ref": "../ref/item.json",
+			"description": "The item that this item entity represents"
+		}
+	}
 }

@@ -1,10 +1,10 @@
 {
-    "type": "compound",
-    "child_ref": ["../ref/mob.json"],
-    "children": {
-        "Saddle": {
-            "type": "byte",
-            "description": "If the pig has a saddle"
-        }
-    }
+	"type": "compound",
+	"child_ref": ["../ref/mob.json"],
+	"children": {
+		"Saddle": {
+			"type": "byte",
+			"description": "If the pig has a saddle"
+		}
+	}
 }

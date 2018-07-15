@@ -1,47 +1,47 @@
 {
-    "type": "compound",
-    "children": {
-        "Flicker": {
-            "type": "byte",
-            "description": "Should the explosion flicker"
-        },
-        "Trail": {
-            "type": "byte",
-            "description": "Should the explosion leave a trail"
-        },
-        "Type": {
-            "type": "byte",
-            "description": "Type of pattern",
-            "suggestions": [
-                {
-                    "value": "0",
-                    "description": "Small ball"
-                },
-                {
-                    "value": "1",
-                    "description": "Large ball"
-                },
-                {
-                    "value": "2",
-                    "description": "Star"
-                },
-                {
-                    "value": "3",
-                    "description": "Creeper"
-                },
-                {
-                    "value": "4",
-                    "description": "Burst"
-                }
-            ]
-        },
-        "Colors": {
-            "type": "int_array",
-            "description": "Array of colors the explosion shows."
-        },
-        "FadeColors": {
-            "type": "int_array",
-            "description": "Array of colors the explosion shows when fading."
-        }
-    }
+	"type": "compound",
+	"children": {
+		"Flicker": {
+			"type": "byte",
+			"description": "Should the explosion flicker"
+		},
+		"Trail": {
+			"type": "byte",
+			"description": "Should the explosion leave a trail"
+		},
+		"Type": {
+			"type": "byte",
+			"description": "Type of pattern",
+			"suggestions": [
+				{
+					"value": "0",
+					"description": "Small ball"
+				},
+				{
+					"value": "1",
+					"description": "Large ball"
+				},
+				{
+					"value": "2",
+					"description": "Star"
+				},
+				{
+					"value": "3",
+					"description": "Creeper"
+				},
+				{
+					"value": "4",
+					"description": "Burst"
+				}
+			]
+		},
+		"Colors": {
+			"type": "int_array",
+			"description": "Array of colors the explosion shows."
+		},
+		"FadeColors": {
+			"type": "int_array",
+			"description": "Array of colors the explosion shows when fading."
+		}
+	}
 }

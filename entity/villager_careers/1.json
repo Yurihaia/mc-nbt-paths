@@ -1,13 +1,13 @@
 {
-    "type": "int",
-    "suggestions": [
-        {
-            "value": "1",
-            "description": "Librarian"
-        },
-        {
-            "value": "2",
-            "description": "Cartographer"
-        }
-    ]
+	"type": "int",
+	"suggestions": [
+		{
+			"value": "1",
+			"description": "Librarian"
+		},
+		{
+			"value": "2",
+			"description": "Cartographer"
+		}
+	]
 }

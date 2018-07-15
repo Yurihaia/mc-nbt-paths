@@ -1,10 +1,10 @@
 {
-    "type": "compound",
-    "child_ref": ["../ref/mob.json"],
-    "children": {
-        "FromBucket": {
-            "type": "byte",
-            "description": "If the fish is from a bucket"
-        }
-    }
+	"type": "compound",
+	"child_ref": ["../ref/mob.json"],
+	"children": {
+		"FromBucket": {
+			"type": "byte",
+			"description": "If the fish is from a bucket"
+		}
+	}
 }

@@ -1,6 +1,6 @@
 [
-    "minecraft:potion",
-    "minecraft:splash_potion",
-    "minecraft:lingering_potion",
-    "minecraft:tipped_arrow"
+	"minecraft:potion",
+	"minecraft:splash_potion",
+	"minecraft:lingering_potion",
+	"minecraft:tipped_arrow"
 ]

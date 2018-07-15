@@ -1,4 +1,4 @@
 {
-    "type": "compound",
-    "child_ref": ["../ref/block_entity.json", "../ref/spawner.json"]
+	"type": "compound",
+	"child_ref": ["../ref/block_entity.json", "../ref/spawner.json"]
 }

@@ -1,56 +1,56 @@
 {
-    "type": "compound",
-    "child_ref": ["../ref/mob.json"],
-    "children": {
-        "DragonPhase": {
-            "type": "int",
-            "description": "Phase the dragon is in",
-            "suggestions": [
-                {
-                    "value": "0",
-                    "description": "Dragon is circling aroung island"
-                },
-                {
-                    "value": "1",
-                    "description": "Preparing to shoot fireball"
-                },
-                {
-                    "value": "2",
-                    "description": "Flying to the portal"
-                },
-                {
-                    "value": "3",
-                    "description": "Landing on the portal"
-                },
-                {
-                    "value": "4",
-                    "description": "Taking off from the portal"
-                },
-                {
-                    "value": "5",
-                    "description": "Landed. Attacking player with dragon breath"
-                },
-                {
-                    "value": "6",
-                    "description": "Landed. Searching for player to attack"
-                },
-                {
-                    "value": "7",
-                    "description": "Landed. Roaring"
-                },
-                {
-                    "value": "8",
-                    "description": "Flying at player"
-                },
-                {
-                    "value": "9",
-                    "description": "Dying."
-                },
-                {
-                    "value": "10",
-                    "description": "Flapping wings and not moving"
-                }
-            ]
-        }
-    }
+	"type": "compound",
+	"child_ref": ["../ref/mob.json"],
+	"children": {
+		"DragonPhase": {
+			"type": "int",
+			"description": "Phase the dragon is in",
+			"suggestions": [
+				{
+					"value": "0",
+					"description": "Dragon is circling aroung island"
+				},
+				{
+					"value": "1",
+					"description": "Preparing to shoot fireball"
+				},
+				{
+					"value": "2",
+					"description": "Flying to the portal"
+				},
+				{
+					"value": "3",
+					"description": "Landing on the portal"
+				},
+				{
+					"value": "4",
+					"description": "Taking off from the portal"
+				},
+				{
+					"value": "5",
+					"description": "Landed. Attacking player with dragon breath"
+				},
+				{
+					"value": "6",
+					"description": "Landed. Searching for player to attack"
+				},
+				{
+					"value": "7",
+					"description": "Landed. Roaring"
+				},
+				{
+					"value": "8",
+					"description": "Flying at player"
+				},
+				{
+					"value": "9",
+					"description": "Dying."
+				},
+				{
+					"value": "10",
+					"description": "Flapping wings and not moving"
+				}
+			]
+		}
+	}
 }

@@ -1,14 +1,14 @@
 {
-    "type": "compound",
-    "child_ref": ["../ref/breedable.json"],
-    "children": {
-        "Sheared": {
-            "type": "byte",
-            "description": "If the sheep is sheared"
-        },
-        "Color": {
-            "description": "Color of the sheep",
-            "type": "byte"
-        }
-    }
+	"type": "compound",
+	"child_ref": ["../ref/breedable.json"],
+	"children": {
+		"Sheared": {
+			"type": "byte",
+			"description": "If the sheep is sheared"
+		},
+		"Color": {
+			"description": "Color of the sheep",
+			"type": "byte"
+		}
+	}
 }

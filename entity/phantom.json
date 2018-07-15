@@ -1,22 +1,22 @@
 {
-    "type": "compound",
-    "child_ref": ["../ref/mob.json"],
-    "children": {
-        "Size": {
-            "type": "int",
-            "description": "Size of the phantom"
-        },
-        "AX": {
-            "type": "int",
-            "description": "X coord to circle around"
-        },
-        "AY": {
-            "type": "int",
-            "description": "Y coord to circle around"
-        },
-        "AZ": {
-            "type": "int",
-            "description": "Z coord to circle around"
-        }
-    }
+	"type": "compound",
+	"child_ref": ["../ref/mob.json"],
+	"children": {
+		"Size": {
+			"type": "int",
+			"description": "Size of the phantom"
+		},
+		"AX": {
+			"type": "int",
+			"description": "X coord to circle around"
+		},
+		"AY": {
+			"type": "int",
+			"description": "Y coord to circle around"
+		},
+		"AZ": {
+			"type": "int",
+			"description": "Z coord to circle around"
+		}
+	}
 }

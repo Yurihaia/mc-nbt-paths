@@ -1,28 +1,28 @@
 {
-    "type": "compound",
-    "child_ref": ["../ref/entity.json"],
-    "children": {
-        "ShowBottom": {
-            "type": "byte",
-            "description": "Should the bottom of the ender crystal show"
-        },
-        "BeamTarget": {
-            "description": "Where the beam should point to",
-            "type": "compound",
-            "children": {
-                "X": {
-                    "type": "int",
-                    "description": "X coordinate of the beam target"
-                },
-                "Y": {
-                    "type": "int",
-                    "description": "X coordinate of the beam target"
-                },
-                "Z": {
-                    "type": "int",
-                    "description": "X coordinate of the beam target"
-                }
-            }
-        }
-    }
+	"type": "compound",
+	"child_ref": ["../ref/entity.json"],
+	"children": {
+		"ShowBottom": {
+			"type": "byte",
+			"description": "Should the bottom of the ender crystal show"
+		},
+		"BeamTarget": {
+			"description": "Where the beam should point to",
+			"type": "compound",
+			"children": {
+				"X": {
+					"type": "int",
+					"description": "X coordinate of the beam target"
+				},
+				"Y": {
+					"type": "int",
+					"description": "X coordinate of the beam target"
+				},
+				"Z": {
+					"type": "int",
+					"description": "X coordinate of the beam target"
+				}
+			}
+		}
+	}
 }

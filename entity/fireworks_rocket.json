@@ -1,18 +1,18 @@
 {
-    "type": "compound",
-    "child_ref": ["../ref/entity.json"],
-    "children": {
-        "Life": {
-            "type": "int",
-            "description": "How long this rocket has been flying"
-        },
-        "LifeTime": {
-            "type": "int",
-            "description": "How many ticks until the rocket explodes"
-        },
-        "FireworksItem": {
-            "ref": "../item/firework_rocket.json",
-            "description": "The rocket item to use for explosions"
-        }
-    }
+	"type": "compound",
+	"child_ref": ["../ref/entity.json"],
+	"children": {
+		"Life": {
+			"type": "int",
+			"description": "How long this rocket has been flying"
+		},
+		"LifeTime": {
+			"type": "int",
+			"description": "How many ticks until the rocket explodes"
+		},
+		"FireworksItem": {
+			"ref": "../item/firework_rocket.json",
+			"description": "The rocket item to use for explosions"
+		}
+	}
 }

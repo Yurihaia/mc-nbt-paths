@@ -1,14 +1,14 @@
 {
-    "type": "compound",
-    "child_ref": [
-        "../ref/block_entity.json",
-        "../ref/inventory_holder.json",
-        "../block/chest.json"
-    ],
-    "children": {
-        "TransferCooldown": {
-            "type": "int",
-            "description": "Number of ticks before the next item is transfered"
-        }
-    }
+	"type": "compound",
+	"child_ref": [
+		"../ref/block_entity.json",
+		"../ref/inventory_holder.json",
+		"../block/chest.json"
+	],
+	"children": {
+		"TransferCooldown": {
+			"type": "int",
+			"description": "Number of ticks before the next item is transfered"
+		}
+	}
 }

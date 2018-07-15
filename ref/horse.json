@@ -1,34 +1,34 @@
 {
-    "type": "compound",
-    "child_ref": ["./breedable.json"],
-    "children": {
-        "Bred": {
-            "type": "byte",
-            "description": "Was this bred by a player"
-        },
-        "EatingHaystack": {
-            "type": "byte",
-            "description": "Is it eating a haystack"
-        },
-        "Tame": {
-            "type": "byte",
-            "description": "Has a player tamed it"
-        },
-        "Temper": {
-            "type": "int",
-            "description": "How hard it is to tame. Higher values are easier"
-        },
-        "OwnerUUID": {
-            "type": "string",
-            "description": "UUID of the owner"
-        },
-        "ArmorItem": {
-            "ref": "./inventory_item.json",
-            "description": "Horse armor item"
-        },
-        "SaddleItem": {
-            "ref": "./inventory_item.json",
-            "description": "Saddle item"
-        }
-    }
+	"type": "compound",
+	"child_ref": ["./breedable.json"],
+	"children": {
+		"Bred": {
+			"type": "byte",
+			"description": "Was this bred by a player"
+		},
+		"EatingHaystack": {
+			"type": "byte",
+			"description": "Is it eating a haystack"
+		},
+		"Tame": {
+			"type": "byte",
+			"description": "Has a player tamed it"
+		},
+		"Temper": {
+			"type": "int",
+			"description": "How hard it is to tame. Higher values are easier"
+		},
+		"OwnerUUID": {
+			"type": "string",
+			"description": "UUID of the owner"
+		},
+		"ArmorItem": {
+			"ref": "./inventory_item.json",
+			"description": "Horse armor item"
+		},
+		"SaddleItem": {
+			"ref": "./inventory_item.json",
+			"description": "Saddle item"
+		}
+	}
 }

@@ -1,17 +1,17 @@
 {
-    "type": "compound",
-    "child_ref": ["./item_ntt.json"],
-    "children": {
-        "tag": {
-            "description": "The NBT of the item",
-            "function": {
-                "id": "insertStringNBT",
-                "params": {
-                    "ref": "../roots/items.json#%s",
-                    "default": "../roots/items.json#none",
-                    "tag_path": "./id"
-                }
-            }
-        }
-    }
+	"type": "compound",
+	"child_ref": ["./item_ntt.json"],
+	"children": {
+		"tag": {
+			"description": "The NBT of the item",
+			"function": {
+				"id": "insertStringNBT",
+				"params": {
+					"ref": "../roots/items.json#%s",
+					"default": "../roots/items.json#none",
+					"tag_path": "./id"
+				}
+			}
+		}
+	}
 }

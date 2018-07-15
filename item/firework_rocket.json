@@ -1,23 +1,23 @@
 {
-    "type": "compound",
-    "child_ref": ["../ref/item_tag.json"],
-    "children": {
-        "Fireworks": {
-            "type": "compound",
-            "children": {
-                "Flight": {
-                    "description": "Flight duration",
-                    "type": "byte"
-                },
-                "Explosions": {
-                    "description":
-                        "List of various explosions this firework will cause",
-                    "type": "list",
-                    "item": {
-                        "ref": "../ref/firework_explosion.json"
-                    }
-                }
-            }
-        }
-    }
+	"type": "compound",
+	"child_ref": ["../ref/item_tag.json"],
+	"children": {
+		"Fireworks": {
+			"type": "compound",
+			"children": {
+				"Flight": {
+					"description": "Flight duration",
+					"type": "byte"
+				},
+				"Explosions": {
+					"description":
+						"List of various explosions this firework will cause",
+					"type": "list",
+					"item": {
+						"ref": "../ref/firework_explosion.json"
+					}
+				}
+			}
+		}
+	}
 }

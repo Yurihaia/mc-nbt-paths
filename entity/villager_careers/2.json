@@ -1,9 +1,9 @@
 {
-    "type": "int",
-    "suggestions": [
-        {
-            "value": "1",
-            "description": "Cleric"
-        }
-    ]
+	"type": "int",
+	"suggestions": [
+		{
+			"value": "1",
+			"description": "Cleric"
+		}
+	]
 }

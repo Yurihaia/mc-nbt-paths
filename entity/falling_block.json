@@ -1,48 +1,48 @@
 {
-    "type": "compound",
-    "child_ref": ["../ref/entity.json"],
-    "children": {
-        "BlockState": {
-            "description": "Block that the falling block represents",
-            "type": "compound",
-            "children": {
-                "Name": {
-                    "type": "string",
-                    "description": "ID of the block",
-                    "suggestions": [
-                        {
-                            "values": "../misc_block/blocks.json"
-                        }
-                    ]
-                },
-                "Properties": {
-                    "type": "compound",
-                    "description": "Name value pairs of block states and values"
-                }
-            }
-        },
-        "Time": {
-            "type": "int",
-            "description":
-                "Time until the block disapears. Disapears if it reaches 0 or 600",
-            "suggestions": ["-2147483648"]
-        },
-        "DropItem": {
-            "type": "byte",
-            "description":
-                "Should the block drop as an item if the block cannot be placed"
-        },
-        "HurtEntities": {
-            "type": "byte",
-            "description": "Should the block hurt entities"
-        },
-        "FallHurtMax": {
-            "type": "int",
-            "description": "Maximum amount of damage the block can do"
-        },
-        "FallHurtAmount": {
-            "type": "float",
-            "description": "How much damage the block should do initially"
-        }
-    }
+	"type": "compound",
+	"child_ref": ["../ref/entity.json"],
+	"children": {
+		"BlockState": {
+			"description": "Block that the falling block represents",
+			"type": "compound",
+			"children": {
+				"Name": {
+					"type": "string",
+					"description": "ID of the block",
+					"suggestions": [
+						{
+							"values": "../misc_block/blocks.json"
+						}
+					]
+				},
+				"Properties": {
+					"type": "compound",
+					"description": "Name value pairs of block states and values"
+				}
+			}
+		},
+		"Time": {
+			"type": "int",
+			"description":
+				"Time until the block disapears. Disapears if it reaches 0 or 600",
+			"suggestions": ["-2147483648"]
+		},
+		"DropItem": {
+			"type": "byte",
+			"description":
+				"Should the block drop as an item if the block cannot be placed"
+		},
+		"HurtEntities": {
+			"type": "byte",
+			"description": "Should the block hurt entities"
+		},
+		"FallHurtMax": {
+			"type": "int",
+			"description": "Maximum amount of damage the block can do"
+		},
+		"FallHurtAmount": {
+			"type": "float",
+			"description": "How much damage the block should do initially"
+		}
+	}
 }

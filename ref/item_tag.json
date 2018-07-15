@@ -1,138 +1,138 @@
 {
-    "type": "compound",
-    "children": {
-        "AttributeModifiers": {
-            "description": "List of modifiers to an entities attributes",
-            "type": "list",
-            "item": {
-                "description": "An individual modifier",
-                "type": "compound",
-                "children": {
-                    "AttributeName": {
-                        "description": "The name of the attribute",
-                        "type": "string",
-                        "suggestions": [
-                            "generic.maxHealth",
-                            "generic.followRange",
-                            "generic.knockbackResistance",
-                            "generic.movementSpeed",
-                            "generic.attackDamage",
-                            "generic.armor",
-                            "generic.armorToughness",
-                            "generic.attackSpeed",
-                            "generic.luck",
-                            "horse.jumpStrength",
-                            "generic.flyingSpeed",
-                            "zombie.spawnReinforcements"
-                        ]
-                    },
-                    "Name": {
-                        "description": "An arbitrary name",
-                        "type": "string"
-                    },
-                    "Slot": {
-                        "description":
-                            "The slot that this modifier takes effect in",
-                        "type": "string",
-                        "suggestions": [
-                            "mainhand",
-                            "offhand",
-                            "feet",
-                            "legs",
-                            "chest",
-                            "head"
-                        ]
-                    },
-                    "Amount": {
-                        "description": "The amount of this modifier",
-                        "type": "double"
-                    },
-                    "Operation": {
-                        "description":
-                            "The operation this modifier does to the base amount",
-                        "type": "int",
-                        "suggestions": [
-                            {
-                                "value": "0",
-                                "description":
-                                    "Adds \"Amount\" to the attribute"
-                            },
-                            {
-                                "value": "1",
-                                "description":
-                                    "Multiplies the attribute by \"Amount\""
-                            },
-                            {
-                                "value": "2",
-                                "description":
-                                    "Multiplies each modifier by \"Amount\""
-                            }
-                        ]
-                    },
-                    "UUIDLeast": {
-                        "description": "UUIDLeast of this modifier",
-                        "type": "long"
-                    },
-                    "UUIDMost": {
-                        "description": "UUIDMost of this modifier",
-                        "type": "long"
-                    }
-                }
-            }
-        },
-        "display": {
-            "description": "Dsiplay properties for the item",
-            "type": "compound",
-            "children": {
-                "Name": {
-                    "description": "A JSON text component for the items name",
-                    "type": "string"
-                },
-                "color": {
-                    "description":
-                        "The color of leather armor. Still exists on other items",
-                    "type": "int"
-                },
-                "Lore": {
-                    "description":
-                        "Lines of lore. Each line is a JSON text component",
-                    "type": "list",
-                    "item": {
-                        "type": "string"
-                    }
-                }
-            }
-        },
-        "ench": {
-            "description": "A list of enchantments",
-            "type": "list",
-            "item": {
-                "type": "compound",
-                "children": {
-                    "id": {
-                        "description": "The ID of the enchantment",
-                        "type": "byte",
-                        "suggestions": [
-                            {
-                                "values": "../misc_group/enchant.json"
-                            }
-                        ]
-                    },
-                    "lvl": {
-                        "type": "short",
-                        "description": "Level of the enchantment"
-                    }
-                }
-            }
-        },
-        "CanDestroy": {
-            "type": "list",
-            "item": {
-                "type": "string"
-            }
-        },
-        "HideFlags": {
-            "type": "int"
-        }
-    }
+	"type": "compound",
+	"children": {
+		"AttributeModifiers": {
+			"description": "List of modifiers to an entities attributes",
+			"type": "list",
+			"item": {
+				"description": "An individual modifier",
+				"type": "compound",
+				"children": {
+					"AttributeName": {
+						"description": "The name of the attribute",
+						"type": "string",
+						"suggestions": [
+							"generic.maxHealth",
+							"generic.followRange",
+							"generic.knockbackResistance",
+							"generic.movementSpeed",
+							"generic.attackDamage",
+							"generic.armor",
+							"generic.armorToughness",
+							"generic.attackSpeed",
+							"generic.luck",
+							"horse.jumpStrength",
+							"generic.flyingSpeed",
+							"zombie.spawnReinforcements"
+						]
+					},
+					"Name": {
+						"description": "An arbitrary name",
+						"type": "string"
+					},
+					"Slot": {
+						"description":
+							"The slot that this modifier takes effect in",
+						"type": "string",
+						"suggestions": [
+							"mainhand",
+							"offhand",
+							"feet",
+							"legs",
+							"chest",
+							"head"
+						]
+					},
+					"Amount": {
+						"description": "The amount of this modifier",
+						"type": "double"
+					},
+					"Operation": {
+						"description":
+							"The operation this modifier does to the base amount",
+						"type": "int",
+						"suggestions": [
+							{
+								"value": "0",
+								"description":
+									"Adds \"Amount\" to the attribute"
+							},
+							{
+								"value": "1",
+								"description":
+									"Multiplies the attribute by \"Amount\""
+							},
+							{
+								"value": "2",
+								"description":
+									"Multiplies each modifier by \"Amount\""
+							}
+						]
+					},
+					"UUIDLeast": {
+						"description": "UUIDLeast of this modifier",
+						"type": "long"
+					},
+					"UUIDMost": {
+						"description": "UUIDMost of this modifier",
+						"type": "long"
+					}
+				}
+			}
+		},
+		"display": {
+			"description": "Dsiplay properties for the item",
+			"type": "compound",
+			"children": {
+				"Name": {
+					"description": "A JSON text component for the items name",
+					"type": "string"
+				},
+				"color": {
+					"description":
+						"The color of leather armor. Still exists on other items",
+					"type": "int"
+				},
+				"Lore": {
+					"description":
+						"Lines of lore. Each line is a JSON text component",
+					"type": "list",
+					"item": {
+						"type": "string"
+					}
+				}
+			}
+		},
+		"ench": {
+			"description": "A list of enchantments",
+			"type": "list",
+			"item": {
+				"type": "compound",
+				"children": {
+					"id": {
+						"description": "The ID of the enchantment",
+						"type": "byte",
+						"suggestions": [
+							{
+								"values": "../misc_group/enchant.json"
+							}
+						]
+					},
+					"lvl": {
+						"type": "short",
+						"description": "Level of the enchantment"
+					}
+				}
+			}
+		},
+		"CanDestroy": {
+			"type": "list",
+			"item": {
+				"type": "string"
+			}
+		},
+		"HideFlags": {
+			"type": "int"
+		}
+	}
 }

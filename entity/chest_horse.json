@@ -1,17 +1,17 @@
 {
-    "type": "compound",
-    "child_ref": ["../ref/horse.json"],
-    "children": {
-        "ChestedHorse": {
-            "type": "byte",
-            "description": "If the horse has a chest"
-        },
-        "Items": {
-            "type": "list",
-            "item": {
-                "ref": "./inventory_item.json"
-            },
-            "description": "Items in the horse chest"
-        }
-    }
+	"type": "compound",
+	"child_ref": ["../ref/horse.json"],
+	"children": {
+		"ChestedHorse": {
+			"type": "byte",
+			"description": "If the horse has a chest"
+		},
+		"Items": {
+			"type": "list",
+			"item": {
+				"ref": "./inventory_item.json"
+			},
+			"description": "Items in the horse chest"
+		}
+	}
 }

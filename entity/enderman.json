@@ -1,25 +1,25 @@
 {
-    "type": "compound",
-    "child_ref": ["../ref/mob.json"],
-    "children": {
-        "carriedBlockState": {
-            "type": "compound",
-            "description": "The carried block",
-            "children": {
-                "Name": {
-                    "type": "string",
-                    "description": "ID of carried block",
-                    "suggestions": [
-                        {
-                            "values": "../misc_group/blocks.json"
-                        }
-                    ]
-                },
-                "Properties": {
-                    "type": "compound",
-                    "description": "Name value pairs of block states and values"
-                }
-            }
-        }
-    }
+	"type": "compound",
+	"child_ref": ["../ref/mob.json"],
+	"children": {
+		"carriedBlockState": {
+			"type": "compound",
+			"description": "The carried block",
+			"children": {
+				"Name": {
+					"type": "string",
+					"description": "ID of carried block",
+					"suggestions": [
+						{
+							"values": "../misc_group/blocks.json"
+						}
+					]
+				},
+				"Properties": {
+					"type": "compound",
+					"description": "Name value pairs of block states and values"
+				}
+			}
+		}
+	}
 }

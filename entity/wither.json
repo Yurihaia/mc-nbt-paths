@@ -1,10 +1,10 @@
 {
-    "type": "compound",
-    "child_ref": ["../ref/mob.json"],
-    "children": {
-        "Invul": {
-            "type": "byte",
-            "description": "How many ticks of invulnerability left"
-        }
-    }
+	"type": "compound",
+	"child_ref": ["../ref/mob.json"],
+	"children": {
+		"Invul": {
+			"type": "byte",
+			"description": "How many ticks of invulnerability left"
+		}
+	}
 }

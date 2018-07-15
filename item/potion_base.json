@@ -1,4 +1,4 @@
 {
-    "type": "compound",
-    "child_ref": ["../ref/item_tag.json", "../ref/poition_effect.json"]
+	"type": "compound",
+	"child_ref": ["../ref/item_tag.json", "../ref/poition_effect.json"]
 }

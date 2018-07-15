@@ -1,23 +1,23 @@
 {
-    "type": "compound",
-    "child_ref": ["../ref/zombie.json"],
-    "children": {
-        "Profession": {
-            "type": "int",
-            "description": "Profession of the zombie villager"
-        },
-        "ConversionTime": {
-            "type": "int",
-            "description":
-                "Number of ticks until turned into villager. -1 when not being converted"
-        },
-        "ConversionPlayerLeast": {
-            "type": "long",
-            "description": "UUIDLeast of player converting the zombie villager"
-        },
-        "ConversionPlayerMost": {
-            "type": "long",
-            "description": "UUIDMost of player converting the zombie villager"
-        }
-    }
+	"type": "compound",
+	"child_ref": ["../ref/zombie.json"],
+	"children": {
+		"Profession": {
+			"type": "int",
+			"description": "Profession of the zombie villager"
+		},
+		"ConversionTime": {
+			"type": "int",
+			"description":
+				"Number of ticks until turned into villager. -1 when not being converted"
+		},
+		"ConversionPlayerLeast": {
+			"type": "long",
+			"description": "UUIDLeast of player converting the zombie villager"
+		},
+		"ConversionPlayerMost": {
+			"type": "long",
+			"description": "UUIDMost of player converting the zombie villager"
+		}
+	}
 }

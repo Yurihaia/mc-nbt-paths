@@ -1,16 +1,16 @@
 {
-    "type": "compound",
-    "child_ref": ["../ref/throwable.json"],
-    "children": {
-        "Potion": {
-            "description": "The potion this thrown potion represents",
-            "type": "compound",
-            "child_ref": ["../ref/item_ntt.json"],
-            "children": {
-                "tag": {
-                    "ref": "../item/potion_base.json"
-                }
-            }
-        }
-    }
+	"type": "compound",
+	"child_ref": ["../ref/throwable.json"],
+	"children": {
+		"Potion": {
+			"description": "The potion this thrown potion represents",
+			"type": "compound",
+			"child_ref": ["../ref/item_ntt.json"],
+			"children": {
+				"tag": {
+					"ref": "../item/potion_base.json"
+				}
+			}
+		}
+	}
 }

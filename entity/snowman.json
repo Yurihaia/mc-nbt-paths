@@ -1,10 +1,10 @@
 {
-    "type": "compound",
-    "child_ref": ["../ref/mob.json"],
-    "children": {
-        "Pumpkin": {
-            "type": "byte",
-            "description": "If the snow golem has the pumpkin"
-        }
-    }
+	"type": "compound",
+	"child_ref": ["../ref/mob.json"],
+	"children": {
+		"Pumpkin": {
+			"type": "byte",
+			"description": "If the snow golem has the pumpkin"
+		}
+	}
 }

@@ -1,10 +1,10 @@
 {
-    "type": "compound",
-    "child_ref": ["./arrow.json"],
-    "children": {
-        "Duration": {
-            "type": "int",
-            "description": "How long the glowing should last"
-        }
-    }
+	"type": "compound",
+	"child_ref": ["./arrow.json"],
+	"children": {
+		"Duration": {
+			"type": "int",
+			"description": "How long the glowing should last"
+		}
+	}
 }

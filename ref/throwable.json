@@ -1,20 +1,20 @@
 {
-    "type": "compound",
-    "child_ref": ["./projectile.json"],
-    "children": {
-        "owner": {
-            "description": "UUID of the thrower",
-            "type": "compound",
-            "children": {
-                "M": {
-                    "type": "long",
-                    "description": "UUIDMost of the thrower"
-                },
-                "L": {
-                    "type": "long",
-                    "description": "UUIDLeast of the thrower"
-                }
-            }
-        }
-    }
+	"type": "compound",
+	"child_ref": ["./projectile.json"],
+	"children": {
+		"owner": {
+			"description": "UUID of the thrower",
+			"type": "compound",
+			"children": {
+				"M": {
+					"type": "long",
+					"description": "UUIDMost of the thrower"
+				},
+				"L": {
+					"type": "long",
+					"description": "UUIDLeast of the thrower"
+				}
+			}
+		}
+	}
 }

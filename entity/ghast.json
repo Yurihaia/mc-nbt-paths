@@ -1,10 +1,10 @@
 {
-    "type": "compound",
-    "child_ref": ["../ref/mob.json"],
-    "children": {
-        "ExplosionPower": {
-            "type": "int",
-            "description": "Explosion power of created fireballs"
-        }
-    }
+	"type": "compound",
+	"child_ref": ["../ref/mob.json"],
+	"children": {
+		"ExplosionPower": {
+			"type": "int",
+			"description": "Explosion power of created fireballs"
+		}
+	}
 }

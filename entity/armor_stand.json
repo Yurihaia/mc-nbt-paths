@@ -1,163 +1,163 @@
 {
-    "type": "compound",
-    "child_ref": ["../ref/entity.json"],
-    "children": {
-        "DisabledSlots": {
-            "type": "int",
-            "description": "What slots should be disabled",
-            "suggestions": [
-                {
-                    "value": "2039583",
-                    "description": "Disables everything"
-                }
-            ]
-        },
-        "HandItems": {
-            "type": "list",
-            "item": {
-                "ref": "./inventory_item.json#"
-            },
-            "description": "Items in main and offhand"
-        },
-        "ArmorItems": {
-            "type": "list",
-            "item": {
-                "ref": "./inventory_item.json#"
-            },
-            "description": "Armor in armor slots"
-        },
-        "Marker": {
-            "type": "byte",
-            "description": "Should the armor stand have no hitbox"
-        },
-        "Invisible": {
-            "type": "byte",
-            "description": "Should the armor stand be invisible"
-        },
-        "NoBasePlate": {
-            "type": "byte",
-            "description": "Should the armor stand have no base plate"
-        },
-        "FallFlying": {
-            "type": "byte",
-            "description":
-                "Should the entity glide when falling as long as it has an elytra in it's chest slot"
-        },
-        "Pose": {
-            "type": "compound",
-            "description": "The post of the armor stand",
-            "children": {
-                "Body": {
-                    "type": "compound",
-                    "children": {
-                        "x-rotation": {
-                            "type": "float",
-                            "description": "X rotation of the body"
-                        },
-                        "y-rotation": {
-                            "type": "float",
-                            "description": "Y rotation of the body"
-                        },
-                        "z-rotation": {
-                            "type": "float",
-                            "description": "Z rotation of the body"
-                        }
-                    }
-                },
-                "LeftArm": {
-                    "type": "compound",
-                    "children": {
-                        "x-rotation": {
-                            "type": "float",
-                            "description": "X rotation of the left arm"
-                        },
-                        "y-rotation": {
-                            "type": "float",
-                            "description": "Y rotation of the left arm"
-                        },
-                        "z-rotation": {
-                            "type": "float",
-                            "description": "Z rotation of the left arm"
-                        }
-                    }
-                },
-                "RightArm": {
-                    "type": "compound",
-                    "children": {
-                        "x-rotation": {
-                            "type": "float",
-                            "description": "X rotation of the right arm"
-                        },
-                        "y-rotation": {
-                            "type": "float",
-                            "description": "Y rotation of the right arm"
-                        },
-                        "z-rotation": {
-                            "type": "float",
-                            "description": "Z rotation of the right arm"
-                        }
-                    }
-                },
-                "LeftLeg": {
-                    "type": "compound",
-                    "children": {
-                        "x-rotation": {
-                            "type": "float",
-                            "description": "X rotation of the left leg"
-                        },
-                        "y-rotation": {
-                            "type": "float",
-                            "description": "Y rotation of the left leg"
-                        },
-                        "z-rotation": {
-                            "type": "float",
-                            "description": "Z rotation of the left leg"
-                        }
-                    }
-                },
-                "RightLeg": {
-                    "type": "compound",
-                    "children": {
-                        "x-rotation": {
-                            "type": "float",
-                            "description": "X rotation of the right leg"
-                        },
-                        "y-rotation": {
-                            "type": "float",
-                            "description": "Y rotation of the right leg"
-                        },
-                        "z-rotation": {
-                            "type": "float",
-                            "description": "Z rotation of the right leg"
-                        }
-                    }
-                },
-                "Head": {
-                    "type": "compound",
-                    "children": {
-                        "x-rotation": {
-                            "type": "float",
-                            "description": "X rotation of the head"
-                        },
-                        "y-rotation": {
-                            "type": "float",
-                            "description": "Y rotation of the head"
-                        },
-                        "z-rotation": {
-                            "type": "float",
-                            "description": "Z rotation of the head"
-                        }
-                    }
-                }
-            }
-        },
-        "ShowArms": {
-            "type": "byte",
-            "description": "Should the arms be displayed"
-        },
-        "Small": {
-            "type": "byte",
-            "description": "Should the armor stand be small"
-        }
-    }
+	"type": "compound",
+	"child_ref": ["../ref/entity.json"],
+	"children": {
+		"DisabledSlots": {
+			"type": "int",
+			"description": "What slots should be disabled",
+			"suggestions": [
+				{
+					"value": "2039583",
+					"description": "Disables everything"
+				}
+			]
+		},
+		"HandItems": {
+			"type": "list",
+			"item": {
+				"ref": "./inventory_item.json#"
+			},
+			"description": "Items in main and offhand"
+		},
+		"ArmorItems": {
+			"type": "list",
+			"item": {
+				"ref": "./inventory_item.json#"
+			},
+			"description": "Armor in armor slots"
+		},
+		"Marker": {
+			"type": "byte",
+			"description": "Should the armor stand have no hitbox"
+		},
+		"Invisible": {
+			"type": "byte",
+			"description": "Should the armor stand be invisible"
+		},
+		"NoBasePlate": {
+			"type": "byte",
+			"description": "Should the armor stand have no base plate"
+		},
+		"FallFlying": {
+			"type": "byte",
+			"description":
+				"Should the entity glide when falling as long as it has an elytra in it's chest slot"
+		},
+		"Pose": {
+			"type": "compound",
+			"description": "The post of the armor stand",
+			"children": {
+				"Body": {
+					"type": "compound",
+					"children": {
+						"x-rotation": {
+							"type": "float",
+							"description": "X rotation of the body"
+						},
+						"y-rotation": {
+							"type": "float",
+							"description": "Y rotation of the body"
+						},
+						"z-rotation": {
+							"type": "float",
+							"description": "Z rotation of the body"
+						}
+					}
+				},
+				"LeftArm": {
+					"type": "compound",
+					"children": {
+						"x-rotation": {
+							"type": "float",
+							"description": "X rotation of the left arm"
+						},
+						"y-rotation": {
+							"type": "float",
+							"description": "Y rotation of the left arm"
+						},
+						"z-rotation": {
+							"type": "float",
+							"description": "Z rotation of the left arm"
+						}
+					}
+				},
+				"RightArm": {
+					"type": "compound",
+					"children": {
+						"x-rotation": {
+							"type": "float",
+							"description": "X rotation of the right arm"
+						},
+						"y-rotation": {
+							"type": "float",
+							"description": "Y rotation of the right arm"
+						},
+						"z-rotation": {
+							"type": "float",
+							"description": "Z rotation of the right arm"
+						}
+					}
+				},
+				"LeftLeg": {
+					"type": "compound",
+					"children": {
+						"x-rotation": {
+							"type": "float",
+							"description": "X rotation of the left leg"
+						},
+						"y-rotation": {
+							"type": "float",
+							"description": "Y rotation of the left leg"
+						},
+						"z-rotation": {
+							"type": "float",
+							"description": "Z rotation of the left leg"
+						}
+					}
+				},
+				"RightLeg": {
+					"type": "compound",
+					"children": {
+						"x-rotation": {
+							"type": "float",
+							"description": "X rotation of the right leg"
+						},
+						"y-rotation": {
+							"type": "float",
+							"description": "Y rotation of the right leg"
+						},
+						"z-rotation": {
+							"type": "float",
+							"description": "Z rotation of the right leg"
+						}
+					}
+				},
+				"Head": {
+					"type": "compound",
+					"children": {
+						"x-rotation": {
+							"type": "float",
+							"description": "X rotation of the head"
+						},
+						"y-rotation": {
+							"type": "float",
+							"description": "Y rotation of the head"
+						},
+						"z-rotation": {
+							"type": "float",
+							"description": "Z rotation of the head"
+						}
+					}
+				}
+			}
+		},
+		"ShowArms": {
+			"type": "byte",
+			"description": "Should the arms be displayed"
+		},
+		"Small": {
+			"type": "byte",
+			"description": "Should the armor stand be small"
+		}
+	}
 }

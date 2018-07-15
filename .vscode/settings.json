@@ -1,16 +1,16 @@
 {
-    "json.schemas": [
-        {
-            "fileMatch": [
-                "/block/*.json",
-                "/entity/*.json",
-                "/item/*.json",
-                "/ref/*.json",
-                "/roots/*.json",
-                "/misc_group/*.json"
-            ],
-            "url": "/schema/schema.json"
-        }
-    ],
-    "files.insertFinalNewline": true
+	"json.schemas": [
+		{
+			"fileMatch": [
+				"/block/*.json",
+				"/entity/*.json",
+				"/item/*.json",
+				"/ref/*.json",
+				"/roots/*.json",
+				"/misc_group/*.json"
+			],
+			"url": "/schema/schema.json"
+		}
+	],
+	"files.insertFinalNewline": true
 }

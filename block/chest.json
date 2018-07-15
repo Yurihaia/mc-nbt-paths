@@ -1,9 +1,9 @@
 {
-    "type": "compound",
-    "child_ref": [
-        "../ref/block_entity.json",
-        "../ref/inventory_holder.json",
-        "../ref/nameable.json",
-        "../ref/lockable.json"
-    ]
+	"type": "compound",
+	"child_ref": [
+		"../ref/block_entity.json",
+		"../ref/inventory_holder.json",
+		"../ref/nameable.json",
+		"../ref/lockable.json"
+	]
 }

@@ -1,30 +1,30 @@
 {
-    "type": "compound",
-    "children": {
-        "ID": {
-            "type": "byte",
-            "description": "The ID of the effect",
-            "suggestions": [
-                {
-                    "values": "../misc_group/effect_id.json"
-                }
-            ]
-        },
-        "Amplifier": {
-            "type": "byte",
-            "description": "The amplifier of the effect"
-        },
-        "Duration": {
-            "type": "int",
-            "description": "How many ticks the effect will last"
-        },
-        "Ambient": {
-            "type": "byte",
-            "description": "If the effect particles shouyld be more translucent"
-        },
-        "ShowParticles": {
-            "type": "byte",
-            "description": "Should the particles be displayed"
-        }
-    }
+	"type": "compound",
+	"children": {
+		"ID": {
+			"type": "byte",
+			"description": "The ID of the effect",
+			"suggestions": [
+				{
+					"values": "../misc_group/effect_id.json"
+				}
+			]
+		},
+		"Amplifier": {
+			"type": "byte",
+			"description": "The amplifier of the effect"
+		},
+		"Duration": {
+			"type": "int",
+			"description": "How many ticks the effect will last"
+		},
+		"Ambient": {
+			"type": "byte",
+			"description": "If the effect particles shouyld be more translucent"
+		},
+		"ShowParticles": {
+			"type": "byte",
+			"description": "Should the particles be displayed"
+		}
+	}
 }

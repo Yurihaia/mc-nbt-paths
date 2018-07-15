@@ -1,18 +1,18 @@
 {
-    "type": "compound",
-    "child_ref": ["../ref/entity.json"],
-    "children": {
-        "Age": {
-            "type": "short",
-            "description": "How long the XP orb has existed"
-        },
-        "Health": {
-            "type": "byte",
-            "description": "How much health the orb has"
-        },
-        "Value": {
-            "type": "short",
-            "description": "How much experience the orb gives"
-        }
-    }
+	"type": "compound",
+	"child_ref": ["../ref/entity.json"],
+	"children": {
+		"Age": {
+			"type": "short",
+			"description": "How long the XP orb has existed"
+		},
+		"Health": {
+			"type": "byte",
+			"description": "How much health the orb has"
+		},
+		"Value": {
+			"type": "short",
+			"description": "How much experience the orb gives"
+		}
+	}
 }
