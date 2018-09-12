@@ -43,9 +43,7 @@
 									"$ref": "#/definitions/references"
 								}
 							},
-							"required": [
-								"references"
-							],
+							"required": ["references"],
 							"additionalProperties": false
 						}
 					]
