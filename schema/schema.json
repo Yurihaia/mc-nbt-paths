@@ -28,6 +28,29 @@
 		}
 	],
 	"definitions": {
+		"references": {
+			"type": "object",
+			"patternProperties": {
+				"^.*$": {
+					"oneOf": [
+						{
+							"$ref": "#/definitions/nest_node"
+						},
+						{
+							"type": "object",
+							"properties": {
+								"references": {
+									"$ref": "#/definitions/references"
+								}
+							},
+							"required": [
+								"references"
+							]
+						}
+					]
+				}
+			}
+		},
 		"nest_node": {
 			"type": "object",
 			"properties": {
@@ -75,7 +98,7 @@
 					"type": "string"
 				},
 				"references": {
-					"type": "object"
+					"$ref": "#/definitions/references"
 				}
 			},
 			"oneOf": [
@@ -136,12 +159,7 @@
 					"enum": ["root"]
 				},
 				"children": {
-					"type": "object",
-					"patternProperties": {
-						".*": {
-							"$ref": "#/definitions/nest_node"
-						}
-					}
+					"type": "object"
 				}
 			}
 		},
@@ -154,7 +172,7 @@
 				"children": {
 					"type": "object",
 					"patternProperties": {
-						".*": {
+						"^.*$": {
 							"$ref": "#/definitions/nest_node"
 						}
 					}
