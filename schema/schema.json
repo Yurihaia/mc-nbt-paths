@@ -45,7 +45,8 @@
 							},
 							"required": [
 								"references"
-							]
+							],
+							"additionalProperties": false
 						}
 					]
 				}
