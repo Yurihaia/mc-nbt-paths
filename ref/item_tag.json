@@ -103,7 +103,7 @@
 				}
 			}
 		},
-		"ench": {
+		"Enchantments": {
 			"description": "A list of enchantments",
 			"type": "list",
 			"item": {
@@ -111,7 +111,7 @@
 				"children": {
 					"id": {
 						"description": "The ID of the enchantment",
-						"type": "byte",
+						"type": "string",
 						"suggestions": [
 							{
 								"values": "../misc_group/enchant.json"

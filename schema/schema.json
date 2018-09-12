@@ -73,6 +73,9 @@
 				},
 				"description": {
 					"type": "string"
+				},
+				"references": {
+					"type": "object"
 				}
 			},
 			"oneOf": [

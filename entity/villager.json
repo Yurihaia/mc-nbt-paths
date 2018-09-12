@@ -39,8 +39,8 @@
 			"function": {
 				"id": "insertStringNBT",
 				"params": {
-					"ref": "./villager_careers/%s.json",
-					"default": "./villager_careers/none.json",
+					"ref": "#careers/%s",
+					"default": "#careers/none",
 					"tag_path": "./Profession"
 				}
 			},
@@ -104,6 +104,97 @@
 							}
 						}
 					}
+				}
+			}
+		}
+	},
+	"references": {
+		"careers": {
+			"references": {
+				"0": {
+					"type": "int",
+					"suggestions": [
+						{
+							"value": "1",
+							"description": "Farmer"
+						},
+						{
+							"value": "2",
+							"description": "Fisherman"
+						},
+						{
+							"value": "3",
+							"description": "Shepherd"
+						},
+						{
+							"value": "4",
+							"description": "Fletcher"
+						}
+					]
+				},
+				"1": {
+					"type": "int",
+					"suggestions": [
+						{
+							"value": "1",
+							"description": "Librarian"
+						},
+						{
+							"value": "2",
+							"description": "Cartographer"
+						}
+					]
+				},
+				"2": {
+					"type": "int",
+					"suggestions": [
+						{
+							"value": "1",
+							"description": "Cleric"
+						}
+					]
+				},
+				"3": {
+					"type": "int",
+					"suggestions": [
+						{
+							"value": "1",
+							"description": "Armorer"
+						},
+						{
+							"value": "2",
+							"description": "Weapon Smith"
+						},
+						{
+							"value": "3",
+							"description": "Tool Smith"
+						}
+					]
+				},
+				"4": {
+					"type": "int",
+					"suggestions": [
+						{
+							"value": "1",
+							"description": "Butcher"
+						},
+						{
+							"value": "2",
+							"description": "Leatherworker"
+						}
+					]
+				},
+				"5": {
+					"type": "int",
+					"suggestions": [
+						{
+							"value": "1",
+							"description": "Nitwit"
+						}
+					]
+				},
+				"none": {
+					"type": "int"
 				}
 			}
 		}
