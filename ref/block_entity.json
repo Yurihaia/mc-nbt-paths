@@ -6,7 +6,9 @@
 			"description": "The id of this block entity",
 			"suggestions": [
 				{
-					"values": "../roots/block_list.json"
+					"function": {
+						"id": "blockList"
+					}
 				}
 			]
 		},

@@ -11,7 +11,9 @@
 					"description": "ID of carried block",
 					"suggestions": [
 						{
-							"values": "../misc_group/blocks.json"
+							"function": {
+								"id": "entityList"
+							}
 						}
 					]
 				},

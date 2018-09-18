@@ -9,7 +9,7 @@
 				"/roots/*.json",
 				"/misc_group/*.json"
 			],
-			"url": "/schema/schema.json"
+			"url": "/docs/schema.json"
 		}
 	],
 	"files.insertFinalNewline": true

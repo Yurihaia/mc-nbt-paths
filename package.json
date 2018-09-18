@@ -14,7 +14,7 @@
 		"url": "https://github.com/MrYurihi/mc-nbt-paths"
 	},
 	"scripts": {
-		"test": "ajv -s schema/schema.json -d \"block/**/*.json\" -d \"entity/**/*.json\" -d \"item/**/*.json\" -d \"ref/**/*.json\" -d \"roots/**/*.json\"",
+		"test": "ajv -s docs/schema.json -d \"block/**/*.json\" -d \"entity/**/*.json\" -d \"item/**/*.json\" -d \"ref/**/*.json\" -d \"roots/**/*.json\"",
 		"lint": "prettier --list-different **/*.json",
 		"lint:write": "prettier --write **/*.json"
 	},

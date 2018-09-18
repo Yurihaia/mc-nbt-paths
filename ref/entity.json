@@ -4,7 +4,14 @@
 	"children": {
 		"id": {
 			"type": "string",
-			"description": "ID of the entity"
+			"description": "ID of the entity",
+			"suggestions": [
+				{
+					"function": {
+						"id": "entityList"
+					}
+				}
+			]
 		},
 		"Pos": {
 			"type": "list",
