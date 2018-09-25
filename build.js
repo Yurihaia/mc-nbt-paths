@@ -5,7 +5,7 @@ const fs = require("fs");
 const promisify = require("util").promisify;
 
 async function run() {
-	const rootDir = path.join(__dirname, "..");
+	const rootDir = __dirname;
 	const files = await walk({
 		path: rootDir,
 		ignoreFiles: [".buildignore"]
