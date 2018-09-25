@@ -24,7 +24,7 @@ async function run() {
 	Object.keys(result)
 		.sort()
 		.forEach(function(key) {
-			ordered[key] = result[key];
+			ordered[key] = JSON.parse(result[key]);
 		});
 	await writeFileAsync(
 		path.join(rootDir, "output.json"),
