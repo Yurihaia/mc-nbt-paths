@@ -1,4 +1,6 @@
 {
+	"main": "./api/index.js",
+	"types": "./api/index.d.ts",
 	"description": "NBT paths",
 	"name": "mc-nbt-paths",
 	"version": "1.13.0-pre8",
@@ -16,11 +18,14 @@
 	"scripts": {
 		"test": "ajv -s docs/schema.json -d \"block/**/*.json\" -d \"entity/**/*.json\" -d \"item/**/*.json\" -d \"ref/**/*.json\" -d \"roots/**/*.json\"",
 		"lint": "prettier --list-different **/*.json",
-		"lint:write": "prettier --write **/*.json"
+		"lint:write": "prettier --write **/*.json",
+		"compile": "tsc api/index.ts --lib es2015 --declaration"
 	},
 	"devDependencies": {
+		"@types/node": "^10.11.0",
 		"ajv-cli": "^3.0.0",
-		"prettier": "^1.13.7"
+		"prettier": "^1.13.7",
+		"typescript": "^3.0.3"
 	},
 	"prettier": {
 		"tabWidth": 4,
