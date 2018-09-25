@@ -1,1 +1,1 @@
-module.exports.docs = require("./output.json");
+module.exports.nbtDocs = require("./output.json");
