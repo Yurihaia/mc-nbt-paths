@@ -1,0 +1,9 @@
+*
+!block/**/*
+!docs/**/*
+!entity/**/*
+!item/**/*
+!misc_group/**/*
+!ref/**/*
+!roots/**/*
+!root.json
