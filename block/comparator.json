@@ -4,8 +4,7 @@
 	"children": {
 		"OutputSignal": {
 			"type": "int",
-			"description":
-				"The redstone output strength given off by this comparator"
+			"description": "The redstone output strength given off by this comparator"
 		}
 	}
 }

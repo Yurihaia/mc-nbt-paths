@@ -3,8 +3,7 @@
 	"child_ref": ["../ref/item_tag.json"],
 	"children": {
 		"CanPlaceOn": {
-			"description":
-				"A list of blocks this block can be placed on in adventure mode",
+			"description": "A list of blocks this block can be placed on in adventure mode",
 			"type": "list",
 			"item": {
 				"type": "string"

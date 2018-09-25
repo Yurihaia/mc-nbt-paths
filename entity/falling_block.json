@@ -23,14 +23,12 @@
 		},
 		"Time": {
 			"type": "int",
-			"description":
-				"Time until the block disapears. Disapears if it reaches 0 or 600",
+			"description": "Time until the block disapears. Disapears if it reaches 0 or 600",
 			"suggestions": ["-2147483648"]
 		},
 		"DropItem": {
 			"type": "byte",
-			"description":
-				"Should the block drop as an item if the block cannot be placed"
+			"description": "Should the block drop as an item if the block cannot be placed"
 		},
 		"HurtEntities": {
 			"type": "byte",

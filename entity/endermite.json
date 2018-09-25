@@ -8,8 +8,7 @@
 		},
 		"PlayerSpawned": {
 			"type": "byte",
-			"description":
-				"If the endermite was spawned by a player (not through an enderpearl)"
+			"description": "If the endermite was spawned by a player (not through an enderpearl)"
 		}
 	}
 }

@@ -23,23 +23,19 @@
 						},
 						{
 							"value": "bl",
-							"description":
-								"Bottom Left Corner (Base dexter canton)"
+							"description": "Bottom Left Corner (Base dexter canton)"
 						},
 						{
 							"value": "gru",
-							"description":
-								"Gradient upside-down (Base gradient)"
+							"description": "Gradient upside-down (Base gradient)"
 						},
 						{
 							"value": "bts",
-							"description":
-								"Bottom Triangle Sawtooth (Base indented)"
+							"description": "Bottom Triangle Sawtooth (Base indented)"
 						},
 						{
 							"value": "br",
-							"description":
-								"Bottom Right Corner (Base sinister canton)"
+							"description": "Bottom Right Corner (Base sinister canton)"
 						},
 						{
 							"value": "drs",
@@ -67,13 +63,11 @@
 						},
 						{
 							"value": "tl",
-							"description":
-								"Top Left Corner (Chief dexter canton)"
+							"description": "Top Left Corner (Chief dexter canton)"
 						},
 						{
 							"value": "tts",
-							"description":
-								"Top Triangle Sawtooth (Chief indented)"
+							"description": "Top Triangle Sawtooth (Chief indented)"
 						}
 					]
 				}

@@ -40,8 +40,7 @@
 		},
 		"FallFlying": {
 			"type": "byte",
-			"description":
-				"Should the entity glide when falling as long as it has an elytra in it's chest slot"
+			"description": "Should the entity glide when falling as long as it has an elytra in it's chest slot"
 		},
 		"Pose": {
 			"type": "compound",
