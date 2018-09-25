@@ -1,5 +1,5 @@
 {
-	"main": "./output.json",
+	"main": "./index.js",
 	"description": "NBT paths",
 	"name": "mc-nbt-paths",
 	"version": "1.13.0-pre8",
