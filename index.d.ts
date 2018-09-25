@@ -1,4 +1,4 @@
-export = NBTNode;
+export const docs: NBTNode;
 
 export interface NBTFunction {
 	id: string;
