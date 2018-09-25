@@ -34,8 +34,7 @@
 		},
 		"resolved": {
 			"type": "byte",
-			"description":
-				"If the book has been opened and the json selectors have been solidified"
+			"description": "If the book has been opened and the json selectors have been solidified"
 		}
 	}
 }

@@ -26,13 +26,11 @@
 								"type": "compound",
 								"children": {
 									"Signiature": {
-										"description":
-											"Signiature of the texture",
+										"description": "Signiature of the texture",
 										"type": "string"
 									},
 									"Value": {
-										"description":
-											"Base64 encdoed JSON object",
+										"description": "Base64 encdoed JSON object",
 										"type": "string"
 									}
 								}

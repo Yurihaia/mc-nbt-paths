@@ -26,13 +26,11 @@
 								"children": {
 									"Value": {
 										"type": "string",
-										"description":
-											"Base64 encoded JSON object of the texture"
+										"description": "Base64 encoded JSON object of the texture"
 									},
 									"Signature": {
 										"type": "string",
-										"description":
-											"The signiature of this skull"
+										"description": "The signiature of this skull"
 									}
 								}
 							}

@@ -4,13 +4,11 @@
 	"children": {
 		"Age": {
 			"type": "long",
-			"description":
-				"The age in ticks of this gateway. If below 200, will display purple beam"
+			"description": "The age in ticks of this gateway. If below 200, will display purple beam"
 		},
 		"ExactTeleport": {
 			"type": "byte",
-			"description":
-				"Should an entity teleport to the exact location of the exit portal"
+			"description": "Should an entity teleport to the exact location of the exit portal"
 		},
 		"ExitPortal": {
 			"type": "compound",
@@ -28,8 +26,7 @@
 					"description": "The z coordinate of the exit"
 				}
 			},
-			"description":
-				"Coordinates of where the gateway should teleport entities to"
+			"description": "Coordinates of where the gateway should teleport entities to"
 		}
 	}
 }

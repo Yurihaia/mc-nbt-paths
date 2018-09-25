@@ -1,6 +1,5 @@
 *
 !block/**/*
-!docs/**/*
 !entity/**/*
 !item/**/*
 !misc_group/**/*

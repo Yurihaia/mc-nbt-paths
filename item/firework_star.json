@@ -3,8 +3,7 @@
 	"child_ref": ["../ref/item_tag.json"],
 	"children": {
 		"Explosion": {
-			"description":
-				"Explosion to add to the firework rocket on creation",
+			"description": "Explosion to add to the firework rocket on creation",
 			"ref": "../ref/firework_explosion"
 		}
 	}
