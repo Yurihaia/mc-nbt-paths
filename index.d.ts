@@ -1,4 +1,4 @@
-export const nbtDocs: { [key: string]: NBTNode };
+export const nbtDocs: { [key: string]: NBTNode | ValueList };
 
 export interface NBTFunction {
 	id: string;
