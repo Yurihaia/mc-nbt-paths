@@ -1,0 +1,11 @@
+*
+
+!**/*.json
+!**/*.js
+!**/*.ts
+!*/
+
+/.vscode/settings.json
+output.json
+package.json
+package-lock.json
