@@ -28,8 +28,8 @@ async function run() {
 		});
 	await writeFileAsync(
 		path.join(rootDir, "output.json"),
-		JSON.stringify(ordered, undefined, 4)
-	);
+		JSON.stringify(ordered, undefined, "\t")
+	)
 }
 
 run();
