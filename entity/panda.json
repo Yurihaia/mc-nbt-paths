@@ -1,0 +1,49 @@
+{
+	"type": "compound",
+	"child_ref": ["../ref/breedable.json"],
+	"children": {
+		"MainGene": {
+			"ref": "#Gene",
+			"description": "The displayed gene.\nIf this gene is recessive '(r)' and 'HiddenGene' is not the same, the panda will display the 'normal' gene"
+		},
+		"HiddenGene": {
+			"ref": "#Gene",
+			"description": "The hidden gene"
+		}
+	},
+	"references": {
+		"Gene": {
+			"type": "string",
+			"suggestions": [
+				{
+					"description": "(d)",
+					"value": "normal"
+				},
+				{
+					"description": "(d)",
+					"value": "lazy"
+				},
+				{
+					"description": "(d)",
+					"value": "worried"
+				},
+				{
+					"description": "(d)",
+					"value": "playful"
+				},
+				{
+					"description": "(r)",
+					"value": "brown"
+				},
+				{
+					"description": "(r)",
+					"value": "weak"
+				},
+				{
+					"description": "(d)",
+					"value": "aggressive"
+				}
+			]
+		}
+	}
+}

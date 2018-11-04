@@ -1,0 +1,20 @@
+{
+	"type": "compound",
+	"child_ref": [
+		"../ref/mob.json"
+	],
+	"children": {
+		"AttackTick": {
+			"type": "int",
+			"description": "How many ticks until the beast can attack"
+		},
+		"StunTick": {
+			"type": "int",
+			"description": "How many ticks the beast is stunned for"
+		},
+		"RoarTick": {
+			"type": "int",
+			"description": "How many ticks until the beast roars"
+		}
+	}
+}

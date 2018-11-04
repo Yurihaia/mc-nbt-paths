@@ -128,6 +128,18 @@
 		"description": "Channeling"
 	},
 	{
+		"value": "minecraft:multishot",
+		"description": "Multishot"
+	},
+	{
+		"value": "minecraft:quick_charge",
+		"description": "Quick Charge"
+	},
+	{
+		"value": "minecraft:piercing",
+		"description": "Piercing"
+	},
+	{
 		"value": "minecraft:mending",
 		"description": "Mending"
 	},

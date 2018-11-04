@@ -124,6 +124,13 @@
 				"type": "string"
 			}
 		},
+		"CanPlaceOn": {
+			"description": "A list of blocks this block can be placed on in adventure mode",
+			"type": "list",
+			"item": {
+				"type": "string"
+			}
+		},
 		"HideFlags": {
 			"type": "int"
 		}

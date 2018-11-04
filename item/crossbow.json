@@ -1,0 +1,18 @@
+{
+	"type": "compound",
+	"child_ref": ["../ref/item_tag.json", "./breakable.json"],
+	"children": {
+		"ChargedProjectiles": {
+			"type": "list",
+			"item": {
+				"ref": "../ref/item.json",
+				"description": "An item that has been charged"
+			},
+			"description": "A list of items that have been charged"
+		},
+		"Charged": {
+			"type": "byte",
+			"description": "If the crossbow is ready to be fired"
+		}
+	}
+}
