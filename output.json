@@ -560,7 +560,7 @@
 			"Effects": {
 				"type": "list",
 				"item": {
-					"ref": "../ref/poition_effect.json"
+					"ref": "../ref/potion_effect.json"
 				}
 			}
 		}
@@ -766,7 +766,7 @@
 			"CustomPotionEffects": {
 				"type": "list",
 				"item": {
-					"ref": "../ref/poition_effect.json"
+					"ref": "../ref/potion_effect.json"
 				},
 				"description": "List of potion effects to give to the entity who got hit"
 			}
@@ -2915,7 +2915,7 @@
 		"type": "compound",
 		"child_ref": [
 			"../ref/item_tag.json",
-			"../ref/poition_effect.json"
+			"../ref/potion_effect.json"
 		]
 	},
 	"item/spawn_item.json": {
@@ -3865,7 +3865,7 @@
 			"ActiveEffects": {
 				"type": "list",
 				"item": {
-					"ref": "./poition_effect.json"
+					"ref": "./potion_effect.json"
 				},
 				"description": "A list of effects on the mob"
 			},
