@@ -56,7 +56,7 @@
 		"Effects": {
 			"type": "list",
 			"item": {
-				"ref": "../ref/poition_effect.json"
+				"ref": "../ref/potion_effect.json"
 			}
 		}
 	}

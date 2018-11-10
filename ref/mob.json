@@ -102,7 +102,7 @@
 		"ActiveEffects": {
 			"type": "list",
 			"item": {
-				"ref": "./poition_effect.json"
+				"ref": "./potion_effect.json"
 			},
 			"description": "A list of effects on the mob"
 		},
