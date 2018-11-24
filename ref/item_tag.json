@@ -120,6 +120,7 @@
 			}
 		},
 		"CanDestroy": {
+			"description": "A list of blocks that can be destroyed with this item in adventure mode",
 			"type": "list",
 			"item": {
 				"type": "string"
@@ -133,6 +134,10 @@
 			}
 		},
 		"HideFlags": {
+			"type": "int"
+		},
+		"CustomModelData": {
+			"description": "A model override predicate",
 			"type": "int"
 		}
 	}
