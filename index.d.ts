@@ -47,6 +47,7 @@ export interface CompoundNode extends NodeBase {
 	readonly child_ref?: string[];
 	readonly children?: { [key: string]: NBTNode };
 	readonly type: "compound";
+	readonly additionalChildren?: boolean;
 }
 
 export interface RootNode extends NodeBase {
