@@ -1,5 +1,6 @@
 {
 	"type": "compound",
+	"additionalChildren": true,
 	"children": {
 		"AttributeModifiers": {
 			"description": "List of modifiers to an entities attributes",

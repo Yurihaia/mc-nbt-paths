@@ -168,6 +168,9 @@
 				"type": {
 					"enum": ["compound"]
 				},
+				"additionalChildren": {
+					"type": "boolean"
+				},
 				"children": {
 					"type": "object",
 					"patternProperties": {
