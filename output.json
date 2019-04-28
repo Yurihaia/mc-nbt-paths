@@ -2399,26 +2399,6 @@
 			}
 		}
 	},
-	"item/breakable.json": {
-		"type": "compound",
-		"child_ref": [
-			"../ref/item_tag.json"
-		],
-		"children": {
-			"Damage": {
-				"type": "short",
-				"description": "How much damage this item has had"
-			},
-			"Unbreakable": {
-				"type": "byte",
-				"description": "Should this item not break"
-			},
-			"RepairCost": {
-				"type": "int",
-				"description": "How much experience it costs to repair"
-			}
-		}
-	},
 	"item/crossbow.json": {
 		"type": "compound",
 		"child_ref": [
@@ -3734,6 +3714,7 @@
 				}
 			},
 			"CanDestroy": {
+				"description": "A list of blocks that can be destroyed with this item in adventure mode",
 				"type": "list",
 				"item": {
 					"type": "string"
@@ -3747,6 +3728,22 @@
 				}
 			},
 			"HideFlags": {
+				"type": "int"
+			},
+			"CustomModelData": {
+				"description": "A model override predicate",
+				"type": "int"
+			},
+			"Damage": {
+				"description": "How much damage this item has had",
+				"type": "short"
+			},
+			"Unbreakable": {
+				"description": "Should this item not break",
+				"type": "byte"
+			},
+			"RepairCost": {
+				"description": "How much experience it costs to repair",
 				"type": "int"
 			}
 		}
