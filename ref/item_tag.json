@@ -139,6 +139,18 @@
 		"CustomModelData": {
 			"description": "A model override predicate",
 			"type": "int"
+		},
+		"Damage": {
+			"description": "How much damage this item has had",
+			"type": "short"
+		},
+		"Unbreakable": {
+			"description": "Should this item not break",
+			"type": "byte"
+		},
+		"RepairCost": {
+			"description": "How much experience it costs to repair",
+			"type": "int"
 		}
 	}
 }
