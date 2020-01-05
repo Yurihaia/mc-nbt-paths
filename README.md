@@ -1,3 +1,7 @@
+# **DEPRECATION NOTICE**
+
+This library will never be touched again, please use [https://github.com/Yurihaia/mc-nbtdoc](mc-nbtdoc)
+
 # NBT Docs
 
 This repo is basically JSON Schema but for NBT. the format is as following	
