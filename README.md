@@ -1,6 +1,6 @@
 # **DEPRECATION NOTICE**
 
-This library will never be touched again, please use [https://github.com/Yurihaia/mc-nbtdoc](mc-nbtdoc)
+This library will never be touched again, please use [mc-nbtdoc](https://github.com/Yurihaia/mc-nbtdoc)
 
 # NBT Docs
 
